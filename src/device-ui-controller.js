@@ -1,4 +1,7 @@
 const $ = require('jquery'); window.$ = $;
+require('jquery-contextmenu');
+require('style-loader!css-loader!jquery-contextmenu/dist/jquery.contextMenu.css');
+
 const _ = require('lodash'); window._ = _;
 const THREE = require('three'); window.THREE = THREE;
 const OrbitControls = require('three-orbit-controls')(THREE)
@@ -25,7 +28,7 @@ const init = async() => {
   controls = new OrbitControls(camera);
   controls.enableKeys = false;
   controls.enableRotate = false;
-  controls.enablePan = false;
+  controls.enablePan = true;
 
   renderer = new THREE.WebGLRenderer( { antialias: true } );
   electrodeObjects = null;
@@ -34,7 +37,7 @@ const init = async() => {
   camera.position.z = 100;
   renderer.setSize( bbox.width, bbox.height );
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setClearColor( 0xffffff, 1 );
+  renderer.setClearColor( "rgb(55, 55, 55)", 1 );
 
   function animate() {
     requestAnimationFrame( animate.bind(this) );
@@ -44,6 +47,24 @@ const init = async() => {
     renderer, 'default.svg');
 
   routeControls = new RouteControls(scene, camera, electrodeControls);
+
+  // Generate Context Menu
+  $.contextMenu({
+      selector: 'body',
+      callback: function(key, options) {
+          var m = "clicked: " + key;
+          window.console && console.log(m) || alert(m);
+      },
+      items: {
+          clearElectrodes: {name: "Clear Electrodes"},
+          "sep1": "---------",
+          clearRoute: {name: "Clear Route"},
+          executeRoute: {name: "Execute Route"},
+          "sep2": "---------",
+          clearRoutes: {name: "Clear Routes"},
+          executeRoutes: {name: "Execute Routes"}
+      }
+  });
 
   animate();
 }

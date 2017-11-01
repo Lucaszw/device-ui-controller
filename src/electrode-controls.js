@@ -1,5 +1,7 @@
 const $ = require('jquery');
 const _ = require('lodash');
+const Backbone = require('backbone');
+
 const Key = require('keyboard-shortcut');
 const Two = require('two.js'); const two = new Two();
 const THREE = require('three');
@@ -10,11 +12,10 @@ const RenderSVG = require('./svg-renderer');
 const DEFAULT_TIMEOUT = 5000;
 const DIRECTIONS = {LEFT: "left", UP: "up", DOWN: "down", RIGHT: "right"};
 const MAX_DISTANCE = 0.5;
-const NEIGHBOUR_COLOR = "rgb(144, 210, 235)";
-const OFF_COLOR = "rgb(144, 217, 242)";
+const NEIGHBOUR_COLOR = "rgb(219, 215, 215)";
+const OFF_COLOR = "rgb(175, 175, 175)";
 const ON_COLOR = "rgb(245, 235, 164)";
 const SELECTED_COLOR = "rgb(120, 255, 168)";
-const SVG_SAMPLE_LENGTH = 30;
 
 FindNearestIntersectFromEdge = function(objName, point, direction,
   collisionObjects) {
@@ -64,7 +65,7 @@ FindIntersectsInDirection = function(obj, dir, collisionObjects ) {
   const width  = bbox.max.x - bbox.min.x;
   const height = bbox.max.y - bbox.min.y;
 
-  const numSteps = 50;
+  const numSteps = 10;
   const intersects = {};
 
   var point = origin.clone();
@@ -99,18 +100,33 @@ FindIntersectsInDirection = function(obj, dir, collisionObjects ) {
 
 class ElectrodeControls {
   constructor(scene, camera, renderer, filename='default.svg') {
+    _.extend(this, Backbone.Events);
+
     this.selectedElectrode = null;
-    this.handlers = { click: _.noop, down: _.noop, up: _.noop, over: _.noop };
 
     Key("left", () => this.move(DIRECTIONS.LEFT));
     Key("right", () => this.move(DIRECTIONS.RIGHT));
     Key("up", () => this.move(DIRECTIONS.UP));
     Key("down", () => this.move(DIRECTIONS.DOWN));
 
-    RenderSVG(filename, scene, camera, renderer, this.handlers)
+    RenderSVG(filename, scene, camera, renderer, this)
       .then((d) =>{this.electrodeObjects = d;});
 
-    this.handlers.click = this.electrodeClicked.bind(this);
+    this.on("mousedown", this.mousedown.bind(this));
+
+  }
+
+  turnOnElectrode(id) {
+    const electrodeObject = this.electrodeObjects[id];
+    electrodeObject.on = true;
+    electrodeObject.fill.material.color = new THREE.Color(ON_COLOR);
+    electrodeObject.outline.material.color = new THREE.Color("black");
+  }
+  turnOffElectrode(id) {
+    const electrodeObject = this.electrodeObjects[id];
+    electrodeObject.on = false;
+    electrodeObject.fill.material.color = new THREE.Color(OFF_COLOR);
+    electrodeObject.outline.material.color = new THREE.Color("black");
   }
 
   move(dir='right') {
@@ -118,7 +134,21 @@ class ElectrodeControls {
     const electrodeId = this.selectedElectrode.name;
     const neighbour = this.findNeighbour(dir, electrodeId);
     if (!neighbour) return;
+    this.turnOffElectrode(this.selectedElectrode.name);
     this.selectElectrode(neighbour.electrodeId);
+  }
+
+  getNeighbours(electrodeId) {
+    if (!this.electrodeObjects[electrodeId]) return [];
+
+    const neighbours = {};
+    for (const [k, dir] of Object.entries(DIRECTIONS)) {
+      const neighbour = this.findNeighbour(dir, electrodeId);
+      if (neighbour) {
+        neighbours[neighbour.electrodeId] = dir;
+      }
+    }
+    return neighbours;
   }
 
   findNeighbour(dir='right', electrodeId) {
@@ -143,11 +173,10 @@ class ElectrodeControls {
   }
 
   _clearNeighbourColors() {
-    /* Re-color electrode with NEIGHBOUR_COLOR to OFF_COLOR */
-    const c = new THREE.Color(NEIGHBOUR_COLOR);
-    const n = _.filter(this.electrodeObjects, {fill:{material:{color: c}}});
+    /* Update opacity of neighbours back to 1.0 */
+    const n = _.filter(this.electrodeObjects, {fill:{material:{opacity: 0.7}}});
     for (const [i, obj] of n.entries()) {
-      obj.fill.material.color = new THREE.Color(OFF_COLOR);
+      obj.fill.material.opacity = 1.0;
     }
   }
 
@@ -157,42 +186,54 @@ class ElectrodeControls {
     // Reset the fill color of neighbours
     this._clearNeighbourColors();
 
-    // Reset the fill color of the previously selected electrode
+    // Reset the outline of the previously selected electrode
     if (this.selectedElectrode) {
-      this.selectedElectrode.fill.material.color = new THREE.Color(OFF_COLOR);
-      this.selectedElectrode.on = false;
+      this.selectedElectrode.outline.material.color = new THREE.Color("black");
     }
 
     // Turn on and color the selected electrode
+    this.turnOnElectrode(electrodeId);
     const electrodeObject = this.electrodeObjects[electrodeId];
-    electrodeObject.on = true;
-    electrodeObject.fill.material.color = new THREE.Color(SELECTED_COLOR);
+    electrodeObject.outline.material.color = new THREE.Color("red");
+
     this.selectedElectrode = electrodeObject;
 
-    // Darken the neighbour electrodes
+    // Change opacity of neighbour electrodes to guide user
     for (const [k, dir] of Object.entries(DIRECTIONS)) {
       const neighbour = this.findNeighbour(dir);
       if (!neighbour) continue;
-      if (neighbour.electrodeObject.on == true) continue;
       const material = neighbour.electrodeObject.fill.material;
-      material.color = new THREE.Color(NEIGHBOUR_COLOR);
+      material.opacity = 0.7;
     }
   }
 
-  electrodeClicked(event) {
+  async mousedown(event) {
+    if (event.origDomEvent.button != 0) return;
     /* Called when electrode object is clicked */
+    // Await for mouse up event
+    const mouseUp = () => {
+      return new Promise((resolve, reject) => {
+        this.on("mouseup", (e) => {resolve(e);});
+      });
+    };
+    const event2 = await mouseUp();
+
+    console.log("event", event, "event2", event2);
+
+    // If event targets don't match, don't turn on electrode
+    if (event.target.uuid != event2.target.uuid) return;
+
     const electrodeObject = this.electrodeObjects[event.target.name];
 
     // If shiftKey is down, unset selected electrode
     if (event.origDomEvent.shiftKey == true && this.selectedElectrode) {
-      this.selectedElectrode.on = false;
-      this.selectedElectrode.fill.material.color = new THREE.Color(OFF_COLOR);
+      this.selectedElectrode.outline.material.color = new THREE.Color("black");
       this.selectedElectrode = null;
       this._clearNeighbourColors();
     }
 
     // Toggle the state of the target electrode
-    if (event.target.on) {
+    if (electrodeObject.on) {
       electrodeObject.on = false;
       electrodeObject.fill.material.color = new THREE.Color(OFF_COLOR);
 

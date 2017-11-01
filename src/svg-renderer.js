@@ -5,7 +5,7 @@ const THREE = require('three');
 const THREEx = {}; require('threex-domevents')(THREE, THREEx);
 
 const DEFAULT_TIMEOUT = 5000;
-const OFF_COLOR = "rgb(144, 217, 242)";
+const OFF_COLOR = "rgb(175, 175, 175)";
 const SVG_SAMPLE_LENGTH = 30;
 
 ReadFile = (url, timeout=DEFAULT_TIMEOUT) => {
@@ -38,16 +38,16 @@ ExtractShape = function (twojs_shape) {
        );
      }
    }
+   shape.closePath();
    return shape;
 }
 
 module.exports = async (url='default.svg', scene, camera,
-  renderer, handlers) => {
+  renderer, controller) => {
 
   // Read svg file
   const file = await ReadFile(url);
   const domEvents = new THREEx.DomEvents(camera, renderer.domElement);
-  window.file = file;
 
   // Compute shape objects from SVG
   const paths = $(file).find('path');
@@ -63,13 +63,16 @@ module.exports = async (url='default.svg', scene, camera,
 
     // Generate outline
     var points = shape3D.createPointsGeometry();
-    var options = {color: "black", linewidth: 2}
+    points.autoClose = true;
+    var options = {color: "black", linewidth: 1}
     var material = new THREE.LineBasicMaterial(options);
     var outline = new THREE.Line(points, material);
     outline.name = shape2D.id;
+    outline.position.z += 0.1;
+    outline.autoClose = true;
 
     // Generate fill (slightly extruded to allow for collisions)
-    var options = {color: OFF_COLOR, wireframe: false, side: THREE.DoubleSide};
+    var options = {color: OFF_COLOR, transparent: true, wireframe: false, side: THREE.DoubleSide};
     var meshMaterial = new THREE.MeshBasicMaterial(options);
     var options = { bevelEnabled: false, amount: 0.0001};
     var geometry = new THREE.ExtrudeGeometry(shape3D, options);
@@ -88,11 +91,17 @@ module.exports = async (url='default.svg', scene, camera,
     group.fill = fill;
     group.outline = outline;
 
+    const addListener = (name) => {
+      domEvents.addEventListener(fill, name, (e) => {
+        controller.trigger(name, e)
+      }, false);
+    };
+
     // Add listeners
-    domEvents.addEventListener(fill, 'click', (e)=>handlers.click(e), false);
-    domEvents.addEventListener(fill, 'mousedown',(e)=>handlers.down(e), false);
-    domEvents.addEventListener(fill, 'mouseup',(e)=>handlers.up(e), false);
-    domEvents.addEventListener(fill, 'mouseover',(e)=>handlers.over(e), false);
+    addListener('click');
+    addListener('mousedown');
+    addListener('mouseup');
+    addListener('mouseover');
 
     // Add to SVG group
     svgGroup.add(group);

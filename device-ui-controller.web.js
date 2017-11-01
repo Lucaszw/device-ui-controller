@@ -61,7 +61,7 @@ var InitDeviceUI =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -27414,7 +27414,7 @@ return jQuery;
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(7)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(18)(module)))
 
 /***/ }),
 /* 2 */
@@ -71683,6 +71683,1940 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports) {
+
+module.exports = "data:application/vnd.ms-fontobject;base64,yA0AAPgMAAABAAIAAAAAAAIABQMAAAAAAAABAJABAAAAAExQAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAMDO2/gAAAAAAAAAAAAAAAAAAAAAAACQAYwBvAG4AdABlAHgAdAAtAG0AZQBuAHUALQBpAGMAbwBuAHMAAAAOAFIAZQBnAHUAbABhAHIAAAAWAFYAZQByAHMAaQBvAG4AIAAxAC4AMAAAACQAYwBvAG4AdABlAHgAdAAtAG0AZQBuAHUALQBpAGMAbwBuAHMAAAAAAAABAAAACwCAAAMAMEdTVUIgiyV6AAABOAAAAFRPUy8yQG9P2AAAAYwAAABWY21hcIsI7vIAAAIIAAAB0mdseWap/oa/AAAD8AAABhRoZWFkD1WUYwAAAOAAAAA2aGhlYQe/A8gAAAC8AAAAJGhtdHggAP/6AAAB5AAAACRsb2NhBp4H6AAAA9wAAAAUbWF4cAEaAI4AAAEYAAAAIG5hbWWhQ3MWAAAKBAAAAo5wb3N0ObP5owAADJQAAABjAAEAAAPA/8AAAAQA//r//gQCAAEAAAAAAAAAAAAAAAAAAAAJAAEAAAABAAD+tjMwXw889QALBAAAAAAA1h0n8wAAAADWHSfz//r/wAQCA8AAAAAIAAIAAAAAAAAAAQAAAAkAggAHAAAAAAACAAAACgAKAAAA/wAAAAAAAAABAAAACgAwAD4AAkRGTFQADmxhdG4AGgAEAAAAAAAAAAEAAAAEAAAAAAAAAAEAAAABbGlnYQAIAAAAAQAAAAEABAAEAAAAAQAIAAEABgAAAAEAAAABA44BkAAFAAAEcQLMAAAAjwRxAswAAAHrADIBCAAAAgAFAwAAAAAAAAAAAAAAAAAAAAAAAAAAAABQZkVkAEDqAeoIA8D/wABcA8AAQAAAAAEAAAAAAAAAAAAABAAAAAQAAAAEAP/6BAAAAAQAAAAEAAAABAAAAAQAAAAAAAAFAAAAAwAAACwAAAAEAAABYgABAAAAAABcAAMAAQAAACwAAwAKAAABYgAEADAAAAAEAAQAAQAA6gj//wAA6gH//wAAAAEABAAAAAEAAgADAAQABQAGAAcACAAAAQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAcAAAAAAAAAAIAADqAQAA6gEAAAABAADqAgAA6gIAAAACAADqAwAA6gMAAAADAADqBAAA6gQAAAAEAADqBQAA6gUAAAAFAADqBgAA6gYAAAAGAADqBwAA6gcAAAAHAADqCAAA6ggAAAAIAAAAAAAAADIAjAFWAdYCSAJ8As4DCgABAAAAAAOTA3cAIwAAARUUBisBFRQGKwEiJj0BIyImPQE0NjsBNTQ2OwEyFh0BMzIWA5IgF+0gF24XIO0XICAX7SAXbhcg7RcgAhttFyDuFyAgF+4gF20XIO4XICAX7iAAAAAABQAA/8AEAAPAAB8AIgAlADMAPAAAATIWFREUBiMhIiY9ASEiJjURNDY/AT4BOwEyFh0BNjMPATMBBzMXNzUjFRQGKwERITU0NgERIxUUBisBEQPJFyAgF/3cFyD+yRcgFxDpEDcX7RcgJyJJq6v+k6urcLTbIBfuASUXAjLcIBbuAuUgF/1JFyAgF6QgFwGAFzcQ6RAXIBe7F3qrAYarxrTu7hcg/pOSFzf+RAKS7Rcg/pIAB//6AAAEAgMuAAgASwBZAGcAcgB7AIEAAAEyFhQGIiY0NhcFFgYPAQYiJyUHBgcWBw4BBwYjIicmNz4BNzYzMhc2PwEnJicGIyInLgEnJjY3NjMyFx4BFxYHMh8BJTYyHwEeAQcFNiYnJiMiBwYWFxYzMgM+AScmIyIHDgEXFjMyExc1ND8BJwcGDwEfAQEnBRUHHwEFNyUHBgcCJQ4WFh0WFroBIhAFEUkIEgj+dT8EAggDBDgvTFJOMTQHBDguTFMwJwUHRkYHBScwU0wuOAQDFxkwT1JMLzgEAwgCBD8BiwgSCEkRBRD9WRocLzQ5KxYaHC80OSsbLxwaFis5NC8cGhYrOZo3EwgtFQQDBHs3AaRJ/klbCRwB7Un+12UBBgHAFh0WFh0WJeMLKQklBAXdJgIBHBssUR4wLTBGK1IeMBIIBSkqBQgSMB5RLCI9Fy0wHlEsHBwCJt0FBCUJKQtPGEseIRQYTB0i/msdTBgUIR1MGBQBgCIHFAwEGxUFAgOFEwFJJfZBNwgctyTqTwICAAAFAAAAAAOTA3cADwAfAC8ANwBbAAAlETQmKwEiBhURFBY7ATI2NxE0JisBIgYVERQWOwEyNjcRNCYrASIGFREUFjsBMjYBIScmJyMGBwUVFAYrAREUBiMhIiY1ESMiJj0BNDY7ATc+ATsBMhYfATMyFgGSCgglCAoKCCUICpMLCCQICwsIJAgLkgoIJQgKCgglCAr+yQEAGwQGtQYEAfYKCDc2Jf4kJTY3CAoKCLEoCC0XthctCCixCAquAZIICgoI/m4ICwsIAZIICgoI/m4ICwsIAZIICgoI/m4ICwsCP0IGAQEGVSQIC/3jMEVDLwIgCwgkCAtfFR4eFV8LAAAABQAAAAAD/AN3AAYADwA5AD4ASAAAATcnBxUzFQEmDwEGFj8BNhMVFAYjISImNRE0NjMhMhceAQ8BBicmIyEiBhURFBYzITI2PQE0PwE2FgMXASM1AQcnNzYyHwEWFAH7Q1dCNgEcCQrIChMJyAolYUT+JURhYUQB2yQfCAQHHAgKDQ3+JSY2NiYB2yY1BiQJFzek/oCkAn00pTUQLhBWEAEbQ1dDIDcBnAkKyAkTCsgK/rVsRGFhRAHbRGEOBBMHHAgDBDYm/iUmNjYmSAcFJQkKAZqk/oCkATU1pTQQEFcQLQAAAQAA/9ID7gOpACEAAAEUDgIiLgI1ND4BNxUOARUUHgIyPgI1NCYnNR4CA+5PhLbKtoRPb8B2fqc7YYiUiGE7p352wG8BwGW2hE9PhLZletSJEoMZyoNKiGE7O2GISoPKGYMSidQAAAAEAAD/wAQAA8AACAAYABsANwAAJSERIyImPQEjNzU0JiMhIgYdARQWMyEyNhMzJwURFAYjISImPQEhIiY1ETQ2MyEyFh0BFh8BHgEBtwIA7hcg25ILB/5uCAsLCAGSBwuSq6sBJSAX/dwXIP7JFyAgFwJuFiAMCekQFwkBbiAX7aUlBwsLByUHCwv+h6v0/oAXICAXWyAXAwAXICAXuwgI6RA3AAEAAAAAA1QC7wAkAAAlFA8BBiIvAQcGIi8BJjQ/AScmND8BNjIfATc2Mh8BFhQPARcWA1MQTRAuEKioEC4QTRAQqKgQEE0QLhCoqBAuEE0QEKioEM0XEE4QEKioEBBOEC0QqKgQLhBOEBCoqBAQThAuEKioEAAAAAAAEADGAAEAAAAAAAEAEgAAAAEAAAAAAAIABwASAAEAAAAAAAMAEgAZAAEAAAAAAAQAEgArAAEAAAAAAAUACwA9AAEAAAAAAAYAEgBIAAEAAAAAAAoAKwBaAAEAAAAAAAsAEwCFAAMAAQQJAAEAJACYAAMAAQQJAAIADgC8AAMAAQQJAAMAJADKAAMAAQQJAAQAJADuAAMAAQQJAAUAFgESAAMAAQQJAAYAJAEoAAMAAQQJAAoAVgFMAAMAAQQJAAsAJgGiY29udGV4dC1tZW51LWljb25zUmVndWxhcmNvbnRleHQtbWVudS1pY29uc2NvbnRleHQtbWVudS1pY29uc1ZlcnNpb24gMS4wY29udGV4dC1tZW51LWljb25zR2VuZXJhdGVkIGJ5IHN2ZzJ0dGYgZnJvbSBGb250ZWxsbyBwcm9qZWN0Lmh0dHA6Ly9mb250ZWxsby5jb20AYwBvAG4AdABlAHgAdAAtAG0AZQBuAHUALQBpAGMAbwBuAHMAUgBlAGcAdQBsAGEAcgBjAG8AbgB0AGUAeAB0AC0AbQBlAG4AdQAtAGkAYwBvAG4AcwBjAG8AbgB0AGUAeAB0AC0AbQBlAG4AdQAtAGkAYwBvAG4AcwBWAGUAcgBzAGkAbwBuACAAMQAuADAAYwBvAG4AdABlAHgAdAAtAG0AZQBuAHUALQBpAGMAbwBuAHMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABzAHYAZwAyAHQAdABmACAAZgByAG8AbQAgAEYAbwBuAHQAZQBsAGwAbwAgAHAAcgBvAGoAZQBjAHQALgBoAHQAdABwADoALwAvAGYAbwBuAHQAZQBsAGwAbwAuAGMAbwBtAAAAAgAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQIBAwEEAQUBBgEHAQgBCQEKAANhZGQEY29weQNjdXQGZGVsZXRlBGVkaXQHbG9hZGluZwVwYXN0ZQRxdWl0AAAA"
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Backbone.js 1.3.3
+
+//     (c) 2010-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+//     Backbone may be freely distributed under the MIT license.
+//     For all details and documentation:
+//     http://backbonejs.org
+
+(function(factory) {
+
+  // Establish the root object, `window` (`self`) in the browser, or `global` on the server.
+  // We use `self` instead of `window` for `WebWorker` support.
+  var root = (typeof self == 'object' && self.self === self && self) ||
+            (typeof global == 'object' && global.global === global && global);
+
+  // Set up Backbone appropriately for the environment. Start with AMD.
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(21), __webpack_require__(0), exports], __WEBPACK_AMD_DEFINE_RESULT__ = function(_, $, exports) {
+      // Export global even in AMD case in case this script is loaded with
+      // others that may still expect a global Backbone.
+      root.Backbone = factory(root, exports, _, $);
+    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+  // Next for Node.js or CommonJS. jQuery may not be needed as a module.
+  } else if (typeof exports !== 'undefined') {
+    var _ = require('underscore'), $;
+    try { $ = require('jquery'); } catch (e) {}
+    factory(root, exports, _, $);
+
+  // Finally, as a browser global.
+  } else {
+    root.Backbone = factory(root, {}, root._, (root.jQuery || root.Zepto || root.ender || root.$));
+  }
+
+})(function(root, Backbone, _, $) {
+
+  // Initial Setup
+  // -------------
+
+  // Save the previous value of the `Backbone` variable, so that it can be
+  // restored later on, if `noConflict` is used.
+  var previousBackbone = root.Backbone;
+
+  // Create a local reference to a common array method we'll want to use later.
+  var slice = Array.prototype.slice;
+
+  // Current version of the library. Keep in sync with `package.json`.
+  Backbone.VERSION = '1.3.3';
+
+  // For Backbone's purposes, jQuery, Zepto, Ender, or My Library (kidding) owns
+  // the `$` variable.
+  Backbone.$ = $;
+
+  // Runs Backbone.js in *noConflict* mode, returning the `Backbone` variable
+  // to its previous owner. Returns a reference to this Backbone object.
+  Backbone.noConflict = function() {
+    root.Backbone = previousBackbone;
+    return this;
+  };
+
+  // Turn on `emulateHTTP` to support legacy HTTP servers. Setting this option
+  // will fake `"PATCH"`, `"PUT"` and `"DELETE"` requests via the `_method` parameter and
+  // set a `X-Http-Method-Override` header.
+  Backbone.emulateHTTP = false;
+
+  // Turn on `emulateJSON` to support legacy servers that can't deal with direct
+  // `application/json` requests ... this will encode the body as
+  // `application/x-www-form-urlencoded` instead and will send the model in a
+  // form param named `model`.
+  Backbone.emulateJSON = false;
+
+  // Proxy Backbone class methods to Underscore functions, wrapping the model's
+  // `attributes` object or collection's `models` array behind the scenes.
+  //
+  // collection.filter(function(model) { return model.get('age') > 10 });
+  // collection.each(this.addView);
+  //
+  // `Function#apply` can be slow so we use the method's arg count, if we know it.
+  var addMethod = function(length, method, attribute) {
+    switch (length) {
+      case 1: return function() {
+        return _[method](this[attribute]);
+      };
+      case 2: return function(value) {
+        return _[method](this[attribute], value);
+      };
+      case 3: return function(iteratee, context) {
+        return _[method](this[attribute], cb(iteratee, this), context);
+      };
+      case 4: return function(iteratee, defaultVal, context) {
+        return _[method](this[attribute], cb(iteratee, this), defaultVal, context);
+      };
+      default: return function() {
+        var args = slice.call(arguments);
+        args.unshift(this[attribute]);
+        return _[method].apply(_, args);
+      };
+    }
+  };
+  var addUnderscoreMethods = function(Class, methods, attribute) {
+    _.each(methods, function(length, method) {
+      if (_[method]) Class.prototype[method] = addMethod(length, method, attribute);
+    });
+  };
+
+  // Support `collection.sortBy('attr')` and `collection.findWhere({id: 1})`.
+  var cb = function(iteratee, instance) {
+    if (_.isFunction(iteratee)) return iteratee;
+    if (_.isObject(iteratee) && !instance._isModel(iteratee)) return modelMatcher(iteratee);
+    if (_.isString(iteratee)) return function(model) { return model.get(iteratee); };
+    return iteratee;
+  };
+  var modelMatcher = function(attrs) {
+    var matcher = _.matches(attrs);
+    return function(model) {
+      return matcher(model.attributes);
+    };
+  };
+
+  // Backbone.Events
+  // ---------------
+
+  // A module that can be mixed in to *any object* in order to provide it with
+  // a custom event channel. You may bind a callback to an event with `on` or
+  // remove with `off`; `trigger`-ing an event fires all callbacks in
+  // succession.
+  //
+  //     var object = {};
+  //     _.extend(object, Backbone.Events);
+  //     object.on('expand', function(){ alert('expanded'); });
+  //     object.trigger('expand');
+  //
+  var Events = Backbone.Events = {};
+
+  // Regular expression used to split event strings.
+  var eventSplitter = /\s+/;
+
+  // Iterates over the standard `event, callback` (as well as the fancy multiple
+  // space-separated events `"change blur", callback` and jQuery-style event
+  // maps `{event: callback}`).
+  var eventsApi = function(iteratee, events, name, callback, opts) {
+    var i = 0, names;
+    if (name && typeof name === 'object') {
+      // Handle event maps.
+      if (callback !== void 0 && 'context' in opts && opts.context === void 0) opts.context = callback;
+      for (names = _.keys(name); i < names.length ; i++) {
+        events = eventsApi(iteratee, events, names[i], name[names[i]], opts);
+      }
+    } else if (name && eventSplitter.test(name)) {
+      // Handle space-separated event names by delegating them individually.
+      for (names = name.split(eventSplitter); i < names.length; i++) {
+        events = iteratee(events, names[i], callback, opts);
+      }
+    } else {
+      // Finally, standard events.
+      events = iteratee(events, name, callback, opts);
+    }
+    return events;
+  };
+
+  // Bind an event to a `callback` function. Passing `"all"` will bind
+  // the callback to all events fired.
+  Events.on = function(name, callback, context) {
+    return internalOn(this, name, callback, context);
+  };
+
+  // Guard the `listening` argument from the public API.
+  var internalOn = function(obj, name, callback, context, listening) {
+    obj._events = eventsApi(onApi, obj._events || {}, name, callback, {
+      context: context,
+      ctx: obj,
+      listening: listening
+    });
+
+    if (listening) {
+      var listeners = obj._listeners || (obj._listeners = {});
+      listeners[listening.id] = listening;
+    }
+
+    return obj;
+  };
+
+  // Inversion-of-control versions of `on`. Tell *this* object to listen to
+  // an event in another object... keeping track of what it's listening to
+  // for easier unbinding later.
+  Events.listenTo = function(obj, name, callback) {
+    if (!obj) return this;
+    var id = obj._listenId || (obj._listenId = _.uniqueId('l'));
+    var listeningTo = this._listeningTo || (this._listeningTo = {});
+    var listening = listeningTo[id];
+
+    // This object is not listening to any other events on `obj` yet.
+    // Setup the necessary references to track the listening callbacks.
+    if (!listening) {
+      var thisId = this._listenId || (this._listenId = _.uniqueId('l'));
+      listening = listeningTo[id] = {obj: obj, objId: id, id: thisId, listeningTo: listeningTo, count: 0};
+    }
+
+    // Bind callbacks on obj, and keep track of them on listening.
+    internalOn(obj, name, callback, this, listening);
+    return this;
+  };
+
+  // The reducing API that adds a callback to the `events` object.
+  var onApi = function(events, name, callback, options) {
+    if (callback) {
+      var handlers = events[name] || (events[name] = []);
+      var context = options.context, ctx = options.ctx, listening = options.listening;
+      if (listening) listening.count++;
+
+      handlers.push({callback: callback, context: context, ctx: context || ctx, listening: listening});
+    }
+    return events;
+  };
+
+  // Remove one or many callbacks. If `context` is null, removes all
+  // callbacks with that function. If `callback` is null, removes all
+  // callbacks for the event. If `name` is null, removes all bound
+  // callbacks for all events.
+  Events.off = function(name, callback, context) {
+    if (!this._events) return this;
+    this._events = eventsApi(offApi, this._events, name, callback, {
+      context: context,
+      listeners: this._listeners
+    });
+    return this;
+  };
+
+  // Tell this object to stop listening to either specific events ... or
+  // to every object it's currently listening to.
+  Events.stopListening = function(obj, name, callback) {
+    var listeningTo = this._listeningTo;
+    if (!listeningTo) return this;
+
+    var ids = obj ? [obj._listenId] : _.keys(listeningTo);
+
+    for (var i = 0; i < ids.length; i++) {
+      var listening = listeningTo[ids[i]];
+
+      // If listening doesn't exist, this object is not currently
+      // listening to obj. Break out early.
+      if (!listening) break;
+
+      listening.obj.off(name, callback, this);
+    }
+
+    return this;
+  };
+
+  // The reducing API that removes a callback from the `events` object.
+  var offApi = function(events, name, callback, options) {
+    if (!events) return;
+
+    var i = 0, listening;
+    var context = options.context, listeners = options.listeners;
+
+    // Delete all events listeners and "drop" events.
+    if (!name && !callback && !context) {
+      var ids = _.keys(listeners);
+      for (; i < ids.length; i++) {
+        listening = listeners[ids[i]];
+        delete listeners[listening.id];
+        delete listening.listeningTo[listening.objId];
+      }
+      return;
+    }
+
+    var names = name ? [name] : _.keys(events);
+    for (; i < names.length; i++) {
+      name = names[i];
+      var handlers = events[name];
+
+      // Bail out if there are no events stored.
+      if (!handlers) break;
+
+      // Replace events if there are any remaining.  Otherwise, clean up.
+      var remaining = [];
+      for (var j = 0; j < handlers.length; j++) {
+        var handler = handlers[j];
+        if (
+          callback && callback !== handler.callback &&
+            callback !== handler.callback._callback ||
+              context && context !== handler.context
+        ) {
+          remaining.push(handler);
+        } else {
+          listening = handler.listening;
+          if (listening && --listening.count === 0) {
+            delete listeners[listening.id];
+            delete listening.listeningTo[listening.objId];
+          }
+        }
+      }
+
+      // Update tail event if the list has any events.  Otherwise, clean up.
+      if (remaining.length) {
+        events[name] = remaining;
+      } else {
+        delete events[name];
+      }
+    }
+    return events;
+  };
+
+  // Bind an event to only be triggered a single time. After the first time
+  // the callback is invoked, its listener will be removed. If multiple events
+  // are passed in using the space-separated syntax, the handler will fire
+  // once for each event, not once for a combination of all events.
+  Events.once = function(name, callback, context) {
+    // Map the event into a `{event: once}` object.
+    var events = eventsApi(onceMap, {}, name, callback, _.bind(this.off, this));
+    if (typeof name === 'string' && context == null) callback = void 0;
+    return this.on(events, callback, context);
+  };
+
+  // Inversion-of-control versions of `once`.
+  Events.listenToOnce = function(obj, name, callback) {
+    // Map the event into a `{event: once}` object.
+    var events = eventsApi(onceMap, {}, name, callback, _.bind(this.stopListening, this, obj));
+    return this.listenTo(obj, events);
+  };
+
+  // Reduces the event callbacks into a map of `{event: onceWrapper}`.
+  // `offer` unbinds the `onceWrapper` after it has been called.
+  var onceMap = function(map, name, callback, offer) {
+    if (callback) {
+      var once = map[name] = _.once(function() {
+        offer(name, once);
+        callback.apply(this, arguments);
+      });
+      once._callback = callback;
+    }
+    return map;
+  };
+
+  // Trigger one or many events, firing all bound callbacks. Callbacks are
+  // passed the same arguments as `trigger` is, apart from the event name
+  // (unless you're listening on `"all"`, which will cause your callback to
+  // receive the true name of the event as the first argument).
+  Events.trigger = function(name) {
+    if (!this._events) return this;
+
+    var length = Math.max(0, arguments.length - 1);
+    var args = Array(length);
+    for (var i = 0; i < length; i++) args[i] = arguments[i + 1];
+
+    eventsApi(triggerApi, this._events, name, void 0, args);
+    return this;
+  };
+
+  // Handles triggering the appropriate event callbacks.
+  var triggerApi = function(objEvents, name, callback, args) {
+    if (objEvents) {
+      var events = objEvents[name];
+      var allEvents = objEvents.all;
+      if (events && allEvents) allEvents = allEvents.slice();
+      if (events) triggerEvents(events, args);
+      if (allEvents) triggerEvents(allEvents, [name].concat(args));
+    }
+    return objEvents;
+  };
+
+  // A difficult-to-believe, but optimized internal dispatch function for
+  // triggering events. Tries to keep the usual cases speedy (most internal
+  // Backbone events have 3 arguments).
+  var triggerEvents = function(events, args) {
+    var ev, i = -1, l = events.length, a1 = args[0], a2 = args[1], a3 = args[2];
+    switch (args.length) {
+      case 0: while (++i < l) (ev = events[i]).callback.call(ev.ctx); return;
+      case 1: while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1); return;
+      case 2: while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1, a2); return;
+      case 3: while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1, a2, a3); return;
+      default: while (++i < l) (ev = events[i]).callback.apply(ev.ctx, args); return;
+    }
+  };
+
+  // Aliases for backwards compatibility.
+  Events.bind   = Events.on;
+  Events.unbind = Events.off;
+
+  // Allow the `Backbone` object to serve as a global event bus, for folks who
+  // want global "pubsub" in a convenient place.
+  _.extend(Backbone, Events);
+
+  // Backbone.Model
+  // --------------
+
+  // Backbone **Models** are the basic data object in the framework --
+  // frequently representing a row in a table in a database on your server.
+  // A discrete chunk of data and a bunch of useful, related methods for
+  // performing computations and transformations on that data.
+
+  // Create a new model with the specified attributes. A client id (`cid`)
+  // is automatically generated and assigned for you.
+  var Model = Backbone.Model = function(attributes, options) {
+    var attrs = attributes || {};
+    options || (options = {});
+    this.cid = _.uniqueId(this.cidPrefix);
+    this.attributes = {};
+    if (options.collection) this.collection = options.collection;
+    if (options.parse) attrs = this.parse(attrs, options) || {};
+    var defaults = _.result(this, 'defaults');
+    attrs = _.defaults(_.extend({}, defaults, attrs), defaults);
+    this.set(attrs, options);
+    this.changed = {};
+    this.initialize.apply(this, arguments);
+  };
+
+  // Attach all inheritable methods to the Model prototype.
+  _.extend(Model.prototype, Events, {
+
+    // A hash of attributes whose current and previous value differ.
+    changed: null,
+
+    // The value returned during the last failed validation.
+    validationError: null,
+
+    // The default name for the JSON `id` attribute is `"id"`. MongoDB and
+    // CouchDB users may want to set this to `"_id"`.
+    idAttribute: 'id',
+
+    // The prefix is used to create the client id which is used to identify models locally.
+    // You may want to override this if you're experiencing name clashes with model ids.
+    cidPrefix: 'c',
+
+    // Initialize is an empty function by default. Override it with your own
+    // initialization logic.
+    initialize: function(){},
+
+    // Return a copy of the model's `attributes` object.
+    toJSON: function(options) {
+      return _.clone(this.attributes);
+    },
+
+    // Proxy `Backbone.sync` by default -- but override this if you need
+    // custom syncing semantics for *this* particular model.
+    sync: function() {
+      return Backbone.sync.apply(this, arguments);
+    },
+
+    // Get the value of an attribute.
+    get: function(attr) {
+      return this.attributes[attr];
+    },
+
+    // Get the HTML-escaped value of an attribute.
+    escape: function(attr) {
+      return _.escape(this.get(attr));
+    },
+
+    // Returns `true` if the attribute contains a value that is not null
+    // or undefined.
+    has: function(attr) {
+      return this.get(attr) != null;
+    },
+
+    // Special-cased proxy to underscore's `_.matches` method.
+    matches: function(attrs) {
+      return !!_.iteratee(attrs, this)(this.attributes);
+    },
+
+    // Set a hash of model attributes on the object, firing `"change"`. This is
+    // the core primitive operation of a model, updating the data and notifying
+    // anyone who needs to know about the change in state. The heart of the beast.
+    set: function(key, val, options) {
+      if (key == null) return this;
+
+      // Handle both `"key", value` and `{key: value}` -style arguments.
+      var attrs;
+      if (typeof key === 'object') {
+        attrs = key;
+        options = val;
+      } else {
+        (attrs = {})[key] = val;
+      }
+
+      options || (options = {});
+
+      // Run validation.
+      if (!this._validate(attrs, options)) return false;
+
+      // Extract attributes and options.
+      var unset      = options.unset;
+      var silent     = options.silent;
+      var changes    = [];
+      var changing   = this._changing;
+      this._changing = true;
+
+      if (!changing) {
+        this._previousAttributes = _.clone(this.attributes);
+        this.changed = {};
+      }
+
+      var current = this.attributes;
+      var changed = this.changed;
+      var prev    = this._previousAttributes;
+
+      // For each `set` attribute, update or delete the current value.
+      for (var attr in attrs) {
+        val = attrs[attr];
+        if (!_.isEqual(current[attr], val)) changes.push(attr);
+        if (!_.isEqual(prev[attr], val)) {
+          changed[attr] = val;
+        } else {
+          delete changed[attr];
+        }
+        unset ? delete current[attr] : current[attr] = val;
+      }
+
+      // Update the `id`.
+      if (this.idAttribute in attrs) this.id = this.get(this.idAttribute);
+
+      // Trigger all relevant attribute changes.
+      if (!silent) {
+        if (changes.length) this._pending = options;
+        for (var i = 0; i < changes.length; i++) {
+          this.trigger('change:' + changes[i], this, current[changes[i]], options);
+        }
+      }
+
+      // You might be wondering why there's a `while` loop here. Changes can
+      // be recursively nested within `"change"` events.
+      if (changing) return this;
+      if (!silent) {
+        while (this._pending) {
+          options = this._pending;
+          this._pending = false;
+          this.trigger('change', this, options);
+        }
+      }
+      this._pending = false;
+      this._changing = false;
+      return this;
+    },
+
+    // Remove an attribute from the model, firing `"change"`. `unset` is a noop
+    // if the attribute doesn't exist.
+    unset: function(attr, options) {
+      return this.set(attr, void 0, _.extend({}, options, {unset: true}));
+    },
+
+    // Clear all attributes on the model, firing `"change"`.
+    clear: function(options) {
+      var attrs = {};
+      for (var key in this.attributes) attrs[key] = void 0;
+      return this.set(attrs, _.extend({}, options, {unset: true}));
+    },
+
+    // Determine if the model has changed since the last `"change"` event.
+    // If you specify an attribute name, determine if that attribute has changed.
+    hasChanged: function(attr) {
+      if (attr == null) return !_.isEmpty(this.changed);
+      return _.has(this.changed, attr);
+    },
+
+    // Return an object containing all the attributes that have changed, or
+    // false if there are no changed attributes. Useful for determining what
+    // parts of a view need to be updated and/or what attributes need to be
+    // persisted to the server. Unset attributes will be set to undefined.
+    // You can also pass an attributes object to diff against the model,
+    // determining if there *would be* a change.
+    changedAttributes: function(diff) {
+      if (!diff) return this.hasChanged() ? _.clone(this.changed) : false;
+      var old = this._changing ? this._previousAttributes : this.attributes;
+      var changed = {};
+      for (var attr in diff) {
+        var val = diff[attr];
+        if (_.isEqual(old[attr], val)) continue;
+        changed[attr] = val;
+      }
+      return _.size(changed) ? changed : false;
+    },
+
+    // Get the previous value of an attribute, recorded at the time the last
+    // `"change"` event was fired.
+    previous: function(attr) {
+      if (attr == null || !this._previousAttributes) return null;
+      return this._previousAttributes[attr];
+    },
+
+    // Get all of the attributes of the model at the time of the previous
+    // `"change"` event.
+    previousAttributes: function() {
+      return _.clone(this._previousAttributes);
+    },
+
+    // Fetch the model from the server, merging the response with the model's
+    // local attributes. Any changed attributes will trigger a "change" event.
+    fetch: function(options) {
+      options = _.extend({parse: true}, options);
+      var model = this;
+      var success = options.success;
+      options.success = function(resp) {
+        var serverAttrs = options.parse ? model.parse(resp, options) : resp;
+        if (!model.set(serverAttrs, options)) return false;
+        if (success) success.call(options.context, model, resp, options);
+        model.trigger('sync', model, resp, options);
+      };
+      wrapError(this, options);
+      return this.sync('read', this, options);
+    },
+
+    // Set a hash of model attributes, and sync the model to the server.
+    // If the server returns an attributes hash that differs, the model's
+    // state will be `set` again.
+    save: function(key, val, options) {
+      // Handle both `"key", value` and `{key: value}` -style arguments.
+      var attrs;
+      if (key == null || typeof key === 'object') {
+        attrs = key;
+        options = val;
+      } else {
+        (attrs = {})[key] = val;
+      }
+
+      options = _.extend({validate: true, parse: true}, options);
+      var wait = options.wait;
+
+      // If we're not waiting and attributes exist, save acts as
+      // `set(attr).save(null, opts)` with validation. Otherwise, check if
+      // the model will be valid when the attributes, if any, are set.
+      if (attrs && !wait) {
+        if (!this.set(attrs, options)) return false;
+      } else if (!this._validate(attrs, options)) {
+        return false;
+      }
+
+      // After a successful server-side save, the client is (optionally)
+      // updated with the server-side state.
+      var model = this;
+      var success = options.success;
+      var attributes = this.attributes;
+      options.success = function(resp) {
+        // Ensure attributes are restored during synchronous saves.
+        model.attributes = attributes;
+        var serverAttrs = options.parse ? model.parse(resp, options) : resp;
+        if (wait) serverAttrs = _.extend({}, attrs, serverAttrs);
+        if (serverAttrs && !model.set(serverAttrs, options)) return false;
+        if (success) success.call(options.context, model, resp, options);
+        model.trigger('sync', model, resp, options);
+      };
+      wrapError(this, options);
+
+      // Set temporary attributes if `{wait: true}` to properly find new ids.
+      if (attrs && wait) this.attributes = _.extend({}, attributes, attrs);
+
+      var method = this.isNew() ? 'create' : (options.patch ? 'patch' : 'update');
+      if (method === 'patch' && !options.attrs) options.attrs = attrs;
+      var xhr = this.sync(method, this, options);
+
+      // Restore attributes.
+      this.attributes = attributes;
+
+      return xhr;
+    },
+
+    // Destroy this model on the server if it was already persisted.
+    // Optimistically removes the model from its collection, if it has one.
+    // If `wait: true` is passed, waits for the server to respond before removal.
+    destroy: function(options) {
+      options = options ? _.clone(options) : {};
+      var model = this;
+      var success = options.success;
+      var wait = options.wait;
+
+      var destroy = function() {
+        model.stopListening();
+        model.trigger('destroy', model, model.collection, options);
+      };
+
+      options.success = function(resp) {
+        if (wait) destroy();
+        if (success) success.call(options.context, model, resp, options);
+        if (!model.isNew()) model.trigger('sync', model, resp, options);
+      };
+
+      var xhr = false;
+      if (this.isNew()) {
+        _.defer(options.success);
+      } else {
+        wrapError(this, options);
+        xhr = this.sync('delete', this, options);
+      }
+      if (!wait) destroy();
+      return xhr;
+    },
+
+    // Default URL for the model's representation on the server -- if you're
+    // using Backbone's restful methods, override this to change the endpoint
+    // that will be called.
+    url: function() {
+      var base =
+        _.result(this, 'urlRoot') ||
+        _.result(this.collection, 'url') ||
+        urlError();
+      if (this.isNew()) return base;
+      var id = this.get(this.idAttribute);
+      return base.replace(/[^\/]$/, '$&/') + encodeURIComponent(id);
+    },
+
+    // **parse** converts a response into the hash of attributes to be `set` on
+    // the model. The default implementation is just to pass the response along.
+    parse: function(resp, options) {
+      return resp;
+    },
+
+    // Create a new model with identical attributes to this one.
+    clone: function() {
+      return new this.constructor(this.attributes);
+    },
+
+    // A model is new if it has never been saved to the server, and lacks an id.
+    isNew: function() {
+      return !this.has(this.idAttribute);
+    },
+
+    // Check if the model is currently in a valid state.
+    isValid: function(options) {
+      return this._validate({}, _.extend({}, options, {validate: true}));
+    },
+
+    // Run validation against the next complete set of model attributes,
+    // returning `true` if all is well. Otherwise, fire an `"invalid"` event.
+    _validate: function(attrs, options) {
+      if (!options.validate || !this.validate) return true;
+      attrs = _.extend({}, this.attributes, attrs);
+      var error = this.validationError = this.validate(attrs, options) || null;
+      if (!error) return true;
+      this.trigger('invalid', this, error, _.extend(options, {validationError: error}));
+      return false;
+    }
+
+  });
+
+  // Underscore methods that we want to implement on the Model, mapped to the
+  // number of arguments they take.
+  var modelMethods = {keys: 1, values: 1, pairs: 1, invert: 1, pick: 0,
+      omit: 0, chain: 1, isEmpty: 1};
+
+  // Mix in each Underscore method as a proxy to `Model#attributes`.
+  addUnderscoreMethods(Model, modelMethods, 'attributes');
+
+  // Backbone.Collection
+  // -------------------
+
+  // If models tend to represent a single row of data, a Backbone Collection is
+  // more analogous to a table full of data ... or a small slice or page of that
+  // table, or a collection of rows that belong together for a particular reason
+  // -- all of the messages in this particular folder, all of the documents
+  // belonging to this particular author, and so on. Collections maintain
+  // indexes of their models, both in order, and for lookup by `id`.
+
+  // Create a new **Collection**, perhaps to contain a specific type of `model`.
+  // If a `comparator` is specified, the Collection will maintain
+  // its models in sort order, as they're added and removed.
+  var Collection = Backbone.Collection = function(models, options) {
+    options || (options = {});
+    if (options.model) this.model = options.model;
+    if (options.comparator !== void 0) this.comparator = options.comparator;
+    this._reset();
+    this.initialize.apply(this, arguments);
+    if (models) this.reset(models, _.extend({silent: true}, options));
+  };
+
+  // Default options for `Collection#set`.
+  var setOptions = {add: true, remove: true, merge: true};
+  var addOptions = {add: true, remove: false};
+
+  // Splices `insert` into `array` at index `at`.
+  var splice = function(array, insert, at) {
+    at = Math.min(Math.max(at, 0), array.length);
+    var tail = Array(array.length - at);
+    var length = insert.length;
+    var i;
+    for (i = 0; i < tail.length; i++) tail[i] = array[i + at];
+    for (i = 0; i < length; i++) array[i + at] = insert[i];
+    for (i = 0; i < tail.length; i++) array[i + length + at] = tail[i];
+  };
+
+  // Define the Collection's inheritable methods.
+  _.extend(Collection.prototype, Events, {
+
+    // The default model for a collection is just a **Backbone.Model**.
+    // This should be overridden in most cases.
+    model: Model,
+
+    // Initialize is an empty function by default. Override it with your own
+    // initialization logic.
+    initialize: function(){},
+
+    // The JSON representation of a Collection is an array of the
+    // models' attributes.
+    toJSON: function(options) {
+      return this.map(function(model) { return model.toJSON(options); });
+    },
+
+    // Proxy `Backbone.sync` by default.
+    sync: function() {
+      return Backbone.sync.apply(this, arguments);
+    },
+
+    // Add a model, or list of models to the set. `models` may be Backbone
+    // Models or raw JavaScript objects to be converted to Models, or any
+    // combination of the two.
+    add: function(models, options) {
+      return this.set(models, _.extend({merge: false}, options, addOptions));
+    },
+
+    // Remove a model, or a list of models from the set.
+    remove: function(models, options) {
+      options = _.extend({}, options);
+      var singular = !_.isArray(models);
+      models = singular ? [models] : models.slice();
+      var removed = this._removeModels(models, options);
+      if (!options.silent && removed.length) {
+        options.changes = {added: [], merged: [], removed: removed};
+        this.trigger('update', this, options);
+      }
+      return singular ? removed[0] : removed;
+    },
+
+    // Update a collection by `set`-ing a new list of models, adding new ones,
+    // removing models that are no longer present, and merging models that
+    // already exist in the collection, as necessary. Similar to **Model#set**,
+    // the core operation for updating the data contained by the collection.
+    set: function(models, options) {
+      if (models == null) return;
+
+      options = _.extend({}, setOptions, options);
+      if (options.parse && !this._isModel(models)) {
+        models = this.parse(models, options) || [];
+      }
+
+      var singular = !_.isArray(models);
+      models = singular ? [models] : models.slice();
+
+      var at = options.at;
+      if (at != null) at = +at;
+      if (at > this.length) at = this.length;
+      if (at < 0) at += this.length + 1;
+
+      var set = [];
+      var toAdd = [];
+      var toMerge = [];
+      var toRemove = [];
+      var modelMap = {};
+
+      var add = options.add;
+      var merge = options.merge;
+      var remove = options.remove;
+
+      var sort = false;
+      var sortable = this.comparator && at == null && options.sort !== false;
+      var sortAttr = _.isString(this.comparator) ? this.comparator : null;
+
+      // Turn bare objects into model references, and prevent invalid models
+      // from being added.
+      var model, i;
+      for (i = 0; i < models.length; i++) {
+        model = models[i];
+
+        // If a duplicate is found, prevent it from being added and
+        // optionally merge it into the existing model.
+        var existing = this.get(model);
+        if (existing) {
+          if (merge && model !== existing) {
+            var attrs = this._isModel(model) ? model.attributes : model;
+            if (options.parse) attrs = existing.parse(attrs, options);
+            existing.set(attrs, options);
+            toMerge.push(existing);
+            if (sortable && !sort) sort = existing.hasChanged(sortAttr);
+          }
+          if (!modelMap[existing.cid]) {
+            modelMap[existing.cid] = true;
+            set.push(existing);
+          }
+          models[i] = existing;
+
+        // If this is a new, valid model, push it to the `toAdd` list.
+        } else if (add) {
+          model = models[i] = this._prepareModel(model, options);
+          if (model) {
+            toAdd.push(model);
+            this._addReference(model, options);
+            modelMap[model.cid] = true;
+            set.push(model);
+          }
+        }
+      }
+
+      // Remove stale models.
+      if (remove) {
+        for (i = 0; i < this.length; i++) {
+          model = this.models[i];
+          if (!modelMap[model.cid]) toRemove.push(model);
+        }
+        if (toRemove.length) this._removeModels(toRemove, options);
+      }
+
+      // See if sorting is needed, update `length` and splice in new models.
+      var orderChanged = false;
+      var replace = !sortable && add && remove;
+      if (set.length && replace) {
+        orderChanged = this.length !== set.length || _.some(this.models, function(m, index) {
+          return m !== set[index];
+        });
+        this.models.length = 0;
+        splice(this.models, set, 0);
+        this.length = this.models.length;
+      } else if (toAdd.length) {
+        if (sortable) sort = true;
+        splice(this.models, toAdd, at == null ? this.length : at);
+        this.length = this.models.length;
+      }
+
+      // Silently sort the collection if appropriate.
+      if (sort) this.sort({silent: true});
+
+      // Unless silenced, it's time to fire all appropriate add/sort/update events.
+      if (!options.silent) {
+        for (i = 0; i < toAdd.length; i++) {
+          if (at != null) options.index = at + i;
+          model = toAdd[i];
+          model.trigger('add', model, this, options);
+        }
+        if (sort || orderChanged) this.trigger('sort', this, options);
+        if (toAdd.length || toRemove.length || toMerge.length) {
+          options.changes = {
+            added: toAdd,
+            removed: toRemove,
+            merged: toMerge
+          };
+          this.trigger('update', this, options);
+        }
+      }
+
+      // Return the added (or merged) model (or models).
+      return singular ? models[0] : models;
+    },
+
+    // When you have more items than you want to add or remove individually,
+    // you can reset the entire set with a new list of models, without firing
+    // any granular `add` or `remove` events. Fires `reset` when finished.
+    // Useful for bulk operations and optimizations.
+    reset: function(models, options) {
+      options = options ? _.clone(options) : {};
+      for (var i = 0; i < this.models.length; i++) {
+        this._removeReference(this.models[i], options);
+      }
+      options.previousModels = this.models;
+      this._reset();
+      models = this.add(models, _.extend({silent: true}, options));
+      if (!options.silent) this.trigger('reset', this, options);
+      return models;
+    },
+
+    // Add a model to the end of the collection.
+    push: function(model, options) {
+      return this.add(model, _.extend({at: this.length}, options));
+    },
+
+    // Remove a model from the end of the collection.
+    pop: function(options) {
+      var model = this.at(this.length - 1);
+      return this.remove(model, options);
+    },
+
+    // Add a model to the beginning of the collection.
+    unshift: function(model, options) {
+      return this.add(model, _.extend({at: 0}, options));
+    },
+
+    // Remove a model from the beginning of the collection.
+    shift: function(options) {
+      var model = this.at(0);
+      return this.remove(model, options);
+    },
+
+    // Slice out a sub-array of models from the collection.
+    slice: function() {
+      return slice.apply(this.models, arguments);
+    },
+
+    // Get a model from the set by id, cid, model object with id or cid
+    // properties, or an attributes object that is transformed through modelId.
+    get: function(obj) {
+      if (obj == null) return void 0;
+      return this._byId[obj] ||
+        this._byId[this.modelId(obj.attributes || obj)] ||
+        obj.cid && this._byId[obj.cid];
+    },
+
+    // Returns `true` if the model is in the collection.
+    has: function(obj) {
+      return this.get(obj) != null;
+    },
+
+    // Get the model at the given index.
+    at: function(index) {
+      if (index < 0) index += this.length;
+      return this.models[index];
+    },
+
+    // Return models with matching attributes. Useful for simple cases of
+    // `filter`.
+    where: function(attrs, first) {
+      return this[first ? 'find' : 'filter'](attrs);
+    },
+
+    // Return the first model with matching attributes. Useful for simple cases
+    // of `find`.
+    findWhere: function(attrs) {
+      return this.where(attrs, true);
+    },
+
+    // Force the collection to re-sort itself. You don't need to call this under
+    // normal circumstances, as the set will maintain sort order as each item
+    // is added.
+    sort: function(options) {
+      var comparator = this.comparator;
+      if (!comparator) throw new Error('Cannot sort a set without a comparator');
+      options || (options = {});
+
+      var length = comparator.length;
+      if (_.isFunction(comparator)) comparator = _.bind(comparator, this);
+
+      // Run sort based on type of `comparator`.
+      if (length === 1 || _.isString(comparator)) {
+        this.models = this.sortBy(comparator);
+      } else {
+        this.models.sort(comparator);
+      }
+      if (!options.silent) this.trigger('sort', this, options);
+      return this;
+    },
+
+    // Pluck an attribute from each model in the collection.
+    pluck: function(attr) {
+      return this.map(attr + '');
+    },
+
+    // Fetch the default set of models for this collection, resetting the
+    // collection when they arrive. If `reset: true` is passed, the response
+    // data will be passed through the `reset` method instead of `set`.
+    fetch: function(options) {
+      options = _.extend({parse: true}, options);
+      var success = options.success;
+      var collection = this;
+      options.success = function(resp) {
+        var method = options.reset ? 'reset' : 'set';
+        collection[method](resp, options);
+        if (success) success.call(options.context, collection, resp, options);
+        collection.trigger('sync', collection, resp, options);
+      };
+      wrapError(this, options);
+      return this.sync('read', this, options);
+    },
+
+    // Create a new instance of a model in this collection. Add the model to the
+    // collection immediately, unless `wait: true` is passed, in which case we
+    // wait for the server to agree.
+    create: function(model, options) {
+      options = options ? _.clone(options) : {};
+      var wait = options.wait;
+      model = this._prepareModel(model, options);
+      if (!model) return false;
+      if (!wait) this.add(model, options);
+      var collection = this;
+      var success = options.success;
+      options.success = function(m, resp, callbackOpts) {
+        if (wait) collection.add(m, callbackOpts);
+        if (success) success.call(callbackOpts.context, m, resp, callbackOpts);
+      };
+      model.save(null, options);
+      return model;
+    },
+
+    // **parse** converts a response into a list of models to be added to the
+    // collection. The default implementation is just to pass it through.
+    parse: function(resp, options) {
+      return resp;
+    },
+
+    // Create a new collection with an identical list of models as this one.
+    clone: function() {
+      return new this.constructor(this.models, {
+        model: this.model,
+        comparator: this.comparator
+      });
+    },
+
+    // Define how to uniquely identify models in the collection.
+    modelId: function(attrs) {
+      return attrs[this.model.prototype.idAttribute || 'id'];
+    },
+
+    // Private method to reset all internal state. Called when the collection
+    // is first initialized or reset.
+    _reset: function() {
+      this.length = 0;
+      this.models = [];
+      this._byId  = {};
+    },
+
+    // Prepare a hash of attributes (or other model) to be added to this
+    // collection.
+    _prepareModel: function(attrs, options) {
+      if (this._isModel(attrs)) {
+        if (!attrs.collection) attrs.collection = this;
+        return attrs;
+      }
+      options = options ? _.clone(options) : {};
+      options.collection = this;
+      var model = new this.model(attrs, options);
+      if (!model.validationError) return model;
+      this.trigger('invalid', this, model.validationError, options);
+      return false;
+    },
+
+    // Internal method called by both remove and set.
+    _removeModels: function(models, options) {
+      var removed = [];
+      for (var i = 0; i < models.length; i++) {
+        var model = this.get(models[i]);
+        if (!model) continue;
+
+        var index = this.indexOf(model);
+        this.models.splice(index, 1);
+        this.length--;
+
+        // Remove references before triggering 'remove' event to prevent an
+        // infinite loop. #3693
+        delete this._byId[model.cid];
+        var id = this.modelId(model.attributes);
+        if (id != null) delete this._byId[id];
+
+        if (!options.silent) {
+          options.index = index;
+          model.trigger('remove', model, this, options);
+        }
+
+        removed.push(model);
+        this._removeReference(model, options);
+      }
+      return removed;
+    },
+
+    // Method for checking whether an object should be considered a model for
+    // the purposes of adding to the collection.
+    _isModel: function(model) {
+      return model instanceof Model;
+    },
+
+    // Internal method to create a model's ties to a collection.
+    _addReference: function(model, options) {
+      this._byId[model.cid] = model;
+      var id = this.modelId(model.attributes);
+      if (id != null) this._byId[id] = model;
+      model.on('all', this._onModelEvent, this);
+    },
+
+    // Internal method to sever a model's ties to a collection.
+    _removeReference: function(model, options) {
+      delete this._byId[model.cid];
+      var id = this.modelId(model.attributes);
+      if (id != null) delete this._byId[id];
+      if (this === model.collection) delete model.collection;
+      model.off('all', this._onModelEvent, this);
+    },
+
+    // Internal method called every time a model in the set fires an event.
+    // Sets need to update their indexes when models change ids. All other
+    // events simply proxy through. "add" and "remove" events that originate
+    // in other collections are ignored.
+    _onModelEvent: function(event, model, collection, options) {
+      if (model) {
+        if ((event === 'add' || event === 'remove') && collection !== this) return;
+        if (event === 'destroy') this.remove(model, options);
+        if (event === 'change') {
+          var prevId = this.modelId(model.previousAttributes());
+          var id = this.modelId(model.attributes);
+          if (prevId !== id) {
+            if (prevId != null) delete this._byId[prevId];
+            if (id != null) this._byId[id] = model;
+          }
+        }
+      }
+      this.trigger.apply(this, arguments);
+    }
+
+  });
+
+  // Underscore methods that we want to implement on the Collection.
+  // 90% of the core usefulness of Backbone Collections is actually implemented
+  // right here:
+  var collectionMethods = {forEach: 3, each: 3, map: 3, collect: 3, reduce: 0,
+      foldl: 0, inject: 0, reduceRight: 0, foldr: 0, find: 3, detect: 3, filter: 3,
+      select: 3, reject: 3, every: 3, all: 3, some: 3, any: 3, include: 3, includes: 3,
+      contains: 3, invoke: 0, max: 3, min: 3, toArray: 1, size: 1, first: 3,
+      head: 3, take: 3, initial: 3, rest: 3, tail: 3, drop: 3, last: 3,
+      without: 0, difference: 0, indexOf: 3, shuffle: 1, lastIndexOf: 3,
+      isEmpty: 1, chain: 1, sample: 3, partition: 3, groupBy: 3, countBy: 3,
+      sortBy: 3, indexBy: 3, findIndex: 3, findLastIndex: 3};
+
+  // Mix in each Underscore method as a proxy to `Collection#models`.
+  addUnderscoreMethods(Collection, collectionMethods, 'models');
+
+  // Backbone.View
+  // -------------
+
+  // Backbone Views are almost more convention than they are actual code. A View
+  // is simply a JavaScript object that represents a logical chunk of UI in the
+  // DOM. This might be a single item, an entire list, a sidebar or panel, or
+  // even the surrounding frame which wraps your whole app. Defining a chunk of
+  // UI as a **View** allows you to define your DOM events declaratively, without
+  // having to worry about render order ... and makes it easy for the view to
+  // react to specific changes in the state of your models.
+
+  // Creating a Backbone.View creates its initial element outside of the DOM,
+  // if an existing element is not provided...
+  var View = Backbone.View = function(options) {
+    this.cid = _.uniqueId('view');
+    _.extend(this, _.pick(options, viewOptions));
+    this._ensureElement();
+    this.initialize.apply(this, arguments);
+  };
+
+  // Cached regex to split keys for `delegate`.
+  var delegateEventSplitter = /^(\S+)\s*(.*)$/;
+
+  // List of view options to be set as properties.
+  var viewOptions = ['model', 'collection', 'el', 'id', 'attributes', 'className', 'tagName', 'events'];
+
+  // Set up all inheritable **Backbone.View** properties and methods.
+  _.extend(View.prototype, Events, {
+
+    // The default `tagName` of a View's element is `"div"`.
+    tagName: 'div',
+
+    // jQuery delegate for element lookup, scoped to DOM elements within the
+    // current view. This should be preferred to global lookups where possible.
+    $: function(selector) {
+      return this.$el.find(selector);
+    },
+
+    // Initialize is an empty function by default. Override it with your own
+    // initialization logic.
+    initialize: function(){},
+
+    // **render** is the core function that your view should override, in order
+    // to populate its element (`this.el`), with the appropriate HTML. The
+    // convention is for **render** to always return `this`.
+    render: function() {
+      return this;
+    },
+
+    // Remove this view by taking the element out of the DOM, and removing any
+    // applicable Backbone.Events listeners.
+    remove: function() {
+      this._removeElement();
+      this.stopListening();
+      return this;
+    },
+
+    // Remove this view's element from the document and all event listeners
+    // attached to it. Exposed for subclasses using an alternative DOM
+    // manipulation API.
+    _removeElement: function() {
+      this.$el.remove();
+    },
+
+    // Change the view's element (`this.el` property) and re-delegate the
+    // view's events on the new element.
+    setElement: function(element) {
+      this.undelegateEvents();
+      this._setElement(element);
+      this.delegateEvents();
+      return this;
+    },
+
+    // Creates the `this.el` and `this.$el` references for this view using the
+    // given `el`. `el` can be a CSS selector or an HTML string, a jQuery
+    // context or an element. Subclasses can override this to utilize an
+    // alternative DOM manipulation API and are only required to set the
+    // `this.el` property.
+    _setElement: function(el) {
+      this.$el = el instanceof Backbone.$ ? el : Backbone.$(el);
+      this.el = this.$el[0];
+    },
+
+    // Set callbacks, where `this.events` is a hash of
+    //
+    // *{"event selector": "callback"}*
+    //
+    //     {
+    //       'mousedown .title':  'edit',
+    //       'click .button':     'save',
+    //       'click .open':       function(e) { ... }
+    //     }
+    //
+    // pairs. Callbacks will be bound to the view, with `this` set properly.
+    // Uses event delegation for efficiency.
+    // Omitting the selector binds the event to `this.el`.
+    delegateEvents: function(events) {
+      events || (events = _.result(this, 'events'));
+      if (!events) return this;
+      this.undelegateEvents();
+      for (var key in events) {
+        var method = events[key];
+        if (!_.isFunction(method)) method = this[method];
+        if (!method) continue;
+        var match = key.match(delegateEventSplitter);
+        this.delegate(match[1], match[2], _.bind(method, this));
+      }
+      return this;
+    },
+
+    // Add a single event listener to the view's element (or a child element
+    // using `selector`). This only works for delegate-able events: not `focus`,
+    // `blur`, and not `change`, `submit`, and `reset` in Internet Explorer.
+    delegate: function(eventName, selector, listener) {
+      this.$el.on(eventName + '.delegateEvents' + this.cid, selector, listener);
+      return this;
+    },
+
+    // Clears all callbacks previously bound to the view by `delegateEvents`.
+    // You usually don't need to use this, but may wish to if you have multiple
+    // Backbone views attached to the same DOM element.
+    undelegateEvents: function() {
+      if (this.$el) this.$el.off('.delegateEvents' + this.cid);
+      return this;
+    },
+
+    // A finer-grained `undelegateEvents` for removing a single delegated event.
+    // `selector` and `listener` are both optional.
+    undelegate: function(eventName, selector, listener) {
+      this.$el.off(eventName + '.delegateEvents' + this.cid, selector, listener);
+      return this;
+    },
+
+    // Produces a DOM element to be assigned to your view. Exposed for
+    // subclasses using an alternative DOM manipulation API.
+    _createElement: function(tagName) {
+      return document.createElement(tagName);
+    },
+
+    // Ensure that the View has a DOM element to render into.
+    // If `this.el` is a string, pass it through `$()`, take the first
+    // matching element, and re-assign it to `el`. Otherwise, create
+    // an element from the `id`, `className` and `tagName` properties.
+    _ensureElement: function() {
+      if (!this.el) {
+        var attrs = _.extend({}, _.result(this, 'attributes'));
+        if (this.id) attrs.id = _.result(this, 'id');
+        if (this.className) attrs['class'] = _.result(this, 'className');
+        this.setElement(this._createElement(_.result(this, 'tagName')));
+        this._setAttributes(attrs);
+      } else {
+        this.setElement(_.result(this, 'el'));
+      }
+    },
+
+    // Set attributes from a hash on this view's element.  Exposed for
+    // subclasses using an alternative DOM manipulation API.
+    _setAttributes: function(attributes) {
+      this.$el.attr(attributes);
+    }
+
+  });
+
+  // Backbone.sync
+  // -------------
+
+  // Override this function to change the manner in which Backbone persists
+  // models to the server. You will be passed the type of request, and the
+  // model in question. By default, makes a RESTful Ajax request
+  // to the model's `url()`. Some possible customizations could be:
+  //
+  // * Use `setTimeout` to batch rapid-fire updates into a single request.
+  // * Send up the models as XML instead of JSON.
+  // * Persist models via WebSockets instead of Ajax.
+  //
+  // Turn on `Backbone.emulateHTTP` in order to send `PUT` and `DELETE` requests
+  // as `POST`, with a `_method` parameter containing the true HTTP method,
+  // as well as all requests with the body as `application/x-www-form-urlencoded`
+  // instead of `application/json` with the model in a param named `model`.
+  // Useful when interfacing with server-side languages like **PHP** that make
+  // it difficult to read the body of `PUT` requests.
+  Backbone.sync = function(method, model, options) {
+    var type = methodMap[method];
+
+    // Default options, unless specified.
+    _.defaults(options || (options = {}), {
+      emulateHTTP: Backbone.emulateHTTP,
+      emulateJSON: Backbone.emulateJSON
+    });
+
+    // Default JSON-request options.
+    var params = {type: type, dataType: 'json'};
+
+    // Ensure that we have a URL.
+    if (!options.url) {
+      params.url = _.result(model, 'url') || urlError();
+    }
+
+    // Ensure that we have the appropriate request data.
+    if (options.data == null && model && (method === 'create' || method === 'update' || method === 'patch')) {
+      params.contentType = 'application/json';
+      params.data = JSON.stringify(options.attrs || model.toJSON(options));
+    }
+
+    // For older servers, emulate JSON by encoding the request into an HTML-form.
+    if (options.emulateJSON) {
+      params.contentType = 'application/x-www-form-urlencoded';
+      params.data = params.data ? {model: params.data} : {};
+    }
+
+    // For older servers, emulate HTTP by mimicking the HTTP method with `_method`
+    // And an `X-HTTP-Method-Override` header.
+    if (options.emulateHTTP && (type === 'PUT' || type === 'DELETE' || type === 'PATCH')) {
+      params.type = 'POST';
+      if (options.emulateJSON) params.data._method = type;
+      var beforeSend = options.beforeSend;
+      options.beforeSend = function(xhr) {
+        xhr.setRequestHeader('X-HTTP-Method-Override', type);
+        if (beforeSend) return beforeSend.apply(this, arguments);
+      };
+    }
+
+    // Don't process data on a non-GET request.
+    if (params.type !== 'GET' && !options.emulateJSON) {
+      params.processData = false;
+    }
+
+    // Pass along `textStatus` and `errorThrown` from jQuery.
+    var error = options.error;
+    options.error = function(xhr, textStatus, errorThrown) {
+      options.textStatus = textStatus;
+      options.errorThrown = errorThrown;
+      if (error) error.call(options.context, xhr, textStatus, errorThrown);
+    };
+
+    // Make the request, allowing the user to override any Ajax options.
+    var xhr = options.xhr = Backbone.ajax(_.extend(params, options));
+    model.trigger('request', model, xhr, options);
+    return xhr;
+  };
+
+  // Map from CRUD to HTTP for our default `Backbone.sync` implementation.
+  var methodMap = {
+    'create': 'POST',
+    'update': 'PUT',
+    'patch': 'PATCH',
+    'delete': 'DELETE',
+    'read': 'GET'
+  };
+
+  // Set the default implementation of `Backbone.ajax` to proxy through to `$`.
+  // Override this if you'd like to use a different library.
+  Backbone.ajax = function() {
+    return Backbone.$.ajax.apply(Backbone.$, arguments);
+  };
+
+  // Backbone.Router
+  // ---------------
+
+  // Routers map faux-URLs to actions, and fire events when routes are
+  // matched. Creating a new one sets its `routes` hash, if not set statically.
+  var Router = Backbone.Router = function(options) {
+    options || (options = {});
+    if (options.routes) this.routes = options.routes;
+    this._bindRoutes();
+    this.initialize.apply(this, arguments);
+  };
+
+  // Cached regular expressions for matching named param parts and splatted
+  // parts of route strings.
+  var optionalParam = /\((.*?)\)/g;
+  var namedParam    = /(\(\?)?:\w+/g;
+  var splatParam    = /\*\w+/g;
+  var escapeRegExp  = /[\-{}\[\]+?.,\\\^$|#\s]/g;
+
+  // Set up all inheritable **Backbone.Router** properties and methods.
+  _.extend(Router.prototype, Events, {
+
+    // Initialize is an empty function by default. Override it with your own
+    // initialization logic.
+    initialize: function(){},
+
+    // Manually bind a single named route to a callback. For example:
+    //
+    //     this.route('search/:query/p:num', 'search', function(query, num) {
+    //       ...
+    //     });
+    //
+    route: function(route, name, callback) {
+      if (!_.isRegExp(route)) route = this._routeToRegExp(route);
+      if (_.isFunction(name)) {
+        callback = name;
+        name = '';
+      }
+      if (!callback) callback = this[name];
+      var router = this;
+      Backbone.history.route(route, function(fragment) {
+        var args = router._extractParameters(route, fragment);
+        if (router.execute(callback, args, name) !== false) {
+          router.trigger.apply(router, ['route:' + name].concat(args));
+          router.trigger('route', name, args);
+          Backbone.history.trigger('route', router, name, args);
+        }
+      });
+      return this;
+    },
+
+    // Execute a route handler with the provided parameters.  This is an
+    // excellent place to do pre-route setup or post-route cleanup.
+    execute: function(callback, args, name) {
+      if (callback) callback.apply(this, args);
+    },
+
+    // Simple proxy to `Backbone.history` to save a fragment into the history.
+    navigate: function(fragment, options) {
+      Backbone.history.navigate(fragment, options);
+      return this;
+    },
+
+    // Bind all defined routes to `Backbone.history`. We have to reverse the
+    // order of the routes here to support behavior where the most general
+    // routes can be defined at the bottom of the route map.
+    _bindRoutes: function() {
+      if (!this.routes) return;
+      this.routes = _.result(this, 'routes');
+      var route, routes = _.keys(this.routes);
+      while ((route = routes.pop()) != null) {
+        this.route(route, this.routes[route]);
+      }
+    },
+
+    // Convert a route string into a regular expression, suitable for matching
+    // against the current location hash.
+    _routeToRegExp: function(route) {
+      route = route.replace(escapeRegExp, '\\$&')
+                   .replace(optionalParam, '(?:$1)?')
+                   .replace(namedParam, function(match, optional) {
+                     return optional ? match : '([^/?]+)';
+                   })
+                   .replace(splatParam, '([^?]*?)');
+      return new RegExp('^' + route + '(?:\\?([\\s\\S]*))?$');
+    },
+
+    // Given a route, and a URL fragment that it matches, return the array of
+    // extracted decoded parameters. Empty or unmatched parameters will be
+    // treated as `null` to normalize cross-browser behavior.
+    _extractParameters: function(route, fragment) {
+      var params = route.exec(fragment).slice(1);
+      return _.map(params, function(param, i) {
+        // Don't decode the search params.
+        if (i === params.length - 1) return param || null;
+        return param ? decodeURIComponent(param) : null;
+      });
+    }
+
+  });
+
+  // Backbone.History
+  // ----------------
+
+  // Handles cross-browser history management, based on either
+  // [pushState](http://diveintohtml5.info/history.html) and real URLs, or
+  // [onhashchange](https://developer.mozilla.org/en-US/docs/DOM/window.onhashchange)
+  // and URL fragments. If the browser supports neither (old IE, natch),
+  // falls back to polling.
+  var History = Backbone.History = function() {
+    this.handlers = [];
+    this.checkUrl = _.bind(this.checkUrl, this);
+
+    // Ensure that `History` can be used outside of the browser.
+    if (typeof window !== 'undefined') {
+      this.location = window.location;
+      this.history = window.history;
+    }
+  };
+
+  // Cached regex for stripping a leading hash/slash and trailing space.
+  var routeStripper = /^[#\/]|\s+$/g;
+
+  // Cached regex for stripping leading and trailing slashes.
+  var rootStripper = /^\/+|\/+$/g;
+
+  // Cached regex for stripping urls of hash.
+  var pathStripper = /#.*$/;
+
+  // Has the history handling already been started?
+  History.started = false;
+
+  // Set up all inheritable **Backbone.History** properties and methods.
+  _.extend(History.prototype, Events, {
+
+    // The default interval to poll for hash changes, if necessary, is
+    // twenty times a second.
+    interval: 50,
+
+    // Are we at the app root?
+    atRoot: function() {
+      var path = this.location.pathname.replace(/[^\/]$/, '$&/');
+      return path === this.root && !this.getSearch();
+    },
+
+    // Does the pathname match the root?
+    matchRoot: function() {
+      var path = this.decodeFragment(this.location.pathname);
+      var rootPath = path.slice(0, this.root.length - 1) + '/';
+      return rootPath === this.root;
+    },
+
+    // Unicode characters in `location.pathname` are percent encoded so they're
+    // decoded for comparison. `%25` should not be decoded since it may be part
+    // of an encoded parameter.
+    decodeFragment: function(fragment) {
+      return decodeURI(fragment.replace(/%25/g, '%2525'));
+    },
+
+    // In IE6, the hash fragment and search params are incorrect if the
+    // fragment contains `?`.
+    getSearch: function() {
+      var match = this.location.href.replace(/#.*/, '').match(/\?.+/);
+      return match ? match[0] : '';
+    },
+
+    // Gets the true hash value. Cannot use location.hash directly due to bug
+    // in Firefox where location.hash will always be decoded.
+    getHash: function(window) {
+      var match = (window || this).location.href.match(/#(.*)$/);
+      return match ? match[1] : '';
+    },
+
+    // Get the pathname and search params, without the root.
+    getPath: function() {
+      var path = this.decodeFragment(
+        this.location.pathname + this.getSearch()
+      ).slice(this.root.length - 1);
+      return path.charAt(0) === '/' ? path.slice(1) : path;
+    },
+
+    // Get the cross-browser normalized URL fragment from the path or hash.
+    getFragment: function(fragment) {
+      if (fragment == null) {
+        if (this._usePushState || !this._wantsHashChange) {
+          fragment = this.getPath();
+        } else {
+          fragment = this.getHash();
+        }
+      }
+      return fragment.replace(routeStripper, '');
+    },
+
+    // Start the hash change handling, returning `true` if the current URL matches
+    // an existing route, and `false` otherwise.
+    start: function(options) {
+      if (History.started) throw new Error('Backbone.history has already been started');
+      History.started = true;
+
+      // Figure out the initial configuration. Do we need an iframe?
+      // Is pushState desired ... is it available?
+      this.options          = _.extend({root: '/'}, this.options, options);
+      this.root             = this.options.root;
+      this._wantsHashChange = this.options.hashChange !== false;
+      this._hasHashChange   = 'onhashchange' in window && (document.documentMode === void 0 || document.documentMode > 7);
+      this._useHashChange   = this._wantsHashChange && this._hasHashChange;
+      this._wantsPushState  = !!this.options.pushState;
+      this._hasPushState    = !!(this.history && this.history.pushState);
+      this._usePushState    = this._wantsPushState && this._hasPushState;
+      this.fragment         = this.getFragment();
+
+      // Normalize root to always include a leading and trailing slash.
+      this.root = ('/' + this.root + '/').replace(rootStripper, '/');
+
+      // Transition from hashChange to pushState or vice versa if both are
+      // requested.
+      if (this._wantsHashChange && this._wantsPushState) {
+
+        // If we've started off with a route from a `pushState`-enabled
+        // browser, but we're currently in a browser that doesn't support it...
+        if (!this._hasPushState && !this.atRoot()) {
+          var rootPath = this.root.slice(0, -1) || '/';
+          this.location.replace(rootPath + '#' + this.getPath());
+          // Return immediately as browser will do redirect to new url
+          return true;
+
+        // Or if we've started out with a hash-based route, but we're currently
+        // in a browser where it could be `pushState`-based instead...
+        } else if (this._hasPushState && this.atRoot()) {
+          this.navigate(this.getHash(), {replace: true});
+        }
+
+      }
+
+      // Proxy an iframe to handle location events if the browser doesn't
+      // support the `hashchange` event, HTML5 history, or the user wants
+      // `hashChange` but not `pushState`.
+      if (!this._hasHashChange && this._wantsHashChange && !this._usePushState) {
+        this.iframe = document.createElement('iframe');
+        this.iframe.src = 'javascript:0';
+        this.iframe.style.display = 'none';
+        this.iframe.tabIndex = -1;
+        var body = document.body;
+        // Using `appendChild` will throw on IE < 9 if the document is not ready.
+        var iWindow = body.insertBefore(this.iframe, body.firstChild).contentWindow;
+        iWindow.document.open();
+        iWindow.document.close();
+        iWindow.location.hash = '#' + this.fragment;
+      }
+
+      // Add a cross-platform `addEventListener` shim for older browsers.
+      var addEventListener = window.addEventListener || function(eventName, listener) {
+        return attachEvent('on' + eventName, listener);
+      };
+
+      // Depending on whether we're using pushState or hashes, and whether
+      // 'onhashchange' is supported, determine how we check the URL state.
+      if (this._usePushState) {
+        addEventListener('popstate', this.checkUrl, false);
+      } else if (this._useHashChange && !this.iframe) {
+        addEventListener('hashchange', this.checkUrl, false);
+      } else if (this._wantsHashChange) {
+        this._checkUrlInterval = setInterval(this.checkUrl, this.interval);
+      }
+
+      if (!this.options.silent) return this.loadUrl();
+    },
+
+    // Disable Backbone.history, perhaps temporarily. Not useful in a real app,
+    // but possibly useful for unit testing Routers.
+    stop: function() {
+      // Add a cross-platform `removeEventListener` shim for older browsers.
+      var removeEventListener = window.removeEventListener || function(eventName, listener) {
+        return detachEvent('on' + eventName, listener);
+      };
+
+      // Remove window listeners.
+      if (this._usePushState) {
+        removeEventListener('popstate', this.checkUrl, false);
+      } else if (this._useHashChange && !this.iframe) {
+        removeEventListener('hashchange', this.checkUrl, false);
+      }
+
+      // Clean up the iframe if necessary.
+      if (this.iframe) {
+        document.body.removeChild(this.iframe);
+        this.iframe = null;
+      }
+
+      // Some environments will throw when clearing an undefined interval.
+      if (this._checkUrlInterval) clearInterval(this._checkUrlInterval);
+      History.started = false;
+    },
+
+    // Add a route to be tested when the fragment changes. Routes added later
+    // may override previous routes.
+    route: function(route, callback) {
+      this.handlers.unshift({route: route, callback: callback});
+    },
+
+    // Checks the current URL to see if it has changed, and if it has,
+    // calls `loadUrl`, normalizing across the hidden iframe.
+    checkUrl: function(e) {
+      var current = this.getFragment();
+
+      // If the user pressed the back button, the iframe's hash will have
+      // changed and we should use that for comparison.
+      if (current === this.fragment && this.iframe) {
+        current = this.getHash(this.iframe.contentWindow);
+      }
+
+      if (current === this.fragment) return false;
+      if (this.iframe) this.navigate(current);
+      this.loadUrl();
+    },
+
+    // Attempt to load the current URL fragment. If a route succeeds with a
+    // match, returns `true`. If no defined routes matches the fragment,
+    // returns `false`.
+    loadUrl: function(fragment) {
+      // If the root doesn't match, no routes can match either.
+      if (!this.matchRoot()) return false;
+      fragment = this.fragment = this.getFragment(fragment);
+      return _.some(this.handlers, function(handler) {
+        if (handler.route.test(fragment)) {
+          handler.callback(fragment);
+          return true;
+        }
+      });
+    },
+
+    // Save a fragment into the hash history, or replace the URL state if the
+    // 'replace' option is passed. You are responsible for properly URL-encoding
+    // the fragment in advance.
+    //
+    // The options object can contain `trigger: true` if you wish to have the
+    // route callback be fired (not usually desirable), or `replace: true`, if
+    // you wish to modify the current URL without adding an entry to the history.
+    navigate: function(fragment, options) {
+      if (!History.started) return false;
+      if (!options || options === true) options = {trigger: !!options};
+
+      // Normalize the fragment.
+      fragment = this.getFragment(fragment || '');
+
+      // Don't include a trailing slash on the root.
+      var rootPath = this.root;
+      if (fragment === '' || fragment.charAt(0) === '?') {
+        rootPath = rootPath.slice(0, -1) || '/';
+      }
+      var url = rootPath + fragment;
+
+      // Strip the hash and decode for matching.
+      fragment = this.decodeFragment(fragment.replace(pathStripper, ''));
+
+      if (this.fragment === fragment) return;
+      this.fragment = fragment;
+
+      // If pushState is available, we use it to set the fragment as a real URL.
+      if (this._usePushState) {
+        this.history[options.replace ? 'replaceState' : 'pushState']({}, document.title, url);
+
+      // If hash changes haven't been explicitly disabled, update the hash
+      // fragment to store history.
+      } else if (this._wantsHashChange) {
+        this._updateHash(this.location, fragment, options.replace);
+        if (this.iframe && fragment !== this.getHash(this.iframe.contentWindow)) {
+          var iWindow = this.iframe.contentWindow;
+
+          // Opening and closing the iframe tricks IE7 and earlier to push a
+          // history entry on hash-tag change.  When replace is true, we don't
+          // want this.
+          if (!options.replace) {
+            iWindow.document.open();
+            iWindow.document.close();
+          }
+
+          this._updateHash(iWindow.location, fragment, options.replace);
+        }
+
+      // If you've told us that you explicitly don't want fallback hashchange-
+      // based history, then `navigate` becomes a page refresh.
+      } else {
+        return this.location.assign(url);
+      }
+      if (options.trigger) return this.loadUrl(fragment);
+    },
+
+    // Update the hash location, either replacing the current entry, or adding
+    // a new one to the browser history.
+    _updateHash: function(location, fragment, replace) {
+      if (replace) {
+        var href = location.href.replace(/(javascript:|#).*$/, '');
+        location.replace(href + '#' + fragment);
+      } else {
+        // Some browsers require that `hash` contains a leading #.
+        location.hash = '#' + fragment;
+      }
+    }
+
+  });
+
+  // Create the default Backbone.history.
+  Backbone.history = new History;
+
+  // Helpers
+  // -------
+
+  // Helper function to correctly set up the prototype chain for subclasses.
+  // Similar to `goog.inherits`, but uses a hash of prototype properties and
+  // class properties to be extended.
+  var extend = function(protoProps, staticProps) {
+    var parent = this;
+    var child;
+
+    // The constructor function for the new subclass is either defined by you
+    // (the "constructor" property in your `extend` definition), or defaulted
+    // by us to simply call the parent constructor.
+    if (protoProps && _.has(protoProps, 'constructor')) {
+      child = protoProps.constructor;
+    } else {
+      child = function(){ return parent.apply(this, arguments); };
+    }
+
+    // Add static properties to the constructor function, if supplied.
+    _.extend(child, parent, staticProps);
+
+    // Set the prototype chain to inherit from `parent`, without calling
+    // `parent`'s constructor function and add the prototype properties.
+    child.prototype = _.create(parent.prototype, protoProps);
+    child.prototype.constructor = child;
+
+    // Set a convenience property in case the parent's prototype is needed
+    // later.
+    child.__super__ = parent.prototype;
+
+    return child;
+  };
+
+  // Set up inheritance for the model, collection, router, view and history.
+  Model.extend = Collection.extend = Router.extend = View.extend = History.extend = extend;
+
+  // Throw an error when a URL is needed, and none is supplied.
+  var urlError = function() {
+    throw new Error('A "url" property or function must be specified');
+  };
+
+  // Wrap an optional error callback with a fallback error event.
+  var wrapError = function(model, options) {
+    var error = options.error;
+    options.error = function(resp) {
+      if (error) error.call(options.context, model, resp, options);
+      model.trigger('error', model, resp, options);
+    };
+  };
+
+  return Backbone;
+});
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -81912,7 +83846,7 @@ this.Two = (function(previousTwo) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 5 */
+/* 7 */
 /***/ (function(module, exports) {
 
 // This THREEx helper makes it easy to handle the mouse events in your 3D scene
@@ -82375,16 +84309,19 @@ return THREEx
 
 
 /***/ }),
-/* 6 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const $ = __webpack_require__(0); window.$ = $;
+__webpack_require__(9);
+__webpack_require__(10);
+
 const _ = __webpack_require__(1); window._ = _;
 const THREE = __webpack_require__(2); window.THREE = THREE;
-const OrbitControls = __webpack_require__(8)(THREE)
+const OrbitControls = __webpack_require__(19)(THREE)
 
-const ElectrodeControls = __webpack_require__(9);
-const RouteControls = __webpack_require__(13);
+const ElectrodeControls = __webpack_require__(20);
+const RouteControls = __webpack_require__(25);
 
 window.electrodeControls = null;
 window.electrodeObjects = null;
@@ -82397,6 +84334,7 @@ window.scene = null;
 var options = { enableControls: false };
 
 const init = async() => {
+
   // Create ThreeJS scene
   const bbox = document.body.getBoundingClientRect();
   const aspect = bbox.width / bbox.height;
@@ -82405,7 +84343,7 @@ const init = async() => {
   controls = new OrbitControls(camera);
   controls.enableKeys = false;
   controls.enableRotate = false;
-  controls.enablePan = false;
+  controls.enablePan = true;
 
   renderer = new THREE.WebGLRenderer( { antialias: true } );
   electrodeObjects = null;
@@ -82414,7 +84352,7 @@ const init = async() => {
   camera.position.z = 100;
   renderer.setSize( bbox.width, bbox.height );
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setClearColor( 0xffffff, 1 );
+  renderer.setClearColor( "rgb(55, 55, 55)", 1 );
 
   function animate() {
     requestAnimationFrame( animate.bind(this) );
@@ -82425,6 +84363,24 @@ const init = async() => {
 
   routeControls = new RouteControls(scene, camera, electrodeControls);
 
+  // Generate Context Menu
+  $.contextMenu({
+      selector: 'body',
+      callback: function(key, options) {
+          var m = "clicked: " + key;
+          window.console && console.log(m) || alert(m);
+      },
+      items: {
+          clearElectrodes: {name: "Clear Electrodes"},
+          "sep1": "---------",
+          clearRoute: {name: "Clear Route"},
+          executeRoute: {name: "Execute Route"},
+          "sep2": "---------",
+          clearRoutes: {name: "Clear Routes"},
+          executeRoutes: {name: "Execute Routes"}
+      }
+  });
+
   animate();
 }
 
@@ -82432,7 +84388,2729 @@ module.exports = init;
 
 
 /***/ }),
-/* 7 */
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * jQuery contextMenu v2.6.3 - Plugin for simple contextMenu handling
+ *
+ * Version: v2.6.3
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2017 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2017-10-30T19:03:13.804Z
+ */
+
+// jscs:disable
+/* jshint ignore:start */
+(function (factory) {
+    if (true) {
+        // AMD. Register as anonymous module.
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    } else if (typeof exports === 'object') {
+        // Node / CommonJS
+        factory(require('jquery'));
+    } else {
+        // Browser globals.
+        factory(jQuery);
+    }
+})(function ($) {
+
+    'use strict';
+
+    // TODO: -
+    // ARIA stuff: menuitem, menuitemcheckbox und menuitemradio
+    // create <menu> structure if $.support[htmlCommand || htmlMenuitem] and !opt.disableNative
+
+    // determine html5 compatibility
+    $.support.htmlMenuitem = ('HTMLMenuItemElement' in window);
+    $.support.htmlCommand = ('HTMLCommandElement' in window);
+    $.support.eventSelectstart = ('onselectstart' in document.documentElement);
+    /* // should the need arise, test for css user-select
+     $.support.cssUserSelect = (function(){
+     var t = false,
+     e = document.createElement('div');
+
+     $.each('Moz|Webkit|Khtml|O|ms|Icab|'.split('|'), function(i, prefix) {
+     var propCC = prefix + (prefix ? 'U' : 'u') + 'serSelect',
+     prop = (prefix ? ('-' + prefix.toLowerCase() + '-') : '') + 'user-select';
+
+     e.style.cssText = prop + ': text;';
+     if (e.style[propCC] == 'text') {
+     t = true;
+     return false;
+     }
+
+     return true;
+     });
+
+     return t;
+     })();
+     */
+
+
+    if (!$.ui || !$.widget) {
+        // duck punch $.cleanData like jQueryUI does to get that remove event
+        $.cleanData = (function (orig) {
+            return function (elems) {
+                var events, elem, i;
+                for (i = 0; elems[i] != null; i++) {
+                    elem = elems[i];
+                    try {
+                        // Only trigger remove when necessary to save time
+                        events = $._data(elem, 'events');
+                        if (events && events.remove) {
+                            $(elem).triggerHandler('remove');
+                        }
+
+                        // Http://bugs.jquery.com/ticket/8235
+                    } catch (e) {
+                    }
+                }
+                orig(elems);
+            };
+        })($.cleanData);
+    }
+    /* jshint ignore:end */
+    // jscs:enable
+
+    var // currently active contextMenu trigger
+        $currentTrigger = null,
+        // is contextMenu initialized with at least one menu?
+        initialized = false,
+        // window handle
+        $win = $(window),
+        // number of registered menus
+        counter = 0,
+        // mapping selector to namespace
+        namespaces = {},
+        // mapping namespace to options
+        menus = {},
+        // custom command type handlers
+        types = {},
+        // default values
+        defaults = {
+            // selector of contextMenu trigger
+            selector: null,
+            // where to append the menu to
+            appendTo: null,
+            // method to trigger context menu ["right", "left", "hover"]
+            trigger: 'right',
+            // hide menu when mouse leaves trigger / menu elements
+            autoHide: false,
+            // ms to wait before showing a hover-triggered context menu
+            delay: 200,
+            // flag denoting if a second trigger should simply move (true) or rebuild (false) an open menu
+            // as long as the trigger happened on one of the trigger-element's child nodes
+            reposition: true,
+            // Flag denoting if a second trigger should close the menu, as long as 
+            // the trigger happened on one of the trigger-element's child nodes.
+            // This overrides the reposition option.
+            hideOnSecondTrigger: false,
+
+            //ability to select submenu
+            selectableSubMenu: false,
+
+            // Default classname configuration to be able avoid conflicts in frameworks
+            classNames: {
+                hover: 'context-menu-hover', // Item hover
+                disabled: 'context-menu-disabled', // Item disabled
+                visible: 'context-menu-visible', // Item visible
+                notSelectable: 'context-menu-not-selectable', // Item not selectable
+
+                icon: 'context-menu-icon',
+                iconEdit: 'context-menu-icon-edit',
+                iconCut: 'context-menu-icon-cut',
+                iconCopy: 'context-menu-icon-copy',
+                iconPaste: 'context-menu-icon-paste',
+                iconDelete: 'context-menu-icon-delete',
+                iconAdd: 'context-menu-icon-add',
+                iconQuit: 'context-menu-icon-quit',
+                iconLoadingClass: 'context-menu-icon-loading'
+            },
+
+            // determine position to show menu at
+            determinePosition: function ($menu) {
+                // position to the lower middle of the trigger element
+                if ($.ui && $.ui.position) {
+                    // .position() is provided as a jQuery UI utility
+                    // (...and it won't work on hidden elements)
+                    $menu.css('display', 'block').position({
+                        my: 'center top',
+                        at: 'center bottom',
+                        of: this,
+                        offset: '0 5',
+                        collision: 'fit'
+                    }).css('display', 'none');
+                } else {
+                    // determine contextMenu position
+                    var offset = this.offset();
+                    offset.top += this.outerHeight();
+                    offset.left += this.outerWidth() / 2 - $menu.outerWidth() / 2;
+                    $menu.css(offset);
+                }
+            },
+            // position menu
+            position: function (opt, x, y) {
+                var offset;
+                // determine contextMenu position
+                if (!x && !y) {
+                    opt.determinePosition.call(this, opt.$menu);
+                    return;
+                } else if (x === 'maintain' && y === 'maintain') {
+                    // x and y must not be changed (after re-show on command click)
+                    offset = opt.$menu.position();
+                } else {
+                    // x and y are given (by mouse event)
+                    var offsetParentOffset = opt.$menu.offsetParent().offset();
+                    offset = {top: y - offsetParentOffset.top, left: x -offsetParentOffset.left};
+                }
+
+                // correct offset if viewport demands it
+                var bottom = $win.scrollTop() + $win.height(),
+                    right = $win.scrollLeft() + $win.width(),
+                    height = opt.$menu.outerHeight(),
+                    width = opt.$menu.outerWidth();
+
+                if (offset.top + height > bottom) {
+                    offset.top -= height;
+                }
+
+                if (offset.top < 0) {
+                    offset.top = 0;
+                }
+
+                if (offset.left + width > right) {
+                    offset.left -= width;
+                }
+
+                if (offset.left < 0) {
+                    offset.left = 0;
+                }
+
+                opt.$menu.css(offset);
+            },
+            // position the sub-menu
+            positionSubmenu: function ($menu) {
+                if (typeof $menu === 'undefined') {
+                    // When user hovers over item (which has sub items) handle.focusItem will call this.
+                    // but the submenu does not exist yet if opt.items is a promise. just return, will
+                    // call positionSubmenu after promise is completed.
+                    return;
+                }
+                if ($.ui && $.ui.position) {
+                    // .position() is provided as a jQuery UI utility
+                    // (...and it won't work on hidden elements)
+                    $menu.css('display', 'block').position({
+                        my: 'left top-5',
+                        at: 'right top',
+                        of: this,
+                        collision: 'flipfit fit'
+                    }).css('display', '');
+                } else {
+                    // determine contextMenu position
+                    var offset = {
+                        top: -9,
+                        left: this.outerWidth() - 5
+                    };
+                    $menu.css(offset);
+                }
+            },
+            // offset to add to zIndex
+            zIndex: 1,
+            // show hide animation settings
+            animation: {
+                duration: 50,
+                show: 'slideDown',
+                hide: 'slideUp'
+            },
+            // events
+            events: {
+                show: $.noop,
+                hide: $.noop,
+                activated: $.noop
+            },
+            // default callback
+            callback: null,
+            // list of contextMenu items
+            items: {}
+        },
+        // mouse position for hover activation
+        hoveract = {
+            timer: null,
+            pageX: null,
+            pageY: null
+        },
+        // determine zIndex
+        zindex = function ($t) {
+            var zin = 0,
+                $tt = $t;
+
+            while (true) {
+                zin = Math.max(zin, parseInt($tt.css('z-index'), 10) || 0);
+                $tt = $tt.parent();
+                if (!$tt || !$tt.length || 'html body'.indexOf($tt.prop('nodeName').toLowerCase()) > -1) {
+                    break;
+                }
+            }
+            return zin;
+        },
+        // event handlers
+        handle = {
+            // abort anything
+            abortevent: function (e) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+            },
+            // contextmenu show dispatcher
+            contextmenu: function (e) {
+                var $this = $(this);
+
+                // disable actual context-menu if we are using the right mouse button as the trigger
+                if (e.data.trigger === 'right') {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                }
+
+                // abort native-triggered events unless we're triggering on right click
+                if ((e.data.trigger !== 'right' && e.data.trigger !== 'demand') && e.originalEvent) {
+                    return;
+                }
+
+                // Let the current contextmenu decide if it should show or not based on its own trigger settings
+                if (typeof e.mouseButton !== 'undefined' && e.data) {
+                    if (!(e.data.trigger === 'left' && e.mouseButton === 0) && !(e.data.trigger === 'right' && e.mouseButton === 2)) {
+                        // Mouse click is not valid.
+                        return;
+                    }
+                }
+
+                // abort event if menu is visible for this trigger
+                if ($this.hasClass('context-menu-active')) {
+                    return;
+                }
+
+                if (!$this.hasClass('context-menu-disabled')) {
+                    // theoretically need to fire a show event at <menu>
+                    // http://www.whatwg.org/specs/web-apps/current-work/multipage/interactive-elements.html#context-menus
+                    // var evt = jQuery.Event("show", { data: data, pageX: e.pageX, pageY: e.pageY, relatedTarget: this });
+                    // e.data.$menu.trigger(evt);
+
+                    $currentTrigger = $this;
+                    if (e.data.build) {
+                        var built = e.data.build($currentTrigger, e);
+                        // abort if build() returned false
+                        if (built === false) {
+                            return;
+                        }
+
+                        // dynamically build menu on invocation
+                        e.data = $.extend(true, {}, defaults, e.data, built || {});
+
+                        // abort if there are no items to display
+                        if (!e.data.items || $.isEmptyObject(e.data.items)) {
+                            // Note: jQuery captures and ignores errors from event handlers
+                            if (window.console) {
+                                (console.error || console.log).call(console, 'No items specified to show in contextMenu');
+                            }
+
+                            throw new Error('No Items specified');
+                        }
+
+                        // backreference for custom command type creation
+                        e.data.$trigger = $currentTrigger;
+
+                        op.create(e.data);
+                    }
+                    var showMenu = false;
+                    for (var item in e.data.items) {
+                        if (e.data.items.hasOwnProperty(item)) {
+                            var visible;
+                            if ($.isFunction(e.data.items[item].visible)) {
+                                visible = e.data.items[item].visible.call($(e.currentTarget), item, e.data);
+                            } else if (typeof e.data.items[item] !== 'undefined' && e.data.items[item].visible) {
+                                visible = e.data.items[item].visible === true;
+                            } else {
+                                visible = true;
+                            }
+                            if (visible) {
+                                showMenu = true;
+                            }
+                        }
+                    }
+                    if (showMenu) {
+                        // show menu
+                        op.show.call($this, e.data, e.pageX, e.pageY);
+                    }
+                }
+            },
+            // contextMenu left-click trigger
+            click: function (e) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                $(this).trigger($.Event('contextmenu', {data: e.data, pageX: e.pageX, pageY: e.pageY}));
+            },
+            // contextMenu right-click trigger
+            mousedown: function (e) {
+                // register mouse down
+                var $this = $(this);
+
+                // hide any previous menus
+                if ($currentTrigger && $currentTrigger.length && !$currentTrigger.is($this)) {
+                    $currentTrigger.data('contextMenu').$menu.trigger('contextmenu:hide');
+                }
+
+                // activate on right click
+                if (e.button === 2) {
+                    $currentTrigger = $this.data('contextMenuActive', true);
+                }
+            },
+            // contextMenu right-click trigger
+            mouseup: function (e) {
+                // show menu
+                var $this = $(this);
+                if ($this.data('contextMenuActive') && $currentTrigger && $currentTrigger.length && $currentTrigger.is($this) && !$this.hasClass('context-menu-disabled')) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    $currentTrigger = $this;
+                    $this.trigger($.Event('contextmenu', {data: e.data, pageX: e.pageX, pageY: e.pageY}));
+                }
+
+                $this.removeData('contextMenuActive');
+            },
+            // contextMenu hover trigger
+            mouseenter: function (e) {
+                var $this = $(this),
+                    $related = $(e.relatedTarget),
+                    $document = $(document);
+
+                // abort if we're coming from a menu
+                if ($related.is('.context-menu-list') || $related.closest('.context-menu-list').length) {
+                    return;
+                }
+
+                // abort if a menu is shown
+                if ($currentTrigger && $currentTrigger.length) {
+                    return;
+                }
+
+                hoveract.pageX = e.pageX;
+                hoveract.pageY = e.pageY;
+                hoveract.data = e.data;
+                $document.on('mousemove.contextMenuShow', handle.mousemove);
+                hoveract.timer = setTimeout(function () {
+                    hoveract.timer = null;
+                    $document.off('mousemove.contextMenuShow');
+                    $currentTrigger = $this;
+                    $this.trigger($.Event('contextmenu', {
+                        data: hoveract.data,
+                        pageX: hoveract.pageX,
+                        pageY: hoveract.pageY
+                    }));
+                }, e.data.delay);
+            },
+            // contextMenu hover trigger
+            mousemove: function (e) {
+                hoveract.pageX = e.pageX;
+                hoveract.pageY = e.pageY;
+            },
+            // contextMenu hover trigger
+            mouseleave: function (e) {
+                // abort if we're leaving for a menu
+                var $related = $(e.relatedTarget);
+                if ($related.is('.context-menu-list') || $related.closest('.context-menu-list').length) {
+                    return;
+                }
+
+                try {
+                    clearTimeout(hoveract.timer);
+                } catch (e) {
+                }
+
+                hoveract.timer = null;
+            },
+            // click on layer to hide contextMenu
+            layerClick: function (e) {
+                var $this = $(this),
+                    root = $this.data('contextMenuRoot'),
+                    button = e.button,
+                    x = e.pageX,
+                    y = e.pageY,
+                    target,
+                    offset;
+
+                e.preventDefault();
+
+                setTimeout(function () {
+                    var $window;
+                    var triggerAction = ((root.trigger === 'left' && button === 0) || (root.trigger === 'right' && button === 2));
+
+                    // find the element that would've been clicked, wasn't the layer in the way
+                    if (document.elementFromPoint && root.$layer) {
+                        root.$layer.hide();
+                        target = document.elementFromPoint(x - $win.scrollLeft(), y - $win.scrollTop());
+
+                        // also need to try and focus this element if we're in a contenteditable area,
+                        // as the layer will prevent the browser mouse action we want
+                        if (target.isContentEditable) {
+                            var range = document.createRange(),
+                                sel = window.getSelection();
+                            range.selectNode(target);
+                            range.collapse(true);
+                            sel.removeAllRanges();
+                            sel.addRange(range);
+                        }
+                        $(target).trigger(e);
+                        root.$layer.show();
+                    }
+                    
+                    if (root.hideOnSecondTrigger && triggerAction && root.$menu !== null && typeof root.$menu !== 'undefined') {
+                      root.$menu.trigger('contextmenu:hide');
+                      return;
+                    }
+                    
+                    if (root.reposition && triggerAction) {
+                        if (document.elementFromPoint) {
+                            if (root.$trigger.is(target)) {
+                                root.position.call(root.$trigger, root, x, y);
+                                return;
+                            }
+                        } else {
+                            offset = root.$trigger.offset();
+                            $window = $(window);
+                            // while this looks kinda awful, it's the best way to avoid
+                            // unnecessarily calculating any positions
+                            offset.top += $window.scrollTop();
+                            if (offset.top <= e.pageY) {
+                                offset.left += $window.scrollLeft();
+                                if (offset.left <= e.pageX) {
+                                    offset.bottom = offset.top + root.$trigger.outerHeight();
+                                    if (offset.bottom >= e.pageY) {
+                                        offset.right = offset.left + root.$trigger.outerWidth();
+                                        if (offset.right >= e.pageX) {
+                                            // reposition
+                                            root.position.call(root.$trigger, root, x, y);
+                                            return;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    if (target && triggerAction) {
+                        root.$trigger.one('contextmenu:hidden', function () {
+                            $(target).contextMenu({x: x, y: y, button: button});
+                        });
+                    }
+
+                    if (root !== null && typeof root !== 'undefined' && root.$menu !== null  && typeof root.$menu !== 'undefined') {
+                        root.$menu.trigger('contextmenu:hide');
+                    }
+                }, 50);
+            },
+            // key handled :hover
+            keyStop: function (e, opt) {
+                if (!opt.isInput) {
+                    e.preventDefault();
+                }
+
+                e.stopPropagation();
+            },
+            key: function (e) {
+
+                var opt = {};
+
+                // Only get the data from $currentTrigger if it exists
+                if ($currentTrigger) {
+                    opt = $currentTrigger.data('contextMenu') || {};
+                }
+                // If the trigger happen on a element that are above the contextmenu do this
+                if (typeof opt.zIndex === 'undefined') {
+                    opt.zIndex = 0;
+                }
+                var targetZIndex = 0;
+                var getZIndexOfTriggerTarget = function (target) {
+                    if (target.style.zIndex !== '') {
+                        targetZIndex = target.style.zIndex;
+                    } else {
+                        if (target.offsetParent !== null && typeof target.offsetParent !== 'undefined') {
+                            getZIndexOfTriggerTarget(target.offsetParent);
+                        }
+                        else if (target.parentElement !== null && typeof target.parentElement !== 'undefined') {
+                            getZIndexOfTriggerTarget(target.parentElement);
+                        }
+                    }
+                };
+                getZIndexOfTriggerTarget(e.target);
+                // If targetZIndex is heigher then opt.zIndex dont progress any futher.
+                // This is used to make sure that if you are using a dialog with a input / textarea / contenteditable div
+                // and its above the contextmenu it wont steal keys events
+                if (opt.$menu && parseInt(targetZIndex,10) > parseInt(opt.$menu.css("zIndex"),10)) {
+                    return;
+                }
+                switch (e.keyCode) {
+                    case 9:
+                    case 38: // up
+                        handle.keyStop(e, opt);
+                        // if keyCode is [38 (up)] or [9 (tab) with shift]
+                        if (opt.isInput) {
+                            if (e.keyCode === 9 && e.shiftKey) {
+                                e.preventDefault();
+                                if (opt.$selected) {
+                                    opt.$selected.find('input, textarea, select').blur();
+                                }
+                                if (opt.$menu !== null && typeof opt.$menu !== 'undefined') {
+                                    opt.$menu.trigger('prevcommand');
+                                }
+                                return;
+                            } else if (e.keyCode === 38 && opt.$selected.find('input, textarea, select').prop('type') === 'checkbox') {
+                                // checkboxes don't capture this key
+                                e.preventDefault();
+                                return;
+                            }
+                        } else if (e.keyCode !== 9 || e.shiftKey) {
+                            if (opt.$menu !== null && typeof opt.$menu !== 'undefined') {
+                                opt.$menu.trigger('prevcommand');
+                            }
+                            return;
+                        }
+                        break;
+                    // omitting break;
+                    // case 9: // tab - reached through omitted break;
+                    case 40: // down
+                        handle.keyStop(e, opt);
+                        if (opt.isInput) {
+                            if (e.keyCode === 9) {
+                                e.preventDefault();
+                                if (opt.$selected) {
+                                    opt.$selected.find('input, textarea, select').blur();
+                                }
+                                if (opt.$menu !== null && typeof opt.$menu !== 'undefined') {
+                                    opt.$menu.trigger('nextcommand');
+                                }
+                                return;
+                            } else if (e.keyCode === 40 && opt.$selected.find('input, textarea, select').prop('type') === 'checkbox') {
+                                // checkboxes don't capture this key
+                                e.preventDefault();
+                                return;
+                            }
+                        } else {
+                            if (opt.$menu !== null && typeof opt.$menu !== 'undefined') {
+                                opt.$menu.trigger('nextcommand');
+                            }
+                            return;
+                        }
+                        break;
+
+                    case 37: // left
+                        handle.keyStop(e, opt);
+                        if (opt.isInput || !opt.$selected || !opt.$selected.length) {
+                            break;
+                        }
+
+                        if (!opt.$selected.parent().hasClass('context-menu-root')) {
+                            var $parent = opt.$selected.parent().parent();
+                            opt.$selected.trigger('contextmenu:blur');
+                            opt.$selected = $parent;
+                            return;
+                        }
+                        break;
+
+                    case 39: // right
+                        handle.keyStop(e, opt);
+                        if (opt.isInput || !opt.$selected || !opt.$selected.length) {
+                            break;
+                        }
+
+                        var itemdata = opt.$selected.data('contextMenu') || {};
+                        if (itemdata.$menu && opt.$selected.hasClass('context-menu-submenu')) {
+                            opt.$selected = null;
+                            itemdata.$selected = null;
+                            itemdata.$menu.trigger('nextcommand');
+                            return;
+                        }
+                        break;
+
+                    case 35: // end
+                    case 36: // home
+                        if (opt.$selected && opt.$selected.find('input, textarea, select').length) {
+                            return;
+                        } else {
+                            (opt.$selected && opt.$selected.parent() || opt.$menu)
+                                .children(':not(.' + opt.classNames.disabled + ', .' + opt.classNames.notSelectable + ')')[e.keyCode === 36 ? 'first' : 'last']()
+                                .trigger('contextmenu:focus');
+                            e.preventDefault();
+                            return;
+                        }
+                        break;
+
+                    case 13: // enter
+                        handle.keyStop(e, opt);
+                        if (opt.isInput) {
+                            if (opt.$selected && !opt.$selected.is('textarea, select')) {
+                                e.preventDefault();
+                                return;
+                            }
+                            break;
+                        }
+                        if (typeof opt.$selected !== 'undefined' && opt.$selected !== null) {
+                            opt.$selected.trigger('mouseup');
+                        }
+                        return;
+
+                    case 32: // space
+                    case 33: // page up
+                    case 34: // page down
+                        // prevent browser from scrolling down while menu is visible
+                        handle.keyStop(e, opt);
+                        return;
+
+                    case 27: // esc
+                        handle.keyStop(e, opt);
+                        if (opt.$menu !== null && typeof opt.$menu !== 'undefined') {
+                            opt.$menu.trigger('contextmenu:hide');
+                        }
+                        return;
+
+                    default: // 0-9, a-z
+                        var k = (String.fromCharCode(e.keyCode)).toUpperCase();
+                        if (opt.accesskeys && opt.accesskeys[k]) {
+                            // according to the specs accesskeys must be invoked immediately
+                            opt.accesskeys[k].$node.trigger(opt.accesskeys[k].$menu ? 'contextmenu:focus' : 'mouseup');
+                            return;
+                        }
+                        break;
+                }
+                // pass event to selected item,
+                // stop propagation to avoid endless recursion
+                e.stopPropagation();
+                if (typeof opt.$selected !== 'undefined' && opt.$selected !== null) {
+                    opt.$selected.trigger(e);
+                }
+            },
+            // select previous possible command in menu
+            prevItem: function (e) {
+                e.stopPropagation();
+                var opt = $(this).data('contextMenu') || {};
+                var root = $(this).data('contextMenuRoot') || {};
+
+                // obtain currently selected menu
+                if (opt.$selected) {
+                    var $s = opt.$selected;
+                    opt = opt.$selected.parent().data('contextMenu') || {};
+                    opt.$selected = $s;
+                }
+
+                var $children = opt.$menu.children(),
+                    $prev = !opt.$selected || !opt.$selected.prev().length ? $children.last() : opt.$selected.prev(),
+                    $round = $prev;
+
+                // skip disabled or hidden elements
+                while ($prev.hasClass(root.classNames.disabled) || $prev.hasClass(root.classNames.notSelectable) || $prev.is(':hidden')) {
+                    if ($prev.prev().length) {
+                        $prev = $prev.prev();
+                    } else {
+                        $prev = $children.last();
+                    }
+                    if ($prev.is($round)) {
+                        // break endless loop
+                        return;
+                    }
+                }
+
+                // leave current
+                if (opt.$selected) {
+                    handle.itemMouseleave.call(opt.$selected.get(0), e);
+                }
+
+                // activate next
+                handle.itemMouseenter.call($prev.get(0), e);
+
+                // focus input
+                var $input = $prev.find('input, textarea, select');
+                if ($input.length) {
+                    $input.focus();
+                }
+            },
+            // select next possible command in menu
+            nextItem: function (e) {
+                e.stopPropagation();
+                var opt = $(this).data('contextMenu') || {};
+                var root = $(this).data('contextMenuRoot') || {};
+
+                // obtain currently selected menu
+                if (opt.$selected) {
+                    var $s = opt.$selected;
+                    opt = opt.$selected.parent().data('contextMenu') || {};
+                    opt.$selected = $s;
+                }
+
+                var $children = opt.$menu.children(),
+                    $next = !opt.$selected || !opt.$selected.next().length ? $children.first() : opt.$selected.next(),
+                    $round = $next;
+
+                // skip disabled
+                while ($next.hasClass(root.classNames.disabled) || $next.hasClass(root.classNames.notSelectable) || $next.is(':hidden')) {
+                    if ($next.next().length) {
+                        $next = $next.next();
+                    } else {
+                        $next = $children.first();
+                    }
+                    if ($next.is($round)) {
+                        // break endless loop
+                        return;
+                    }
+                }
+
+                // leave current
+                if (opt.$selected) {
+                    handle.itemMouseleave.call(opt.$selected.get(0), e);
+                }
+
+                // activate next
+                handle.itemMouseenter.call($next.get(0), e);
+
+                // focus input
+                var $input = $next.find('input, textarea, select');
+                if ($input.length) {
+                    $input.focus();
+                }
+            },
+            // flag that we're inside an input so the key handler can act accordingly
+            focusInput: function () {
+                var $this = $(this).closest('.context-menu-item'),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot;
+
+                root.$selected = opt.$selected = $this;
+                root.isInput = opt.isInput = true;
+            },
+            // flag that we're inside an input so the key handler can act accordingly
+            blurInput: function () {
+                var $this = $(this).closest('.context-menu-item'),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot;
+
+                root.isInput = opt.isInput = false;
+            },
+            // :hover on menu
+            menuMouseenter: function () {
+                var root = $(this).data().contextMenuRoot;
+                root.hovering = true;
+            },
+            // :hover on menu
+            menuMouseleave: function (e) {
+                var root = $(this).data().contextMenuRoot;
+                if (root.$layer && root.$layer.is(e.relatedTarget)) {
+                    root.hovering = false;
+                }
+            },
+            // :hover done manually so key handling is possible
+            itemMouseenter: function (e) {
+                var $this = $(this),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot;
+
+                root.hovering = true;
+
+                // abort if we're re-entering
+                if (e && root.$layer && root.$layer.is(e.relatedTarget)) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                }
+
+                // make sure only one item is selected
+                (opt.$menu ? opt : root).$menu
+                    .children('.' + root.classNames.hover).trigger('contextmenu:blur')
+                    .children('.hover').trigger('contextmenu:blur');
+
+                if ($this.hasClass(root.classNames.disabled) || $this.hasClass(root.classNames.notSelectable)) {
+                    opt.$selected = null;
+                    return;
+                }
+
+
+                $this.trigger('contextmenu:focus');
+            },
+            // :hover done manually so key handling is possible
+            itemMouseleave: function (e) {
+                var $this = $(this),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot;
+
+                if (root !== opt && root.$layer && root.$layer.is(e.relatedTarget)) {
+                    if (typeof root.$selected !== 'undefined' && root.$selected !== null) {
+                        root.$selected.trigger('contextmenu:blur');
+                    }
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    root.$selected = opt.$selected = opt.$node;
+                    return;
+                }
+
+                if(opt && opt.$menu && opt.$menu.hasClass('context-menu-visible')){
+                    return;
+                }
+
+                $this.trigger('contextmenu:blur');
+            },
+            // contextMenu item click
+            itemClick: function (e) {
+                var $this = $(this),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot,
+                    key = data.contextMenuKey,
+                    callback;
+
+                // abort if the key is unknown or disabled or is a menu
+                if (!opt.items[key] || $this.is('.' + root.classNames.disabled + ', .context-menu-separator, .' + root.classNames.notSelectable) || ($this.is('.context-menu-submenu') && root.selectableSubMenu === false )) {
+                    return;
+                }
+
+                e.preventDefault();
+                e.stopImmediatePropagation();
+
+                if ($.isFunction(opt.callbacks[key]) && Object.prototype.hasOwnProperty.call(opt.callbacks, key)) {
+                    // item-specific callback
+                    callback = opt.callbacks[key];
+                } else if ($.isFunction(root.callback)) {
+                    // default callback
+                    callback = root.callback;
+                } else {
+                    // no callback, no action
+                    return;
+                }
+
+                // hide menu if callback doesn't stop that
+                if (callback.call(root.$trigger, key, root, e) !== false) {
+                    root.$menu.trigger('contextmenu:hide');
+                } else if (root.$menu.parent().length) {
+                    op.update.call(root.$trigger, root);
+                }
+            },
+            // ignore click events on input elements
+            inputClick: function (e) {
+                e.stopImmediatePropagation();
+            },
+            // hide <menu>
+            hideMenu: function (e, data) {
+                var root = $(this).data('contextMenuRoot');
+                op.hide.call(root.$trigger, root, data && data.force);
+            },
+            // focus <command>
+            focusItem: function (e) {
+                e.stopPropagation();
+                var $this = $(this),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot;
+
+                if ($this.hasClass(root.classNames.disabled) || $this.hasClass(root.classNames.notSelectable)) {
+                    return;
+                }
+
+                $this
+                    .addClass([root.classNames.hover, root.classNames.visible].join(' '))
+                    // select other items and included items
+                    .parent().find('.context-menu-item').not($this)
+                    .removeClass(root.classNames.visible)
+                    .filter('.' + root.classNames.hover)
+                    .trigger('contextmenu:blur');
+
+                // remember selected
+                opt.$selected = root.$selected = $this;
+
+
+                if(opt && opt.$node && opt.$node.hasClass('context-menu-submenu')){
+                    opt.$node.addClass(root.classNames.hover);
+                }
+
+                // position sub-menu - do after show so dumb $.ui.position can keep up
+                if (opt.$node) {
+                    root.positionSubmenu.call(opt.$node, opt.$menu);
+                }
+            },
+            // blur <command>
+            blurItem: function (e) {
+                e.stopPropagation();
+                var $this = $(this),
+                    data = $this.data(),
+                    opt = data.contextMenu,
+                    root = data.contextMenuRoot;
+
+                if (opt.autoHide) { // for tablets and touch screens this needs to remain
+                    $this.removeClass(root.classNames.visible);
+                }
+                $this.removeClass(root.classNames.hover);
+                opt.$selected = null;
+            }
+        },
+        // operations
+        op = {
+            show: function (opt, x, y) {
+                var $trigger = $(this),
+                    css = {};
+
+                // hide any open menus
+                $('#context-menu-layer').trigger('mousedown');
+
+                // backreference for callbacks
+                opt.$trigger = $trigger;
+
+                // show event
+                if (opt.events.show.call($trigger, opt) === false) {
+                    $currentTrigger = null;
+                    return;
+                }
+
+                // create or update context menu
+                op.update.call($trigger, opt);
+
+                // position menu
+                opt.position.call($trigger, opt, x, y);
+
+                // make sure we're in front
+                if (opt.zIndex) {
+                    var additionalZValue = opt.zIndex;
+                    // If opt.zIndex is a function, call the function to get the right zIndex.
+                    if (typeof opt.zIndex === 'function') {
+                        additionalZValue = opt.zIndex.call($trigger, opt);
+                    }
+                    css.zIndex = zindex($trigger) + additionalZValue;
+                }
+
+                // add layer
+                op.layer.call(opt.$menu, opt, css.zIndex);
+
+                // adjust sub-menu zIndexes
+                opt.$menu.find('ul').css('zIndex', css.zIndex + 1);
+
+                // position and show context menu
+                opt.$menu.css(css)[opt.animation.show](opt.animation.duration, function () {
+                    $trigger.trigger('contextmenu:visible');
+                    
+                    op.activated(opt);
+                    opt.events.activated();
+                });
+                // make options available and set state
+                $trigger
+                    .data('contextMenu', opt)
+                    .addClass('context-menu-active');
+
+                // register key handler
+                $(document).off('keydown.contextMenu').on('keydown.contextMenu', handle.key);
+                // register autoHide handler
+                if (opt.autoHide) {
+                    // mouse position handler
+                    $(document).on('mousemove.contextMenuAutoHide', function (e) {
+                        // need to capture the offset on mousemove,
+                        // since the page might've been scrolled since activation
+                        var pos = $trigger.offset();
+                        pos.right = pos.left + $trigger.outerWidth();
+                        pos.bottom = pos.top + $trigger.outerHeight();
+
+                        if (opt.$layer && !opt.hovering && (!(e.pageX >= pos.left && e.pageX <= pos.right) || !(e.pageY >= pos.top && e.pageY <= pos.bottom))) {
+                            /* Additional hover check after short time, you might just miss the edge of the menu */
+                            setTimeout(function () {
+                                if (!opt.hovering && opt.$menu !== null && typeof opt.$menu !== 'undefined') {
+                                    opt.$menu.trigger('contextmenu:hide');
+                                }
+                            }, 50);
+                        }
+                    });
+                }
+            },
+            hide: function (opt, force) {
+                var $trigger = $(this);
+                if (!opt) {
+                    opt = $trigger.data('contextMenu') || {};
+                }
+
+                // hide event
+                if (!force && opt.events && opt.events.hide.call($trigger, opt) === false) {
+                    return;
+                }
+
+                // remove options and revert state
+                $trigger
+                    .removeData('contextMenu')
+                    .removeClass('context-menu-active');
+
+                if (opt.$layer) {
+                    // keep layer for a bit so the contextmenu event can be aborted properly by opera
+                    setTimeout((function ($layer) {
+                        return function () {
+                            $layer.remove();
+                        };
+                    })(opt.$layer), 10);
+
+                    try {
+                        delete opt.$layer;
+                    } catch (e) {
+                        opt.$layer = null;
+                    }
+                }
+
+                // remove handle
+                $currentTrigger = null;
+                // remove selected
+                opt.$menu.find('.' + opt.classNames.hover).trigger('contextmenu:blur');
+                opt.$selected = null;
+                // collapse all submenus
+                opt.$menu.find('.' + opt.classNames.visible).removeClass(opt.classNames.visible);
+                // unregister key and mouse handlers
+                // $(document).off('.contextMenuAutoHide keydown.contextMenu'); // http://bugs.jquery.com/ticket/10705
+                $(document).off('.contextMenuAutoHide').off('keydown.contextMenu');
+                // hide menu
+                if (opt.$menu) {
+                    opt.$menu[opt.animation.hide](opt.animation.duration, function () {
+                        // tear down dynamically built menu after animation is completed.
+                        if (opt.build) {
+                            opt.$menu.remove();
+                            $.each(opt, function (key) {
+                                switch (key) {
+                                    case 'ns':
+                                    case 'selector':
+                                    case 'build':
+                                    case 'trigger':
+                                        return true;
+
+                                    default:
+                                        opt[key] = undefined;
+                                        try {
+                                            delete opt[key];
+                                        } catch (e) {
+                                        }
+                                        return true;
+                                }
+                            });
+                        }
+
+                        setTimeout(function () {
+                            $trigger.trigger('contextmenu:hidden');
+                        }, 10);
+                    });
+                }
+            },
+            create: function (opt, root) {
+                if (typeof root === 'undefined') {
+                    root = opt;
+                }
+
+                // create contextMenu
+                opt.$menu = $('<ul class="context-menu-list"></ul>').addClass(opt.className || '').data({
+                    'contextMenu': opt,
+                    'contextMenuRoot': root
+                });
+
+                $.each(['callbacks', 'commands', 'inputs'], function (i, k) {
+                    opt[k] = {};
+                    if (!root[k]) {
+                        root[k] = {};
+                    }
+                });
+
+                if (!root.accesskeys) {
+                    root.accesskeys = {};
+                }
+
+                function createNameNode(item) {
+                    var $name = $('<span></span>');
+                    if (item._accesskey) {
+                        if (item._beforeAccesskey) {
+                            $name.append(document.createTextNode(item._beforeAccesskey));
+                        }
+                        $('<span></span>')
+                            .addClass('context-menu-accesskey')
+                            .text(item._accesskey)
+                            .appendTo($name);
+                        if (item._afterAccesskey) {
+                            $name.append(document.createTextNode(item._afterAccesskey));
+                        }
+                    } else {
+                        if (item.isHtmlName) {
+                            // restrict use with access keys
+                            if (typeof item.accesskey !== 'undefined') {
+                                throw new Error('accesskeys are not compatible with HTML names and cannot be used together in the same item');
+                            }
+                            $name.html(item.name);
+                        } else {
+                            $name.text(item.name);
+                        }
+                    }
+                    return $name;
+                }
+
+                // create contextMenu items
+                $.each(opt.items, function (key, item) {
+                    var $t = $('<li class="context-menu-item"></li>').addClass(item.className || ''),
+                        $label = null,
+                        $input = null;
+
+                    // iOS needs to see a click-event bound to an element to actually
+                    // have the TouchEvents infrastructure trigger the click event
+                    $t.on('click', $.noop);
+
+                    // Make old school string seperator a real item so checks wont be
+                    // akward later.
+                    // And normalize 'cm_separator' into 'cm_seperator'.
+                    if (typeof item === 'string' || item.type === 'cm_separator') {
+                        item = {type: 'cm_seperator'};
+                    }
+
+                    item.$node = $t.data({
+                        'contextMenu': opt,
+                        'contextMenuRoot': root,
+                        'contextMenuKey': key
+                    });
+
+                    // register accesskey
+                    // NOTE: the accesskey attribute should be applicable to any element, but Safari5 and Chrome13 still can't do that
+                    if (typeof item.accesskey !== 'undefined') {
+                        var aks = splitAccesskey(item.accesskey);
+                        for (var i = 0, ak; ak = aks[i]; i++) {
+                            if (!root.accesskeys[ak]) {
+                                root.accesskeys[ak] = item;
+                                var matched = item.name.match(new RegExp('^(.*?)(' + ak + ')(.*)$', 'i'));
+                                if (matched) {
+                                    item._beforeAccesskey = matched[1];
+                                    item._accesskey = matched[2];
+                                    item._afterAccesskey = matched[3];
+                                }
+                                break;
+                            }
+                        }
+                    }
+
+                    if (item.type && types[item.type]) {
+                        // run custom type handler
+                        types[item.type].call($t, item, opt, root);
+                        // register commands
+                        $.each([opt, root], function (i, k) {
+                            k.commands[key] = item;
+                            // Overwrite only if undefined or the item is appended to the root. This so it
+                            // doesn't overwrite callbacks of root elements if the name is the same.
+                            if ($.isFunction(item.callback) && (typeof k.callbacks[key] === 'undefined' || typeof opt.type === 'undefined')) {
+                                k.callbacks[key] = item.callback;
+                            }
+                        });
+                    } else {
+                        // add label for input
+                        if (item.type === 'cm_seperator') {
+                            $t.addClass('context-menu-separator ' + root.classNames.notSelectable);
+                        } else if (item.type === 'html') {
+                            $t.addClass('context-menu-html ' + root.classNames.notSelectable);
+                        } else if (item.type === 'sub') {
+                            // We don't want to execute the next else-if if it is a sub.
+                        } else if (item.type) {
+                            $label = $('<label></label>').appendTo($t);
+                            createNameNode(item).appendTo($label);
+
+                            $t.addClass('context-menu-input');
+                            opt.hasTypes = true;
+                            $.each([opt, root], function (i, k) {
+                                k.commands[key] = item;
+                                k.inputs[key] = item;
+                            });
+                        } else if (item.items) {
+                            item.type = 'sub';
+                        }
+
+                        switch (item.type) {
+                            case 'cm_seperator':
+                                break;
+
+                            case 'text':
+                                $input = $('<input type="text" value="1" name="" />')
+                                    .attr('name', 'context-menu-input-' + key)
+                                    .val(item.value || '')
+                                    .appendTo($label);
+                                break;
+
+                            case 'textarea':
+                                $input = $('<textarea name=""></textarea>')
+                                    .attr('name', 'context-menu-input-' + key)
+                                    .val(item.value || '')
+                                    .appendTo($label);
+
+                                if (item.height) {
+                                    $input.height(item.height);
+                                }
+                                break;
+
+                            case 'checkbox':
+                                $input = $('<input type="checkbox" value="1" name="" />')
+                                    .attr('name', 'context-menu-input-' + key)
+                                    .val(item.value || '')
+                                    .prop('checked', !!item.selected)
+                                    .prependTo($label);
+                                break;
+
+                            case 'radio':
+                                $input = $('<input type="radio" value="1" name="" />')
+                                    .attr('name', 'context-menu-input-' + item.radio)
+                                    .val(item.value || '')
+                                    .prop('checked', !!item.selected)
+                                    .prependTo($label);
+                                break;
+
+                            case 'select':
+                                $input = $('<select name=""></select>')
+                                    .attr('name', 'context-menu-input-' + key)
+                                    .appendTo($label);
+                                if (item.options) {
+                                    $.each(item.options, function (value, text) {
+                                        $('<option></option>').val(value).text(text).appendTo($input);
+                                    });
+                                    $input.val(item.selected);
+                                }
+                                break;
+
+                            case 'sub':
+                                createNameNode(item).appendTo($t);
+                                item.appendTo = item.$node;
+                                $t.data('contextMenu', item).addClass('context-menu-submenu');
+                                item.callback = null;
+
+                                // If item contains items, and this is a promise, we should create it later
+                                // check if subitems is of type promise. If it is a promise we need to create
+                                // it later, after promise has been resolved.
+                                if ('function' === typeof item.items.then) {
+                                    // probably a promise, process it, when completed it will create the sub menu's.
+                                    op.processPromises(item, root, item.items);
+                                } else {
+                                    // normal submenu.
+                                    op.create(item, root);
+                                }
+                                break;
+
+                            case 'html':
+                                $(item.html).appendTo($t);
+                                break;
+
+                            default:
+                                $.each([opt, root], function (i, k) {
+                                    k.commands[key] = item;
+                                    // Overwrite only if undefined or the item is appended to the root. This so it
+                                    // doesn't overwrite callbacks of root elements if the name is the same.
+                                    if ($.isFunction(item.callback) && (typeof k.callbacks[key] === 'undefined' || typeof opt.type === 'undefined')) {
+                                        k.callbacks[key] = item.callback;
+                                    }
+                                });
+                                createNameNode(item).appendTo($t);
+                                break;
+                        }
+
+                        // disable key listener in <input>
+                        if (item.type && item.type !== 'sub' && item.type !== 'html' && item.type !== 'cm_seperator') {
+                            $input
+                                .on('focus', handle.focusInput)
+                                .on('blur', handle.blurInput);
+
+                            if (item.events) {
+                                $input.on(item.events, opt);
+                            }
+                        }
+
+                        // add icons
+                        if (item.icon) {
+                            if ($.isFunction(item.icon)) {
+                                item._icon = item.icon.call(this, this, $t, key, item);
+                            } else {
+                                if (typeof(item.icon) === 'string' && item.icon.substring(0, 3) === 'fa-') {
+                                    // to enable font awesome
+                                    item._icon = root.classNames.icon + ' ' + root.classNames.icon + '--fa fa ' + item.icon;
+                                } else {
+                                    item._icon = root.classNames.icon + ' ' + root.classNames.icon + '-' + item.icon;
+                                }
+                            }
+                            $t.addClass(item._icon);
+                        }
+                    }
+
+                    // cache contained elements
+                    item.$input = $input;
+                    item.$label = $label;
+
+                    // attach item to menu
+                    $t.appendTo(opt.$menu);
+
+                    // Disable text selection
+                    if (!opt.hasTypes && $.support.eventSelectstart) {
+                        // browsers support user-select: none,
+                        // IE has a special event for text-selection
+                        // browsers supporting neither will not be preventing text-selection
+                        $t.on('selectstart.disableTextSelect', handle.abortevent);
+                    }
+                });
+                // attach contextMenu to <body> (to bypass any possible overflow:hidden issues on parents of the trigger element)
+                if (!opt.$node) {
+                    opt.$menu.css('display', 'none').addClass('context-menu-root');
+                }
+                opt.$menu.appendTo(opt.appendTo || document.body);
+            },
+            resize: function ($menu, nested) {
+                var domMenu;
+                // determine widths of submenus, as CSS won't grow them automatically
+                // position:absolute within position:absolute; min-width:100; max-width:200; results in width: 100;
+                // kinda sucks hard...
+
+                // determine width of absolutely positioned element
+                $menu.css({position: 'absolute', display: 'block'});
+                // don't apply yet, because that would break nested elements' widths
+                $menu.data('width',
+                    (domMenu = $menu.get(0)).getBoundingClientRect ?
+                        Math.ceil(domMenu.getBoundingClientRect().width) :
+                        $menu.outerWidth() + 1); // outerWidth() returns rounded pixels
+                // reset styles so they allow nested elements to grow/shrink naturally
+                $menu.css({
+                    position: 'static',
+                    minWidth: '0px',
+                    maxWidth: '100000px'
+                });
+                // identify width of nested menus
+                $menu.find('> li > ul').each(function () {
+                    op.resize($(this), true);
+                });
+                // reset and apply changes in the end because nested
+                // elements' widths wouldn't be calculatable otherwise
+                if (!nested) {
+                    $menu.find('ul').addBack().css({
+                        position: '',
+                        display: '',
+                        minWidth: '',
+                        maxWidth: ''
+                    }).outerWidth(function () {
+                        return $(this).data('width');
+                    });
+                }
+            },
+            update: function (opt, root) {
+                var $trigger = this;
+                if (typeof root === 'undefined') {
+                    root = opt;
+                    op.resize(opt.$menu);
+                }
+                // re-check disabled for each item
+                opt.$menu.children().each(function () {
+                    var $item = $(this),
+                        key = $item.data('contextMenuKey'),
+                        item = opt.items[key],
+                        disabled = ($.isFunction(item.disabled) && item.disabled.call($trigger, key, root)) || item.disabled === true,
+                        visible;
+                    if ($.isFunction(item.visible)) {
+                        visible = item.visible.call($trigger, key, root);
+                    } else if (typeof item.visible !== 'undefined') {
+                        visible = item.visible === true;
+                    } else {
+                        visible = true;
+                    }
+                    $item[visible ? 'show' : 'hide']();
+
+                    // dis- / enable item
+                    $item[disabled ? 'addClass' : 'removeClass'](root.classNames.disabled);
+
+                    if ($.isFunction(item.icon)) {
+                        $item.removeClass(item._icon);
+                        item._icon = item.icon.call(this, $trigger, $item, key, item);
+                        $item.addClass(item._icon);
+                    }
+
+                    if (item.type) {
+                        // dis- / enable input elements
+                        $item.find('input, select, textarea').prop('disabled', disabled);
+
+                        // update input states
+                        switch (item.type) {
+                            case 'text':
+                            case 'textarea':
+                                item.$input.val(item.value || '');
+                                break;
+
+                            case 'checkbox':
+                            case 'radio':
+                                item.$input.val(item.value || '').prop('checked', !!item.selected);
+                                break;
+
+                            case 'select':
+                                item.$input.val((item.selected === 0 ? "0" : item.selected) || '');
+                                break;
+                        }
+                    }
+
+                    if (item.$menu) {
+                        // update sub-menu
+                        op.update.call($trigger, item, root);
+                    }
+                });
+            },
+            layer: function (opt, zIndex) {
+                // add transparent layer for click area
+                // filter and background for Internet Explorer, Issue #23
+                var $layer = opt.$layer = $('<div id="context-menu-layer"></div>')
+                    .css({
+                        height: $win.height(),
+                        width: $win.width(),
+                        display: 'block',
+                        position: 'fixed',
+                        'z-index': zIndex,
+                        top: 0,
+                        left: 0,
+                        opacity: 0,
+                        filter: 'alpha(opacity=0)',
+                        'background-color': '#000'
+                    })
+                    .data('contextMenuRoot', opt)
+                    .insertBefore(this)
+                    .on('contextmenu', handle.abortevent)
+                    .on('mousedown', handle.layerClick);
+
+                // IE6 doesn't know position:fixed;
+                if (typeof document.body.style.maxWidth === 'undefined') { // IE6 doesn't support maxWidth
+                    $layer.css({
+                        'position': 'absolute',
+                        'height': $(document).height()
+                    });
+                }
+
+                return $layer;
+            },
+            processPromises: function (opt, root, promise) {
+                // Start
+                opt.$node.addClass(root.classNames.iconLoadingClass);
+
+                function completedPromise(opt, root, items) {
+                    // Completed promise (dev called promise.resolve). We now have a list of items which can
+                    // be used to create the rest of the context menu.
+                    if (typeof items === 'undefined') {
+                        // Null result, dev should have checked
+                        errorPromise(undefined);//own error object
+                    }
+                    finishPromiseProcess(opt, root, items);
+                }
+
+                function errorPromise(opt, root, errorItem) {
+                    // User called promise.reject() with an error item, if not, provide own error item.
+                    if (typeof errorItem === 'undefined') {
+                        errorItem = {
+                            "error": {
+                                name: "No items and no error item",
+                                icon: "context-menu-icon context-menu-icon-quit"
+                            }
+                        };
+                        if (window.console) {
+                            (console.error || console.log).call(console, 'When you reject a promise, provide an "items" object, equal to normal sub-menu items');
+                        }
+                    } else if (typeof errorItem === 'string') {
+                        errorItem = {"error": {name: errorItem}};
+                    }
+                    finishPromiseProcess(opt, root, errorItem);
+                }
+
+                function finishPromiseProcess(opt, root, items) {
+                    if (typeof root.$menu === 'undefined' || !root.$menu.is(':visible')) {
+                        return;
+                    }
+                    opt.$node.removeClass(root.classNames.iconLoadingClass);
+                    opt.items = items;
+                    op.create(opt, root, true); // Create submenu
+                    op.update(opt, root); // Correctly update position if user is already hovered over menu item
+                    root.positionSubmenu.call(opt.$node, opt.$menu); // positionSubmenu, will only do anything if user already hovered over menu item that just got new subitems.
+                }
+
+                // Wait for promise completion. .then(success, error, notify) (we don't track notify). Bind the opt
+                // and root to avoid scope problems
+                promise.then(completedPromise.bind(this, opt, root), errorPromise.bind(this, opt, root));
+            },
+            // operation that will run after contextMenu showed on screen
+            activated: function(opt){
+                var $menu = opt.$menu;
+                var $menuOffset = $menu.offset();
+                var winHeight = $(window).height();
+                var winScrollTop = $(window).scrollTop();
+                var menuHeight = $menu.height();
+                if(menuHeight > winHeight){
+                    $menu.css({
+                        'height' : winHeight + 'px',
+                        'overflow-x': 'hidden',
+                        'overflow-y': 'auto',
+                        'top': winScrollTop + 'px'
+                    });
+                } else if(($menuOffset.top < winScrollTop) || ($menuOffset.top + menuHeight > winScrollTop + winHeight)){
+                    $menu.css({
+                        'top': '0px'
+                    });
+                } 
+            }
+        };
+
+    // split accesskey according to http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#assigned-access-key
+    function splitAccesskey(val) {
+        var t = val.split(/\s+/);
+        var keys = [];
+
+        for (var i = 0, k; k = t[i]; i++) {
+            k = k.charAt(0).toUpperCase(); // first character only
+            // theoretically non-accessible characters should be ignored, but different systems, different keyboard layouts, ... screw it.
+            // a map to look up already used access keys would be nice
+            keys.push(k);
+        }
+
+        return keys;
+    }
+
+// handle contextMenu triggers
+    $.fn.contextMenu = function (operation) {
+        var $t = this, $o = operation;
+        if (this.length > 0) {  // this is not a build on demand menu
+            if (typeof operation === 'undefined') {
+                this.first().trigger('contextmenu');
+            } else if (typeof operation.x !== 'undefined' && typeof operation.y !== 'undefined') {
+                this.first().trigger($.Event('contextmenu', {
+                    pageX: operation.x,
+                    pageY: operation.y,
+                    mouseButton: operation.button
+                }));
+            } else if (operation === 'hide') {
+                var $menu = this.first().data('contextMenu') ? this.first().data('contextMenu').$menu : null;
+                if ($menu) {
+                    $menu.trigger('contextmenu:hide');
+                }
+            } else if (operation === 'destroy') {
+                $.contextMenu('destroy', {context: this});
+            } else if ($.isPlainObject(operation)) {
+                operation.context = this;
+                $.contextMenu('create', operation);
+            } else if (operation) {
+                this.removeClass('context-menu-disabled');
+            } else if (!operation) {
+                this.addClass('context-menu-disabled');
+            }
+        } else {
+            $.each(menus, function () {
+                if (this.selector === $t.selector) {
+                    $o.data = this;
+
+                    $.extend($o.data, {trigger: 'demand'});
+                }
+            });
+
+            handle.contextmenu.call($o.target, $o);
+        }
+
+        return this;
+    };
+
+    // manage contextMenu instances
+    $.contextMenu = function (operation, options) {
+        if (typeof operation !== 'string') {
+            options = operation;
+            operation = 'create';
+        }
+
+        if (typeof options === 'string') {
+            options = {selector: options};
+        } else if (typeof options === 'undefined') {
+            options = {};
+        }
+
+        // merge with default options
+        var o = $.extend(true, {}, defaults, options || {});
+        var $document = $(document);
+        var $context = $document;
+        var _hasContext = false;
+
+        if (!o.context || !o.context.length) {
+            o.context = document;
+        } else {
+            // you never know what they throw at you...
+            $context = $(o.context).first();
+            o.context = $context.get(0);
+            _hasContext = !$(o.context).is(document);
+        }
+
+        switch (operation) {
+
+            case 'update':
+                // Updates visibility and such
+                if(_hasContext){
+                    op.update($context);
+                } else {
+                    for(var menu in menus){
+                        if(menus.hasOwnProperty(menu)){
+                            op.update(menus[menu]);
+                        }
+                    }
+                }
+                break;
+
+            case 'create':
+                // no selector no joy
+                if (!o.selector) {
+                    throw new Error('No selector specified');
+                }
+                // make sure internal classes are not bound to
+                if (o.selector.match(/.context-menu-(list|item|input)($|\s)/)) {
+                    throw new Error('Cannot bind to selector "' + o.selector + '" as it contains a reserved className');
+                }
+                if (!o.build && (!o.items || $.isEmptyObject(o.items))) {
+                    throw new Error('No Items specified');
+                }
+                counter++;
+                o.ns = '.contextMenu' + counter;
+                if (!_hasContext) {
+                    namespaces[o.selector] = o.ns;
+                }
+                menus[o.ns] = o;
+
+                // default to right click
+                if (!o.trigger) {
+                    o.trigger = 'right';
+                }
+
+                if (!initialized) {
+                    var itemClick = o.itemClickEvent === 'click' ? 'click.contextMenu' : 'mouseup.contextMenu';
+                    var contextMenuItemObj = {
+                        // 'mouseup.contextMenu': handle.itemClick,
+                        // 'click.contextMenu': handle.itemClick,
+                        'contextmenu:focus.contextMenu': handle.focusItem,
+                        'contextmenu:blur.contextMenu': handle.blurItem,
+                        'contextmenu.contextMenu': handle.abortevent,
+                        'mouseenter.contextMenu': handle.itemMouseenter,
+                        'mouseleave.contextMenu': handle.itemMouseleave
+                    };
+                    contextMenuItemObj[itemClick] = handle.itemClick;
+                    // make sure item click is registered first
+                    $document
+                        .on({
+                            'contextmenu:hide.contextMenu': handle.hideMenu,
+                            'prevcommand.contextMenu': handle.prevItem,
+                            'nextcommand.contextMenu': handle.nextItem,
+                            'contextmenu.contextMenu': handle.abortevent,
+                            'mouseenter.contextMenu': handle.menuMouseenter,
+                            'mouseleave.contextMenu': handle.menuMouseleave
+                        }, '.context-menu-list')
+                        .on('mouseup.contextMenu', '.context-menu-input', handle.inputClick)
+                        .on(contextMenuItemObj, '.context-menu-item');
+
+                    initialized = true;
+                }
+
+                // engage native contextmenu event
+                $context
+                    .on('contextmenu' + o.ns, o.selector, o, handle.contextmenu);
+
+                if (_hasContext) {
+                    // add remove hook, just in case
+                    $context.on('remove' + o.ns, function () {
+                        $(this).contextMenu('destroy');
+                    });
+                }
+
+                switch (o.trigger) {
+                    case 'hover':
+                        $context
+                            .on('mouseenter' + o.ns, o.selector, o, handle.mouseenter)
+                            .on('mouseleave' + o.ns, o.selector, o, handle.mouseleave);
+                        break;
+
+                    case 'left':
+                        $context.on('click' + o.ns, o.selector, o, handle.click);
+                        break;
+				    case 'touchstart':
+                        $context.on('touchstart' + o.ns, o.selector, o, handle.click);
+                        break;
+                    /*
+                     default:
+                     // http://www.quirksmode.org/dom/events/contextmenu.html
+                     $document
+                     .on('mousedown' + o.ns, o.selector, o, handle.mousedown)
+                     .on('mouseup' + o.ns, o.selector, o, handle.mouseup);
+                     break;
+                     */
+                }
+
+                // create menu
+                if (!o.build) {
+                    op.create(o);
+                }
+                break;
+
+            case 'destroy':
+                var $visibleMenu;
+                if (_hasContext) {
+                    // get proper options
+                    var context = o.context;
+                    $.each(menus, function (ns, o) {
+
+                        if (!o) {
+                            return true;
+                        }
+
+                        // Is this menu equest to the context called from
+                        if (!$(context).is(o.selector)) {
+                            return true;
+                        }
+
+                        $visibleMenu = $('.context-menu-list').filter(':visible');
+                        if ($visibleMenu.length && $visibleMenu.data().contextMenuRoot.$trigger.is($(o.context).find(o.selector))) {
+                            $visibleMenu.trigger('contextmenu:hide', {force: true});
+                        }
+
+                        try {
+                            if (menus[o.ns].$menu) {
+                                menus[o.ns].$menu.remove();
+                            }
+
+                            delete menus[o.ns];
+                        } catch (e) {
+                            menus[o.ns] = null;
+                        }
+
+                        $(o.context).off(o.ns);
+
+                        return true;
+                    });
+                } else if (!o.selector) {
+                    $document.off('.contextMenu .contextMenuAutoHide');
+                    $.each(menus, function (ns, o) {
+                        $(o.context).off(o.ns);
+                    });
+
+                    namespaces = {};
+                    menus = {};
+                    counter = 0;
+                    initialized = false;
+
+                    $('#context-menu-layer, .context-menu-list').remove();
+                } else if (namespaces[o.selector]) {
+                    $visibleMenu = $('.context-menu-list').filter(':visible');
+                    if ($visibleMenu.length && $visibleMenu.data().contextMenuRoot.$trigger.is(o.selector)) {
+                        $visibleMenu.trigger('contextmenu:hide', {force: true});
+                    }
+
+                    try {
+                        if (menus[namespaces[o.selector]].$menu) {
+                            menus[namespaces[o.selector]].$menu.remove();
+                        }
+
+                        delete menus[namespaces[o.selector]];
+                    } catch (e) {
+                        menus[namespaces[o.selector]] = null;
+                    }
+
+                    $document.off(namespaces[o.selector]);
+                }
+                break;
+
+            case 'html5':
+                // if <command> and <menuitem> are not handled by the browser,
+                // or options was a bool true,
+                // initialize $.contextMenu for them
+                if ((!$.support.htmlCommand && !$.support.htmlMenuitem) || (typeof options === 'boolean' && options)) {
+                    $('menu[type="context"]').each(function () {
+                        if (this.id) {
+                            $.contextMenu({
+                                selector: '[contextmenu=' + this.id + ']',
+                                items: $.contextMenu.fromMenu(this)
+                            });
+                        }
+                    }).css('display', 'none');
+                }
+                break;
+
+            default:
+                throw new Error('Unknown operation "' + operation + '"');
+        }
+
+        return this;
+    };
+
+// import values into <input> commands
+    $.contextMenu.setInputValues = function (opt, data) {
+        if (typeof data === 'undefined') {
+            data = {};
+        }
+
+        $.each(opt.inputs, function (key, item) {
+            switch (item.type) {
+                case 'text':
+                case 'textarea':
+                    item.value = data[key] || '';
+                    break;
+
+                case 'checkbox':
+                    item.selected = data[key] ? true : false;
+                    break;
+
+                case 'radio':
+                    item.selected = (data[item.radio] || '') === item.value;
+                    break;
+
+                case 'select':
+                    item.selected = data[key] || '';
+                    break;
+            }
+        });
+    };
+
+// export values from <input> commands
+    $.contextMenu.getInputValues = function (opt, data) {
+        if (typeof data === 'undefined') {
+            data = {};
+        }
+
+        $.each(opt.inputs, function (key, item) {
+            switch (item.type) {
+                case 'text':
+                case 'textarea':
+                case 'select':
+                    data[key] = item.$input.val();
+                    break;
+
+                case 'checkbox':
+                    data[key] = item.$input.prop('checked');
+                    break;
+
+                case 'radio':
+                    if (item.$input.prop('checked')) {
+                        data[item.radio] = item.value;
+                    }
+                    break;
+            }
+        });
+
+        return data;
+    };
+
+// find <label for="xyz">
+    function inputLabel(node) {
+        return (node.id && $('label[for="' + node.id + '"]').val()) || node.name;
+    }
+
+// convert <menu> to items object
+    function menuChildren(items, $children, counter) {
+        if (!counter) {
+            counter = 0;
+        }
+
+        $children.each(function () {
+            var $node = $(this),
+                node = this,
+                nodeName = this.nodeName.toLowerCase(),
+                label,
+                item;
+
+            // extract <label><input>
+            if (nodeName === 'label' && $node.find('input, textarea, select').length) {
+                label = $node.text();
+                $node = $node.children().first();
+                node = $node.get(0);
+                nodeName = node.nodeName.toLowerCase();
+            }
+
+            /*
+             * <menu> accepts flow-content as children. that means <embed>, <canvas> and such are valid menu items.
+             * Not being the sadistic kind, $.contextMenu only accepts:
+             * <command>, <menuitem>, <hr>, <span>, <p> <input [text, radio, checkbox]>, <textarea>, <select> and of course <menu>.
+             * Everything else will be imported as an html node, which is not interfaced with contextMenu.
+             */
+
+            // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#concept-command
+            switch (nodeName) {
+                // http://www.whatwg.org/specs/web-apps/current-work/multipage/interactive-elements.html#the-menu-element
+                case 'menu':
+                    item = {name: $node.attr('label'), items: {}};
+                    counter = menuChildren(item.items, $node.children(), counter);
+                    break;
+
+                // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#using-the-a-element-to-define-a-command
+                case 'a':
+                // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#using-the-button-element-to-define-a-command
+                case 'button':
+                    item = {
+                        name: $node.text(),
+                        disabled: !!$node.attr('disabled'),
+                        callback: (function () {
+                            return function () {
+                                $node.get(0).click();
+                            };
+                        })()
+                    };
+                    break;
+
+                // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#using-the-command-element-to-define-a-command
+                case 'menuitem':
+                case 'command':
+                    switch ($node.attr('type')) {
+                        case undefined:
+                        case 'command':
+                        case 'menuitem':
+                            item = {
+                                name: $node.attr('label'),
+                                disabled: !!$node.attr('disabled'),
+                                icon: $node.attr('icon'),
+                                callback: (function () {
+                                    return function () {
+                                        $node.get(0).click();
+                                    };
+                                })()
+                            };
+                            break;
+
+                        case 'checkbox':
+                            item = {
+                                type: 'checkbox',
+                                disabled: !!$node.attr('disabled'),
+                                name: $node.attr('label'),
+                                selected: !!$node.attr('checked')
+                            };
+                            break;
+                        case 'radio':
+                            item = {
+                                type: 'radio',
+                                disabled: !!$node.attr('disabled'),
+                                name: $node.attr('label'),
+                                radio: $node.attr('radiogroup'),
+                                value: $node.attr('id'),
+                                selected: !!$node.attr('checked')
+                            };
+                            break;
+
+                        default:
+                            item = undefined;
+                    }
+                    break;
+
+                case 'hr':
+                    item = '-------';
+                    break;
+
+                case 'input':
+                    switch ($node.attr('type')) {
+                        case 'text':
+                            item = {
+                                type: 'text',
+                                name: label || inputLabel(node),
+                                disabled: !!$node.attr('disabled'),
+                                value: $node.val()
+                            };
+                            break;
+
+                        case 'checkbox':
+                            item = {
+                                type: 'checkbox',
+                                name: label || inputLabel(node),
+                                disabled: !!$node.attr('disabled'),
+                                selected: !!$node.attr('checked')
+                            };
+                            break;
+
+                        case 'radio':
+                            item = {
+                                type: 'radio',
+                                name: label || inputLabel(node),
+                                disabled: !!$node.attr('disabled'),
+                                radio: !!$node.attr('name'),
+                                value: $node.val(),
+                                selected: !!$node.attr('checked')
+                            };
+                            break;
+
+                        default:
+                            item = undefined;
+                            break;
+                    }
+                    break;
+
+                case 'select':
+                    item = {
+                        type: 'select',
+                        name: label || inputLabel(node),
+                        disabled: !!$node.attr('disabled'),
+                        selected: $node.val(),
+                        options: {}
+                    };
+                    $node.children().each(function () {
+                        item.options[this.value] = $(this).text();
+                    });
+                    break;
+
+                case 'textarea':
+                    item = {
+                        type: 'textarea',
+                        name: label || inputLabel(node),
+                        disabled: !!$node.attr('disabled'),
+                        value: $node.val()
+                    };
+                    break;
+
+                case 'label':
+                    break;
+
+                default:
+                    item = {type: 'html', html: $node.clone(true)};
+                    break;
+            }
+
+            if (item) {
+                counter++;
+                items['key' + counter] = item;
+            }
+        });
+
+        return counter;
+    }
+
+// convert html5 menu
+    $.contextMenu.fromMenu = function (element) {
+        var $this = $(element),
+            items = {};
+
+        menuChildren(items, $this.children());
+
+        return items;
+    };
+
+// make defaults accessible
+    $.contextMenu.defaults = defaults;
+    $.contextMenu.types = types;
+// export internal functions - undocumented, for hacking only!
+    $.contextMenu.handle = handle;
+    $.contextMenu.op = op;
+    $.contextMenu.menus = menus;
+});
+
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(11);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(16)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../css-loader/index.js!./jquery.contextMenu.css", function() {
+			var newContent = require("!!../../css-loader/index.js!./jquery.contextMenu.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(12)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "@charset \"UTF-8\";\n/*!\n * jQuery contextMenu - Plugin for simple contextMenu handling\n *\n * Version: v2.6.3\n *\n * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)\n * Web: http://swisnl.github.io/jQuery-contextMenu/\n *\n * Copyright (c) 2011-2017 SWIS BV and contributors\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n * Date: 2017-10-30T19:03:13.936Z\n */\n@-webkit-keyframes cm-spin {\n  0% {\n    -webkit-transform: translateY(-50%) rotate(0deg);\n            transform: translateY(-50%) rotate(0deg);\n  }\n  100% {\n    -webkit-transform: translateY(-50%) rotate(359deg);\n            transform: translateY(-50%) rotate(359deg);\n  }\n}\n@-o-keyframes cm-spin {\n  0% {\n    -webkit-transform: translateY(-50%) rotate(0deg);\n         -o-transform: translateY(-50%) rotate(0deg);\n            transform: translateY(-50%) rotate(0deg);\n  }\n  100% {\n    -webkit-transform: translateY(-50%) rotate(359deg);\n         -o-transform: translateY(-50%) rotate(359deg);\n            transform: translateY(-50%) rotate(359deg);\n  }\n}\n@keyframes cm-spin {\n  0% {\n    -webkit-transform: translateY(-50%) rotate(0deg);\n         -o-transform: translateY(-50%) rotate(0deg);\n            transform: translateY(-50%) rotate(0deg);\n  }\n  100% {\n    -webkit-transform: translateY(-50%) rotate(359deg);\n         -o-transform: translateY(-50%) rotate(359deg);\n            transform: translateY(-50%) rotate(359deg);\n  }\n}\n\n@font-face {\n  font-family: \"context-menu-icons\";\n  font-style: normal; \n  font-weight: normal;\n\n  src: url(" + __webpack_require__(4) + ");\n  src: url(" + __webpack_require__(4) + "#iefix) format(\"embedded-opentype\"), url(" + __webpack_require__(13) + ") format(\"woff2\"), url(" + __webpack_require__(14) + ") format(\"woff\"), url(" + __webpack_require__(15) + ") format(\"truetype\");\n}\n\n.context-menu-icon-add:before {\n  content: \"\\EA01\";\n}\n\n.context-menu-icon-copy:before {\n  content: \"\\EA02\";\n}\n\n.context-menu-icon-cut:before {\n  content: \"\\EA03\";\n}\n\n.context-menu-icon-delete:before {\n  content: \"\\EA04\";\n}\n\n.context-menu-icon-edit:before {\n  content: \"\\EA05\";\n}\n\n.context-menu-icon-loading:before {\n  content: \"\\EA06\";\n}\n\n.context-menu-icon-paste:before {\n  content: \"\\EA07\";\n}\n\n.context-menu-icon-quit:before {\n  content: \"\\EA08\";\n}\n\n.context-menu-icon::before {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  width: 2em; \n  font-family: \"context-menu-icons\";\n  font-size: 1em;\n  font-style: normal;\n  font-weight: normal;\n  line-height: 1;\n  color: #2980b9;\n  text-align: center;\n  -webkit-transform: translateY(-50%);\n      -ms-transform: translateY(-50%);\n       -o-transform: translateY(-50%);\n          transform: translateY(-50%);\n\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.context-menu-icon.context-menu-hover:before {\n  color: #fff;\n}\n\n.context-menu-icon.context-menu-disabled::before {\n  color: #bbb;\n}\n\n.context-menu-icon.context-menu-icon-loading:before {\n  -webkit-animation: cm-spin 2s infinite;\n       -o-animation: cm-spin 2s infinite;\n          animation: cm-spin 2s infinite;\n}\n\n.context-menu-icon.context-menu-icon--fa {\n  display: list-item;\n  font-family: inherit;\n}\n.context-menu-icon.context-menu-icon--fa::before {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  width: 2em; \n  font-family: FontAwesome;\n  font-size: 1em;\n  font-style: normal;\n  font-weight: normal;\n  line-height: 1;\n  color: #2980b9;\n  text-align: center;\n  -webkit-transform: translateY(-50%);\n      -ms-transform: translateY(-50%);\n       -o-transform: translateY(-50%);\n          transform: translateY(-50%);\n\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {\n  color: #fff;\n}\n.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {\n  color: #bbb;\n}\n\n.context-menu-list {\n  position: absolute; \n  display: inline-block;\n  min-width: 13em;\n  max-width: 26em;\n  padding: .25em 0;\n  margin: .3em;\n  font-family: inherit;\n  font-size: inherit;\n  list-style-type: none;\n  background: #fff;\n  border: 1px solid #bebebe;\n  border-radius: .2em;\n  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);\n          box-shadow: 0 2px 5px rgba(0, 0, 0, .5);\n}\n\n.context-menu-item {\n  position: relative;\n  padding: .2em 2em;\n  color: #2f2f2f;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; \n  background-color: #fff;\n}\n\n.context-menu-separator {\n  padding: 0; \n  margin: .35em 0;\n  border-bottom: 1px solid #e6e6e6;\n}\n\n.context-menu-item > label > input,\n.context-menu-item > label > textarea {\n  -webkit-user-select: text;\n     -moz-user-select: text;\n      -ms-user-select: text;\n          user-select: text;\n}\n\n.context-menu-item.context-menu-hover {\n  color: #fff;\n  cursor: pointer; \n  background-color: #2980b9;\n}\n\n.context-menu-item.context-menu-disabled {\n  color: #bbb;\n  cursor: default; \n  background-color: #fff;\n}\n\n.context-menu-input.context-menu-hover {\n  color: #2f2f2f; \n  cursor: default;\n}\n\n.context-menu-submenu:after {\n  position: absolute;\n  top: 50%;\n  right: .5em;\n  z-index: 1; \n  width: 0;\n  height: 0;\n  content: '';\n  border-color: transparent transparent transparent #2f2f2f;\n  border-style: solid;\n  border-width: .25em 0 .25em .25em;\n  -webkit-transform: translateY(-50%);\n      -ms-transform: translateY(-50%);\n       -o-transform: translateY(-50%);\n          transform: translateY(-50%);\n}\n\n/**\n * Inputs\n */\n.context-menu-item.context-menu-input {\n  padding: .3em .6em;\n}\n\n/* vertically align inside labels */\n.context-menu-input > label > * {\n  vertical-align: top;\n}\n\n/* position checkboxes and radios as icons */\n.context-menu-input > label > input[type=\"checkbox\"],\n.context-menu-input > label > input[type=\"radio\"] {\n  position: relative;\n  top: .12em; \n  margin-right: .4em;\n}\n\n.context-menu-input > label {\n  margin: 0;\n}\n\n.context-menu-input > label,\n.context-menu-input > label > input[type=\"text\"],\n.context-menu-input > label > textarea,\n.context-menu-input > label > select {\n  display: block;\n  width: 100%; \n  -webkit-box-sizing: border-box;\n     -moz-box-sizing: border-box;\n          box-sizing: border-box;\n}\n\n.context-menu-input > label > textarea {\n  height: 7em;\n}\n\n.context-menu-item > .context-menu-list {\n  top: .3em; \n  /* re-positioned by js */\n  right: -.3em;\n  display: none;\n}\n\n.context-menu-item.context-menu-visible > .context-menu-list {\n  display: block;\n}\n\n.context-menu-accesskey {\n  text-decoration: underline;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+module.exports = "data:application/font-woff2;base64,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"
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = "data:application/font-woff;base64,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"
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports) {
+
+module.exports = "data:application/x-font-ttf;base64,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"
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(selector) {
+		if (typeof memo[selector] === "undefined") {
+			var styleTarget = fn.call(this, selector);
+			// Special case to return head of iframe instead of iframe itself
+			if (styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[selector] = styleTarget;
+		}
+		return memo[selector]
+	};
+})(function (target) {
+	return document.querySelector(target)
+});
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(17);
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton) options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+	if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertInto + " " + options.insertAt.before);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	options.attrs.type = "text/css";
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	options.attrs.type = "text/css";
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = options.transform(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -82460,7 +87138,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 8 */
+/* 19 */
 /***/ (function(module, exports) {
 
 module.exports = function( THREE ) {
@@ -83486,26 +88164,27 @@ module.exports = function( THREE ) {
 
 
 /***/ }),
-/* 9 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const $ = __webpack_require__(0);
 const _ = __webpack_require__(1);
-const Key = __webpack_require__(10);
-const Two = __webpack_require__(4); const two = new Two();
-const THREE = __webpack_require__(2);
-const THREEx = {}; __webpack_require__(5)(THREE, THREEx);
+const Backbone = __webpack_require__(5);
 
-const RenderSVG = __webpack_require__(12);
+const Key = __webpack_require__(22);
+const Two = __webpack_require__(6); const two = new Two();
+const THREE = __webpack_require__(2);
+const THREEx = {}; __webpack_require__(7)(THREE, THREEx);
+
+const RenderSVG = __webpack_require__(24);
 
 const DEFAULT_TIMEOUT = 5000;
 const DIRECTIONS = {LEFT: "left", UP: "up", DOWN: "down", RIGHT: "right"};
 const MAX_DISTANCE = 0.5;
-const NEIGHBOUR_COLOR = "rgb(144, 210, 235)";
-const OFF_COLOR = "rgb(144, 217, 242)";
+const NEIGHBOUR_COLOR = "rgb(219, 215, 215)";
+const OFF_COLOR = "rgb(175, 175, 175)";
 const ON_COLOR = "rgb(245, 235, 164)";
 const SELECTED_COLOR = "rgb(120, 255, 168)";
-const SVG_SAMPLE_LENGTH = 30;
 
 FindNearestIntersectFromEdge = function(objName, point, direction,
   collisionObjects) {
@@ -83555,7 +88234,7 @@ FindIntersectsInDirection = function(obj, dir, collisionObjects ) {
   const width  = bbox.max.x - bbox.min.x;
   const height = bbox.max.y - bbox.min.y;
 
-  const numSteps = 50;
+  const numSteps = 10;
   const intersects = {};
 
   var point = origin.clone();
@@ -83590,18 +88269,33 @@ FindIntersectsInDirection = function(obj, dir, collisionObjects ) {
 
 class ElectrodeControls {
   constructor(scene, camera, renderer, filename='default.svg') {
+    _.extend(this, Backbone.Events);
+
     this.selectedElectrode = null;
-    this.handlers = { click: _.noop, down: _.noop, up: _.noop, over: _.noop };
 
     Key("left", () => this.move(DIRECTIONS.LEFT));
     Key("right", () => this.move(DIRECTIONS.RIGHT));
     Key("up", () => this.move(DIRECTIONS.UP));
     Key("down", () => this.move(DIRECTIONS.DOWN));
 
-    RenderSVG(filename, scene, camera, renderer, this.handlers)
+    RenderSVG(filename, scene, camera, renderer, this)
       .then((d) =>{this.electrodeObjects = d;});
 
-    this.handlers.click = this.electrodeClicked.bind(this);
+    this.on("mousedown", this.mousedown.bind(this));
+
+  }
+
+  turnOnElectrode(id) {
+    const electrodeObject = this.electrodeObjects[id];
+    electrodeObject.on = true;
+    electrodeObject.fill.material.color = new THREE.Color(ON_COLOR);
+    electrodeObject.outline.material.color = new THREE.Color("black");
+  }
+  turnOffElectrode(id) {
+    const electrodeObject = this.electrodeObjects[id];
+    electrodeObject.on = false;
+    electrodeObject.fill.material.color = new THREE.Color(OFF_COLOR);
+    electrodeObject.outline.material.color = new THREE.Color("black");
   }
 
   move(dir='right') {
@@ -83609,7 +88303,21 @@ class ElectrodeControls {
     const electrodeId = this.selectedElectrode.name;
     const neighbour = this.findNeighbour(dir, electrodeId);
     if (!neighbour) return;
+    this.turnOffElectrode(this.selectedElectrode.name);
     this.selectElectrode(neighbour.electrodeId);
+  }
+
+  getNeighbours(electrodeId) {
+    if (!this.electrodeObjects[electrodeId]) return [];
+
+    const neighbours = {};
+    for (const [k, dir] of Object.entries(DIRECTIONS)) {
+      const neighbour = this.findNeighbour(dir, electrodeId);
+      if (neighbour) {
+        neighbours[neighbour.electrodeId] = dir;
+      }
+    }
+    return neighbours;
   }
 
   findNeighbour(dir='right', electrodeId) {
@@ -83634,11 +88342,10 @@ class ElectrodeControls {
   }
 
   _clearNeighbourColors() {
-    /* Re-color electrode with NEIGHBOUR_COLOR to OFF_COLOR */
-    const c = new THREE.Color(NEIGHBOUR_COLOR);
-    const n = _.filter(this.electrodeObjects, {fill:{material:{color: c}}});
+    /* Update opacity of neighbours back to 1.0 */
+    const n = _.filter(this.electrodeObjects, {fill:{material:{opacity: 0.7}}});
     for (const [i, obj] of n.entries()) {
-      obj.fill.material.color = new THREE.Color(OFF_COLOR);
+      obj.fill.material.opacity = 1.0;
     }
   }
 
@@ -83648,42 +88355,54 @@ class ElectrodeControls {
     // Reset the fill color of neighbours
     this._clearNeighbourColors();
 
-    // Reset the fill color of the previously selected electrode
+    // Reset the outline of the previously selected electrode
     if (this.selectedElectrode) {
-      this.selectedElectrode.fill.material.color = new THREE.Color(OFF_COLOR);
-      this.selectedElectrode.on = false;
+      this.selectedElectrode.outline.material.color = new THREE.Color("black");
     }
 
     // Turn on and color the selected electrode
+    this.turnOnElectrode(electrodeId);
     const electrodeObject = this.electrodeObjects[electrodeId];
-    electrodeObject.on = true;
-    electrodeObject.fill.material.color = new THREE.Color(SELECTED_COLOR);
+    electrodeObject.outline.material.color = new THREE.Color("red");
+
     this.selectedElectrode = electrodeObject;
 
-    // Darken the neighbour electrodes
+    // Change opacity of neighbour electrodes to guide user
     for (const [k, dir] of Object.entries(DIRECTIONS)) {
       const neighbour = this.findNeighbour(dir);
       if (!neighbour) continue;
-      if (neighbour.electrodeObject.on == true) continue;
       const material = neighbour.electrodeObject.fill.material;
-      material.color = new THREE.Color(NEIGHBOUR_COLOR);
+      material.opacity = 0.7;
     }
   }
 
-  electrodeClicked(event) {
+  async mousedown(event) {
+    if (event.origDomEvent.button != 0) return;
     /* Called when electrode object is clicked */
+    // Await for mouse up event
+    const mouseUp = () => {
+      return new Promise((resolve, reject) => {
+        this.on("mouseup", (e) => {resolve(e);});
+      });
+    };
+    const event2 = await mouseUp();
+
+    console.log("event", event, "event2", event2);
+
+    // If event targets don't match, don't turn on electrode
+    if (event.target.uuid != event2.target.uuid) return;
+
     const electrodeObject = this.electrodeObjects[event.target.name];
 
     // If shiftKey is down, unset selected electrode
     if (event.origDomEvent.shiftKey == true && this.selectedElectrode) {
-      this.selectedElectrode.on = false;
-      this.selectedElectrode.fill.material.color = new THREE.Color(OFF_COLOR);
+      this.selectedElectrode.outline.material.color = new THREE.Color("black");
       this.selectedElectrode = null;
       this._clearNeighbourColors();
     }
 
     // Toggle the state of the target electrode
-    if (event.target.on) {
+    if (electrodeObject.on) {
       electrodeObject.on = false;
       electrodeObject.fill.material.color = new THREE.Color(OFF_COLOR);
 
@@ -83711,14 +88430,1569 @@ module.exports = ElectrodeControls;
 
 
 /***/ }),
-/* 10 */
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
+//     http://underscorejs.org
+//     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+//     Underscore may be freely distributed under the MIT license.
+
+(function() {
+
+  // Baseline setup
+  // --------------
+
+  // Establish the root object, `window` in the browser, or `exports` on the server.
+  var root = this;
+
+  // Save the previous value of the `_` variable.
+  var previousUnderscore = root._;
+
+  // Save bytes in the minified (but not gzipped) version:
+  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;
+
+  // Create quick reference variables for speed access to core prototypes.
+  var
+    push             = ArrayProto.push,
+    slice            = ArrayProto.slice,
+    toString         = ObjProto.toString,
+    hasOwnProperty   = ObjProto.hasOwnProperty;
+
+  // All **ECMAScript 5** native function implementations that we hope to use
+  // are declared here.
+  var
+    nativeIsArray      = Array.isArray,
+    nativeKeys         = Object.keys,
+    nativeBind         = FuncProto.bind,
+    nativeCreate       = Object.create;
+
+  // Naked function reference for surrogate-prototype-swapping.
+  var Ctor = function(){};
+
+  // Create a safe reference to the Underscore object for use below.
+  var _ = function(obj) {
+    if (obj instanceof _) return obj;
+    if (!(this instanceof _)) return new _(obj);
+    this._wrapped = obj;
+  };
+
+  // Export the Underscore object for **Node.js**, with
+  // backwards-compatibility for the old `require()` API. If we're in
+  // the browser, add `_` as a global object.
+  if (true) {
+    if (typeof module !== 'undefined' && module.exports) {
+      exports = module.exports = _;
+    }
+    exports._ = _;
+  } else {
+    root._ = _;
+  }
+
+  // Current version.
+  _.VERSION = '1.8.3';
+
+  // Internal function that returns an efficient (for current engines) version
+  // of the passed-in callback, to be repeatedly applied in other Underscore
+  // functions.
+  var optimizeCb = function(func, context, argCount) {
+    if (context === void 0) return func;
+    switch (argCount == null ? 3 : argCount) {
+      case 1: return function(value) {
+        return func.call(context, value);
+      };
+      case 2: return function(value, other) {
+        return func.call(context, value, other);
+      };
+      case 3: return function(value, index, collection) {
+        return func.call(context, value, index, collection);
+      };
+      case 4: return function(accumulator, value, index, collection) {
+        return func.call(context, accumulator, value, index, collection);
+      };
+    }
+    return function() {
+      return func.apply(context, arguments);
+    };
+  };
+
+  // A mostly-internal function to generate callbacks that can be applied
+  // to each element in a collection, returning the desired result — either
+  // identity, an arbitrary callback, a property matcher, or a property accessor.
+  var cb = function(value, context, argCount) {
+    if (value == null) return _.identity;
+    if (_.isFunction(value)) return optimizeCb(value, context, argCount);
+    if (_.isObject(value)) return _.matcher(value);
+    return _.property(value);
+  };
+  _.iteratee = function(value, context) {
+    return cb(value, context, Infinity);
+  };
+
+  // An internal function for creating assigner functions.
+  var createAssigner = function(keysFunc, undefinedOnly) {
+    return function(obj) {
+      var length = arguments.length;
+      if (length < 2 || obj == null) return obj;
+      for (var index = 1; index < length; index++) {
+        var source = arguments[index],
+            keys = keysFunc(source),
+            l = keys.length;
+        for (var i = 0; i < l; i++) {
+          var key = keys[i];
+          if (!undefinedOnly || obj[key] === void 0) obj[key] = source[key];
+        }
+      }
+      return obj;
+    };
+  };
+
+  // An internal function for creating a new object that inherits from another.
+  var baseCreate = function(prototype) {
+    if (!_.isObject(prototype)) return {};
+    if (nativeCreate) return nativeCreate(prototype);
+    Ctor.prototype = prototype;
+    var result = new Ctor;
+    Ctor.prototype = null;
+    return result;
+  };
+
+  var property = function(key) {
+    return function(obj) {
+      return obj == null ? void 0 : obj[key];
+    };
+  };
+
+  // Helper for collection methods to determine whether a collection
+  // should be iterated as an array or as an object
+  // Related: http://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength
+  // Avoids a very nasty iOS 8 JIT bug on ARM-64. #2094
+  var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
+  var getLength = property('length');
+  var isArrayLike = function(collection) {
+    var length = getLength(collection);
+    return typeof length == 'number' && length >= 0 && length <= MAX_ARRAY_INDEX;
+  };
+
+  // Collection Functions
+  // --------------------
+
+  // The cornerstone, an `each` implementation, aka `forEach`.
+  // Handles raw objects in addition to array-likes. Treats all
+  // sparse array-likes as if they were dense.
+  _.each = _.forEach = function(obj, iteratee, context) {
+    iteratee = optimizeCb(iteratee, context);
+    var i, length;
+    if (isArrayLike(obj)) {
+      for (i = 0, length = obj.length; i < length; i++) {
+        iteratee(obj[i], i, obj);
+      }
+    } else {
+      var keys = _.keys(obj);
+      for (i = 0, length = keys.length; i < length; i++) {
+        iteratee(obj[keys[i]], keys[i], obj);
+      }
+    }
+    return obj;
+  };
+
+  // Return the results of applying the iteratee to each element.
+  _.map = _.collect = function(obj, iteratee, context) {
+    iteratee = cb(iteratee, context);
+    var keys = !isArrayLike(obj) && _.keys(obj),
+        length = (keys || obj).length,
+        results = Array(length);
+    for (var index = 0; index < length; index++) {
+      var currentKey = keys ? keys[index] : index;
+      results[index] = iteratee(obj[currentKey], currentKey, obj);
+    }
+    return results;
+  };
+
+  // Create a reducing function iterating left or right.
+  function createReduce(dir) {
+    // Optimized iterator function as using arguments.length
+    // in the main function will deoptimize the, see #1991.
+    function iterator(obj, iteratee, memo, keys, index, length) {
+      for (; index >= 0 && index < length; index += dir) {
+        var currentKey = keys ? keys[index] : index;
+        memo = iteratee(memo, obj[currentKey], currentKey, obj);
+      }
+      return memo;
+    }
+
+    return function(obj, iteratee, memo, context) {
+      iteratee = optimizeCb(iteratee, context, 4);
+      var keys = !isArrayLike(obj) && _.keys(obj),
+          length = (keys || obj).length,
+          index = dir > 0 ? 0 : length - 1;
+      // Determine the initial value if none is provided.
+      if (arguments.length < 3) {
+        memo = obj[keys ? keys[index] : index];
+        index += dir;
+      }
+      return iterator(obj, iteratee, memo, keys, index, length);
+    };
+  }
+
+  // **Reduce** builds up a single result from a list of values, aka `inject`,
+  // or `foldl`.
+  _.reduce = _.foldl = _.inject = createReduce(1);
+
+  // The right-associative version of reduce, also known as `foldr`.
+  _.reduceRight = _.foldr = createReduce(-1);
+
+  // Return the first value which passes a truth test. Aliased as `detect`.
+  _.find = _.detect = function(obj, predicate, context) {
+    var key;
+    if (isArrayLike(obj)) {
+      key = _.findIndex(obj, predicate, context);
+    } else {
+      key = _.findKey(obj, predicate, context);
+    }
+    if (key !== void 0 && key !== -1) return obj[key];
+  };
+
+  // Return all the elements that pass a truth test.
+  // Aliased as `select`.
+  _.filter = _.select = function(obj, predicate, context) {
+    var results = [];
+    predicate = cb(predicate, context);
+    _.each(obj, function(value, index, list) {
+      if (predicate(value, index, list)) results.push(value);
+    });
+    return results;
+  };
+
+  // Return all the elements for which a truth test fails.
+  _.reject = function(obj, predicate, context) {
+    return _.filter(obj, _.negate(cb(predicate)), context);
+  };
+
+  // Determine whether all of the elements match a truth test.
+  // Aliased as `all`.
+  _.every = _.all = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var keys = !isArrayLike(obj) && _.keys(obj),
+        length = (keys || obj).length;
+    for (var index = 0; index < length; index++) {
+      var currentKey = keys ? keys[index] : index;
+      if (!predicate(obj[currentKey], currentKey, obj)) return false;
+    }
+    return true;
+  };
+
+  // Determine if at least one element in the object matches a truth test.
+  // Aliased as `any`.
+  _.some = _.any = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var keys = !isArrayLike(obj) && _.keys(obj),
+        length = (keys || obj).length;
+    for (var index = 0; index < length; index++) {
+      var currentKey = keys ? keys[index] : index;
+      if (predicate(obj[currentKey], currentKey, obj)) return true;
+    }
+    return false;
+  };
+
+  // Determine if the array or object contains a given item (using `===`).
+  // Aliased as `includes` and `include`.
+  _.contains = _.includes = _.include = function(obj, item, fromIndex, guard) {
+    if (!isArrayLike(obj)) obj = _.values(obj);
+    if (typeof fromIndex != 'number' || guard) fromIndex = 0;
+    return _.indexOf(obj, item, fromIndex) >= 0;
+  };
+
+  // Invoke a method (with arguments) on every item in a collection.
+  _.invoke = function(obj, method) {
+    var args = slice.call(arguments, 2);
+    var isFunc = _.isFunction(method);
+    return _.map(obj, function(value) {
+      var func = isFunc ? method : value[method];
+      return func == null ? func : func.apply(value, args);
+    });
+  };
+
+  // Convenience version of a common use case of `map`: fetching a property.
+  _.pluck = function(obj, key) {
+    return _.map(obj, _.property(key));
+  };
+
+  // Convenience version of a common use case of `filter`: selecting only objects
+  // containing specific `key:value` pairs.
+  _.where = function(obj, attrs) {
+    return _.filter(obj, _.matcher(attrs));
+  };
+
+  // Convenience version of a common use case of `find`: getting the first object
+  // containing specific `key:value` pairs.
+  _.findWhere = function(obj, attrs) {
+    return _.find(obj, _.matcher(attrs));
+  };
+
+  // Return the maximum element (or element-based computation).
+  _.max = function(obj, iteratee, context) {
+    var result = -Infinity, lastComputed = -Infinity,
+        value, computed;
+    if (iteratee == null && obj != null) {
+      obj = isArrayLike(obj) ? obj : _.values(obj);
+      for (var i = 0, length = obj.length; i < length; i++) {
+        value = obj[i];
+        if (value > result) {
+          result = value;
+        }
+      }
+    } else {
+      iteratee = cb(iteratee, context);
+      _.each(obj, function(value, index, list) {
+        computed = iteratee(value, index, list);
+        if (computed > lastComputed || computed === -Infinity && result === -Infinity) {
+          result = value;
+          lastComputed = computed;
+        }
+      });
+    }
+    return result;
+  };
+
+  // Return the minimum element (or element-based computation).
+  _.min = function(obj, iteratee, context) {
+    var result = Infinity, lastComputed = Infinity,
+        value, computed;
+    if (iteratee == null && obj != null) {
+      obj = isArrayLike(obj) ? obj : _.values(obj);
+      for (var i = 0, length = obj.length; i < length; i++) {
+        value = obj[i];
+        if (value < result) {
+          result = value;
+        }
+      }
+    } else {
+      iteratee = cb(iteratee, context);
+      _.each(obj, function(value, index, list) {
+        computed = iteratee(value, index, list);
+        if (computed < lastComputed || computed === Infinity && result === Infinity) {
+          result = value;
+          lastComputed = computed;
+        }
+      });
+    }
+    return result;
+  };
+
+  // Shuffle a collection, using the modern version of the
+  // [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
+  _.shuffle = function(obj) {
+    var set = isArrayLike(obj) ? obj : _.values(obj);
+    var length = set.length;
+    var shuffled = Array(length);
+    for (var index = 0, rand; index < length; index++) {
+      rand = _.random(0, index);
+      if (rand !== index) shuffled[index] = shuffled[rand];
+      shuffled[rand] = set[index];
+    }
+    return shuffled;
+  };
+
+  // Sample **n** random values from a collection.
+  // If **n** is not specified, returns a single random element.
+  // The internal `guard` argument allows it to work with `map`.
+  _.sample = function(obj, n, guard) {
+    if (n == null || guard) {
+      if (!isArrayLike(obj)) obj = _.values(obj);
+      return obj[_.random(obj.length - 1)];
+    }
+    return _.shuffle(obj).slice(0, Math.max(0, n));
+  };
+
+  // Sort the object's values by a criterion produced by an iteratee.
+  _.sortBy = function(obj, iteratee, context) {
+    iteratee = cb(iteratee, context);
+    return _.pluck(_.map(obj, function(value, index, list) {
+      return {
+        value: value,
+        index: index,
+        criteria: iteratee(value, index, list)
+      };
+    }).sort(function(left, right) {
+      var a = left.criteria;
+      var b = right.criteria;
+      if (a !== b) {
+        if (a > b || a === void 0) return 1;
+        if (a < b || b === void 0) return -1;
+      }
+      return left.index - right.index;
+    }), 'value');
+  };
+
+  // An internal function used for aggregate "group by" operations.
+  var group = function(behavior) {
+    return function(obj, iteratee, context) {
+      var result = {};
+      iteratee = cb(iteratee, context);
+      _.each(obj, function(value, index) {
+        var key = iteratee(value, index, obj);
+        behavior(result, value, key);
+      });
+      return result;
+    };
+  };
+
+  // Groups the object's values by a criterion. Pass either a string attribute
+  // to group by, or a function that returns the criterion.
+  _.groupBy = group(function(result, value, key) {
+    if (_.has(result, key)) result[key].push(value); else result[key] = [value];
+  });
+
+  // Indexes the object's values by a criterion, similar to `groupBy`, but for
+  // when you know that your index values will be unique.
+  _.indexBy = group(function(result, value, key) {
+    result[key] = value;
+  });
+
+  // Counts instances of an object that group by a certain criterion. Pass
+  // either a string attribute to count by, or a function that returns the
+  // criterion.
+  _.countBy = group(function(result, value, key) {
+    if (_.has(result, key)) result[key]++; else result[key] = 1;
+  });
+
+  // Safely create a real, live array from anything iterable.
+  _.toArray = function(obj) {
+    if (!obj) return [];
+    if (_.isArray(obj)) return slice.call(obj);
+    if (isArrayLike(obj)) return _.map(obj, _.identity);
+    return _.values(obj);
+  };
+
+  // Return the number of elements in an object.
+  _.size = function(obj) {
+    if (obj == null) return 0;
+    return isArrayLike(obj) ? obj.length : _.keys(obj).length;
+  };
+
+  // Split a collection into two arrays: one whose elements all satisfy the given
+  // predicate, and one whose elements all do not satisfy the predicate.
+  _.partition = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var pass = [], fail = [];
+    _.each(obj, function(value, key, obj) {
+      (predicate(value, key, obj) ? pass : fail).push(value);
+    });
+    return [pass, fail];
+  };
+
+  // Array Functions
+  // ---------------
+
+  // Get the first element of an array. Passing **n** will return the first N
+  // values in the array. Aliased as `head` and `take`. The **guard** check
+  // allows it to work with `_.map`.
+  _.first = _.head = _.take = function(array, n, guard) {
+    if (array == null) return void 0;
+    if (n == null || guard) return array[0];
+    return _.initial(array, array.length - n);
+  };
+
+  // Returns everything but the last entry of the array. Especially useful on
+  // the arguments object. Passing **n** will return all the values in
+  // the array, excluding the last N.
+  _.initial = function(array, n, guard) {
+    return slice.call(array, 0, Math.max(0, array.length - (n == null || guard ? 1 : n)));
+  };
+
+  // Get the last element of an array. Passing **n** will return the last N
+  // values in the array.
+  _.last = function(array, n, guard) {
+    if (array == null) return void 0;
+    if (n == null || guard) return array[array.length - 1];
+    return _.rest(array, Math.max(0, array.length - n));
+  };
+
+  // Returns everything but the first entry of the array. Aliased as `tail` and `drop`.
+  // Especially useful on the arguments object. Passing an **n** will return
+  // the rest N values in the array.
+  _.rest = _.tail = _.drop = function(array, n, guard) {
+    return slice.call(array, n == null || guard ? 1 : n);
+  };
+
+  // Trim out all falsy values from an array.
+  _.compact = function(array) {
+    return _.filter(array, _.identity);
+  };
+
+  // Internal implementation of a recursive `flatten` function.
+  var flatten = function(input, shallow, strict, startIndex) {
+    var output = [], idx = 0;
+    for (var i = startIndex || 0, length = getLength(input); i < length; i++) {
+      var value = input[i];
+      if (isArrayLike(value) && (_.isArray(value) || _.isArguments(value))) {
+        //flatten current level of array or arguments object
+        if (!shallow) value = flatten(value, shallow, strict);
+        var j = 0, len = value.length;
+        output.length += len;
+        while (j < len) {
+          output[idx++] = value[j++];
+        }
+      } else if (!strict) {
+        output[idx++] = value;
+      }
+    }
+    return output;
+  };
+
+  // Flatten out an array, either recursively (by default), or just one level.
+  _.flatten = function(array, shallow) {
+    return flatten(array, shallow, false);
+  };
+
+  // Return a version of the array that does not contain the specified value(s).
+  _.without = function(array) {
+    return _.difference(array, slice.call(arguments, 1));
+  };
+
+  // Produce a duplicate-free version of the array. If the array has already
+  // been sorted, you have the option of using a faster algorithm.
+  // Aliased as `unique`.
+  _.uniq = _.unique = function(array, isSorted, iteratee, context) {
+    if (!_.isBoolean(isSorted)) {
+      context = iteratee;
+      iteratee = isSorted;
+      isSorted = false;
+    }
+    if (iteratee != null) iteratee = cb(iteratee, context);
+    var result = [];
+    var seen = [];
+    for (var i = 0, length = getLength(array); i < length; i++) {
+      var value = array[i],
+          computed = iteratee ? iteratee(value, i, array) : value;
+      if (isSorted) {
+        if (!i || seen !== computed) result.push(value);
+        seen = computed;
+      } else if (iteratee) {
+        if (!_.contains(seen, computed)) {
+          seen.push(computed);
+          result.push(value);
+        }
+      } else if (!_.contains(result, value)) {
+        result.push(value);
+      }
+    }
+    return result;
+  };
+
+  // Produce an array that contains the union: each distinct element from all of
+  // the passed-in arrays.
+  _.union = function() {
+    return _.uniq(flatten(arguments, true, true));
+  };
+
+  // Produce an array that contains every item shared between all the
+  // passed-in arrays.
+  _.intersection = function(array) {
+    var result = [];
+    var argsLength = arguments.length;
+    for (var i = 0, length = getLength(array); i < length; i++) {
+      var item = array[i];
+      if (_.contains(result, item)) continue;
+      for (var j = 1; j < argsLength; j++) {
+        if (!_.contains(arguments[j], item)) break;
+      }
+      if (j === argsLength) result.push(item);
+    }
+    return result;
+  };
+
+  // Take the difference between one array and a number of other arrays.
+  // Only the elements present in just the first array will remain.
+  _.difference = function(array) {
+    var rest = flatten(arguments, true, true, 1);
+    return _.filter(array, function(value){
+      return !_.contains(rest, value);
+    });
+  };
+
+  // Zip together multiple lists into a single array -- elements that share
+  // an index go together.
+  _.zip = function() {
+    return _.unzip(arguments);
+  };
+
+  // Complement of _.zip. Unzip accepts an array of arrays and groups
+  // each array's elements on shared indices
+  _.unzip = function(array) {
+    var length = array && _.max(array, getLength).length || 0;
+    var result = Array(length);
+
+    for (var index = 0; index < length; index++) {
+      result[index] = _.pluck(array, index);
+    }
+    return result;
+  };
+
+  // Converts lists into objects. Pass either a single array of `[key, value]`
+  // pairs, or two parallel arrays of the same length -- one of keys, and one of
+  // the corresponding values.
+  _.object = function(list, values) {
+    var result = {};
+    for (var i = 0, length = getLength(list); i < length; i++) {
+      if (values) {
+        result[list[i]] = values[i];
+      } else {
+        result[list[i][0]] = list[i][1];
+      }
+    }
+    return result;
+  };
+
+  // Generator function to create the findIndex and findLastIndex functions
+  function createPredicateIndexFinder(dir) {
+    return function(array, predicate, context) {
+      predicate = cb(predicate, context);
+      var length = getLength(array);
+      var index = dir > 0 ? 0 : length - 1;
+      for (; index >= 0 && index < length; index += dir) {
+        if (predicate(array[index], index, array)) return index;
+      }
+      return -1;
+    };
+  }
+
+  // Returns the first index on an array-like that passes a predicate test
+  _.findIndex = createPredicateIndexFinder(1);
+  _.findLastIndex = createPredicateIndexFinder(-1);
+
+  // Use a comparator function to figure out the smallest index at which
+  // an object should be inserted so as to maintain order. Uses binary search.
+  _.sortedIndex = function(array, obj, iteratee, context) {
+    iteratee = cb(iteratee, context, 1);
+    var value = iteratee(obj);
+    var low = 0, high = getLength(array);
+    while (low < high) {
+      var mid = Math.floor((low + high) / 2);
+      if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
+    }
+    return low;
+  };
+
+  // Generator function to create the indexOf and lastIndexOf functions
+  function createIndexFinder(dir, predicateFind, sortedIndex) {
+    return function(array, item, idx) {
+      var i = 0, length = getLength(array);
+      if (typeof idx == 'number') {
+        if (dir > 0) {
+            i = idx >= 0 ? idx : Math.max(idx + length, i);
+        } else {
+            length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
+        }
+      } else if (sortedIndex && idx && length) {
+        idx = sortedIndex(array, item);
+        return array[idx] === item ? idx : -1;
+      }
+      if (item !== item) {
+        idx = predicateFind(slice.call(array, i, length), _.isNaN);
+        return idx >= 0 ? idx + i : -1;
+      }
+      for (idx = dir > 0 ? i : length - 1; idx >= 0 && idx < length; idx += dir) {
+        if (array[idx] === item) return idx;
+      }
+      return -1;
+    };
+  }
+
+  // Return the position of the first occurrence of an item in an array,
+  // or -1 if the item is not included in the array.
+  // If the array is large and already in sort order, pass `true`
+  // for **isSorted** to use binary search.
+  _.indexOf = createIndexFinder(1, _.findIndex, _.sortedIndex);
+  _.lastIndexOf = createIndexFinder(-1, _.findLastIndex);
+
+  // Generate an integer Array containing an arithmetic progression. A port of
+  // the native Python `range()` function. See
+  // [the Python documentation](http://docs.python.org/library/functions.html#range).
+  _.range = function(start, stop, step) {
+    if (stop == null) {
+      stop = start || 0;
+      start = 0;
+    }
+    step = step || 1;
+
+    var length = Math.max(Math.ceil((stop - start) / step), 0);
+    var range = Array(length);
+
+    for (var idx = 0; idx < length; idx++, start += step) {
+      range[idx] = start;
+    }
+
+    return range;
+  };
+
+  // Function (ahem) Functions
+  // ------------------
+
+  // Determines whether to execute a function as a constructor
+  // or a normal function with the provided arguments
+  var executeBound = function(sourceFunc, boundFunc, context, callingContext, args) {
+    if (!(callingContext instanceof boundFunc)) return sourceFunc.apply(context, args);
+    var self = baseCreate(sourceFunc.prototype);
+    var result = sourceFunc.apply(self, args);
+    if (_.isObject(result)) return result;
+    return self;
+  };
+
+  // Create a function bound to a given object (assigning `this`, and arguments,
+  // optionally). Delegates to **ECMAScript 5**'s native `Function.bind` if
+  // available.
+  _.bind = function(func, context) {
+    if (nativeBind && func.bind === nativeBind) return nativeBind.apply(func, slice.call(arguments, 1));
+    if (!_.isFunction(func)) throw new TypeError('Bind must be called on a function');
+    var args = slice.call(arguments, 2);
+    var bound = function() {
+      return executeBound(func, bound, context, this, args.concat(slice.call(arguments)));
+    };
+    return bound;
+  };
+
+  // Partially apply a function by creating a version that has had some of its
+  // arguments pre-filled, without changing its dynamic `this` context. _ acts
+  // as a placeholder, allowing any combination of arguments to be pre-filled.
+  _.partial = function(func) {
+    var boundArgs = slice.call(arguments, 1);
+    var bound = function() {
+      var position = 0, length = boundArgs.length;
+      var args = Array(length);
+      for (var i = 0; i < length; i++) {
+        args[i] = boundArgs[i] === _ ? arguments[position++] : boundArgs[i];
+      }
+      while (position < arguments.length) args.push(arguments[position++]);
+      return executeBound(func, bound, this, this, args);
+    };
+    return bound;
+  };
+
+  // Bind a number of an object's methods to that object. Remaining arguments
+  // are the method names to be bound. Useful for ensuring that all callbacks
+  // defined on an object belong to it.
+  _.bindAll = function(obj) {
+    var i, length = arguments.length, key;
+    if (length <= 1) throw new Error('bindAll must be passed function names');
+    for (i = 1; i < length; i++) {
+      key = arguments[i];
+      obj[key] = _.bind(obj[key], obj);
+    }
+    return obj;
+  };
+
+  // Memoize an expensive function by storing its results.
+  _.memoize = function(func, hasher) {
+    var memoize = function(key) {
+      var cache = memoize.cache;
+      var address = '' + (hasher ? hasher.apply(this, arguments) : key);
+      if (!_.has(cache, address)) cache[address] = func.apply(this, arguments);
+      return cache[address];
+    };
+    memoize.cache = {};
+    return memoize;
+  };
+
+  // Delays a function for the given number of milliseconds, and then calls
+  // it with the arguments supplied.
+  _.delay = function(func, wait) {
+    var args = slice.call(arguments, 2);
+    return setTimeout(function(){
+      return func.apply(null, args);
+    }, wait);
+  };
+
+  // Defers a function, scheduling it to run after the current call stack has
+  // cleared.
+  _.defer = _.partial(_.delay, _, 1);
+
+  // Returns a function, that, when invoked, will only be triggered at most once
+  // during a given window of time. Normally, the throttled function will run
+  // as much as it can, without ever going more than once per `wait` duration;
+  // but if you'd like to disable the execution on the leading edge, pass
+  // `{leading: false}`. To disable execution on the trailing edge, ditto.
+  _.throttle = function(func, wait, options) {
+    var context, args, result;
+    var timeout = null;
+    var previous = 0;
+    if (!options) options = {};
+    var later = function() {
+      previous = options.leading === false ? 0 : _.now();
+      timeout = null;
+      result = func.apply(context, args);
+      if (!timeout) context = args = null;
+    };
+    return function() {
+      var now = _.now();
+      if (!previous && options.leading === false) previous = now;
+      var remaining = wait - (now - previous);
+      context = this;
+      args = arguments;
+      if (remaining <= 0 || remaining > wait) {
+        if (timeout) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        previous = now;
+        result = func.apply(context, args);
+        if (!timeout) context = args = null;
+      } else if (!timeout && options.trailing !== false) {
+        timeout = setTimeout(later, remaining);
+      }
+      return result;
+    };
+  };
+
+  // Returns a function, that, as long as it continues to be invoked, will not
+  // be triggered. The function will be called after it stops being called for
+  // N milliseconds. If `immediate` is passed, trigger the function on the
+  // leading edge, instead of the trailing.
+  _.debounce = function(func, wait, immediate) {
+    var timeout, args, context, timestamp, result;
+
+    var later = function() {
+      var last = _.now() - timestamp;
+
+      if (last < wait && last >= 0) {
+        timeout = setTimeout(later, wait - last);
+      } else {
+        timeout = null;
+        if (!immediate) {
+          result = func.apply(context, args);
+          if (!timeout) context = args = null;
+        }
+      }
+    };
+
+    return function() {
+      context = this;
+      args = arguments;
+      timestamp = _.now();
+      var callNow = immediate && !timeout;
+      if (!timeout) timeout = setTimeout(later, wait);
+      if (callNow) {
+        result = func.apply(context, args);
+        context = args = null;
+      }
+
+      return result;
+    };
+  };
+
+  // Returns the first function passed as an argument to the second,
+  // allowing you to adjust arguments, run code before and after, and
+  // conditionally execute the original function.
+  _.wrap = function(func, wrapper) {
+    return _.partial(wrapper, func);
+  };
+
+  // Returns a negated version of the passed-in predicate.
+  _.negate = function(predicate) {
+    return function() {
+      return !predicate.apply(this, arguments);
+    };
+  };
+
+  // Returns a function that is the composition of a list of functions, each
+  // consuming the return value of the function that follows.
+  _.compose = function() {
+    var args = arguments;
+    var start = args.length - 1;
+    return function() {
+      var i = start;
+      var result = args[start].apply(this, arguments);
+      while (i--) result = args[i].call(this, result);
+      return result;
+    };
+  };
+
+  // Returns a function that will only be executed on and after the Nth call.
+  _.after = function(times, func) {
+    return function() {
+      if (--times < 1) {
+        return func.apply(this, arguments);
+      }
+    };
+  };
+
+  // Returns a function that will only be executed up to (but not including) the Nth call.
+  _.before = function(times, func) {
+    var memo;
+    return function() {
+      if (--times > 0) {
+        memo = func.apply(this, arguments);
+      }
+      if (times <= 1) func = null;
+      return memo;
+    };
+  };
+
+  // Returns a function that will be executed at most one time, no matter how
+  // often you call it. Useful for lazy initialization.
+  _.once = _.partial(_.before, 2);
+
+  // Object Functions
+  // ----------------
+
+  // Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
+  var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
+  var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',
+                      'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
+
+  function collectNonEnumProps(obj, keys) {
+    var nonEnumIdx = nonEnumerableProps.length;
+    var constructor = obj.constructor;
+    var proto = (_.isFunction(constructor) && constructor.prototype) || ObjProto;
+
+    // Constructor is a special case.
+    var prop = 'constructor';
+    if (_.has(obj, prop) && !_.contains(keys, prop)) keys.push(prop);
+
+    while (nonEnumIdx--) {
+      prop = nonEnumerableProps[nonEnumIdx];
+      if (prop in obj && obj[prop] !== proto[prop] && !_.contains(keys, prop)) {
+        keys.push(prop);
+      }
+    }
+  }
+
+  // Retrieve the names of an object's own properties.
+  // Delegates to **ECMAScript 5**'s native `Object.keys`
+  _.keys = function(obj) {
+    if (!_.isObject(obj)) return [];
+    if (nativeKeys) return nativeKeys(obj);
+    var keys = [];
+    for (var key in obj) if (_.has(obj, key)) keys.push(key);
+    // Ahem, IE < 9.
+    if (hasEnumBug) collectNonEnumProps(obj, keys);
+    return keys;
+  };
+
+  // Retrieve all the property names of an object.
+  _.allKeys = function(obj) {
+    if (!_.isObject(obj)) return [];
+    var keys = [];
+    for (var key in obj) keys.push(key);
+    // Ahem, IE < 9.
+    if (hasEnumBug) collectNonEnumProps(obj, keys);
+    return keys;
+  };
+
+  // Retrieve the values of an object's properties.
+  _.values = function(obj) {
+    var keys = _.keys(obj);
+    var length = keys.length;
+    var values = Array(length);
+    for (var i = 0; i < length; i++) {
+      values[i] = obj[keys[i]];
+    }
+    return values;
+  };
+
+  // Returns the results of applying the iteratee to each element of the object
+  // In contrast to _.map it returns an object
+  _.mapObject = function(obj, iteratee, context) {
+    iteratee = cb(iteratee, context);
+    var keys =  _.keys(obj),
+          length = keys.length,
+          results = {},
+          currentKey;
+      for (var index = 0; index < length; index++) {
+        currentKey = keys[index];
+        results[currentKey] = iteratee(obj[currentKey], currentKey, obj);
+      }
+      return results;
+  };
+
+  // Convert an object into a list of `[key, value]` pairs.
+  _.pairs = function(obj) {
+    var keys = _.keys(obj);
+    var length = keys.length;
+    var pairs = Array(length);
+    for (var i = 0; i < length; i++) {
+      pairs[i] = [keys[i], obj[keys[i]]];
+    }
+    return pairs;
+  };
+
+  // Invert the keys and values of an object. The values must be serializable.
+  _.invert = function(obj) {
+    var result = {};
+    var keys = _.keys(obj);
+    for (var i = 0, length = keys.length; i < length; i++) {
+      result[obj[keys[i]]] = keys[i];
+    }
+    return result;
+  };
+
+  // Return a sorted list of the function names available on the object.
+  // Aliased as `methods`
+  _.functions = _.methods = function(obj) {
+    var names = [];
+    for (var key in obj) {
+      if (_.isFunction(obj[key])) names.push(key);
+    }
+    return names.sort();
+  };
+
+  // Extend a given object with all the properties in passed-in object(s).
+  _.extend = createAssigner(_.allKeys);
+
+  // Assigns a given object with all the own properties in the passed-in object(s)
+  // (https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+  _.extendOwn = _.assign = createAssigner(_.keys);
+
+  // Returns the first key on an object that passes a predicate test
+  _.findKey = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var keys = _.keys(obj), key;
+    for (var i = 0, length = keys.length; i < length; i++) {
+      key = keys[i];
+      if (predicate(obj[key], key, obj)) return key;
+    }
+  };
+
+  // Return a copy of the object only containing the whitelisted properties.
+  _.pick = function(object, oiteratee, context) {
+    var result = {}, obj = object, iteratee, keys;
+    if (obj == null) return result;
+    if (_.isFunction(oiteratee)) {
+      keys = _.allKeys(obj);
+      iteratee = optimizeCb(oiteratee, context);
+    } else {
+      keys = flatten(arguments, false, false, 1);
+      iteratee = function(value, key, obj) { return key in obj; };
+      obj = Object(obj);
+    }
+    for (var i = 0, length = keys.length; i < length; i++) {
+      var key = keys[i];
+      var value = obj[key];
+      if (iteratee(value, key, obj)) result[key] = value;
+    }
+    return result;
+  };
+
+   // Return a copy of the object without the blacklisted properties.
+  _.omit = function(obj, iteratee, context) {
+    if (_.isFunction(iteratee)) {
+      iteratee = _.negate(iteratee);
+    } else {
+      var keys = _.map(flatten(arguments, false, false, 1), String);
+      iteratee = function(value, key) {
+        return !_.contains(keys, key);
+      };
+    }
+    return _.pick(obj, iteratee, context);
+  };
+
+  // Fill in a given object with default properties.
+  _.defaults = createAssigner(_.allKeys, true);
+
+  // Creates an object that inherits from the given prototype object.
+  // If additional properties are provided then they will be added to the
+  // created object.
+  _.create = function(prototype, props) {
+    var result = baseCreate(prototype);
+    if (props) _.extendOwn(result, props);
+    return result;
+  };
+
+  // Create a (shallow-cloned) duplicate of an object.
+  _.clone = function(obj) {
+    if (!_.isObject(obj)) return obj;
+    return _.isArray(obj) ? obj.slice() : _.extend({}, obj);
+  };
+
+  // Invokes interceptor with the obj, and then returns obj.
+  // The primary purpose of this method is to "tap into" a method chain, in
+  // order to perform operations on intermediate results within the chain.
+  _.tap = function(obj, interceptor) {
+    interceptor(obj);
+    return obj;
+  };
+
+  // Returns whether an object has a given set of `key:value` pairs.
+  _.isMatch = function(object, attrs) {
+    var keys = _.keys(attrs), length = keys.length;
+    if (object == null) return !length;
+    var obj = Object(object);
+    for (var i = 0; i < length; i++) {
+      var key = keys[i];
+      if (attrs[key] !== obj[key] || !(key in obj)) return false;
+    }
+    return true;
+  };
+
+
+  // Internal recursive comparison function for `isEqual`.
+  var eq = function(a, b, aStack, bStack) {
+    // Identical objects are equal. `0 === -0`, but they aren't identical.
+    // See the [Harmony `egal` proposal](http://wiki.ecmascript.org/doku.php?id=harmony:egal).
+    if (a === b) return a !== 0 || 1 / a === 1 / b;
+    // A strict comparison is necessary because `null == undefined`.
+    if (a == null || b == null) return a === b;
+    // Unwrap any wrapped objects.
+    if (a instanceof _) a = a._wrapped;
+    if (b instanceof _) b = b._wrapped;
+    // Compare `[[Class]]` names.
+    var className = toString.call(a);
+    if (className !== toString.call(b)) return false;
+    switch (className) {
+      // Strings, numbers, regular expressions, dates, and booleans are compared by value.
+      case '[object RegExp]':
+      // RegExps are coerced to strings for comparison (Note: '' + /a/i === '/a/i')
+      case '[object String]':
+        // Primitives and their corresponding object wrappers are equivalent; thus, `"5"` is
+        // equivalent to `new String("5")`.
+        return '' + a === '' + b;
+      case '[object Number]':
+        // `NaN`s are equivalent, but non-reflexive.
+        // Object(NaN) is equivalent to NaN
+        if (+a !== +a) return +b !== +b;
+        // An `egal` comparison is performed for other numeric values.
+        return +a === 0 ? 1 / +a === 1 / b : +a === +b;
+      case '[object Date]':
+      case '[object Boolean]':
+        // Coerce dates and booleans to numeric primitive values. Dates are compared by their
+        // millisecond representations. Note that invalid dates with millisecond representations
+        // of `NaN` are not equivalent.
+        return +a === +b;
+    }
+
+    var areArrays = className === '[object Array]';
+    if (!areArrays) {
+      if (typeof a != 'object' || typeof b != 'object') return false;
+
+      // Objects with different constructors are not equivalent, but `Object`s or `Array`s
+      // from different frames are.
+      var aCtor = a.constructor, bCtor = b.constructor;
+      if (aCtor !== bCtor && !(_.isFunction(aCtor) && aCtor instanceof aCtor &&
+                               _.isFunction(bCtor) && bCtor instanceof bCtor)
+                          && ('constructor' in a && 'constructor' in b)) {
+        return false;
+      }
+    }
+    // Assume equality for cyclic structures. The algorithm for detecting cyclic
+    // structures is adapted from ES 5.1 section 15.12.3, abstract operation `JO`.
+
+    // Initializing stack of traversed objects.
+    // It's done here since we only need them for objects and arrays comparison.
+    aStack = aStack || [];
+    bStack = bStack || [];
+    var length = aStack.length;
+    while (length--) {
+      // Linear search. Performance is inversely proportional to the number of
+      // unique nested structures.
+      if (aStack[length] === a) return bStack[length] === b;
+    }
+
+    // Add the first object to the stack of traversed objects.
+    aStack.push(a);
+    bStack.push(b);
+
+    // Recursively compare objects and arrays.
+    if (areArrays) {
+      // Compare array lengths to determine if a deep comparison is necessary.
+      length = a.length;
+      if (length !== b.length) return false;
+      // Deep compare the contents, ignoring non-numeric properties.
+      while (length--) {
+        if (!eq(a[length], b[length], aStack, bStack)) return false;
+      }
+    } else {
+      // Deep compare objects.
+      var keys = _.keys(a), key;
+      length = keys.length;
+      // Ensure that both objects contain the same number of properties before comparing deep equality.
+      if (_.keys(b).length !== length) return false;
+      while (length--) {
+        // Deep compare each member
+        key = keys[length];
+        if (!(_.has(b, key) && eq(a[key], b[key], aStack, bStack))) return false;
+      }
+    }
+    // Remove the first object from the stack of traversed objects.
+    aStack.pop();
+    bStack.pop();
+    return true;
+  };
+
+  // Perform a deep comparison to check if two objects are equal.
+  _.isEqual = function(a, b) {
+    return eq(a, b);
+  };
+
+  // Is a given array, string, or object empty?
+  // An "empty" object has no enumerable own-properties.
+  _.isEmpty = function(obj) {
+    if (obj == null) return true;
+    if (isArrayLike(obj) && (_.isArray(obj) || _.isString(obj) || _.isArguments(obj))) return obj.length === 0;
+    return _.keys(obj).length === 0;
+  };
+
+  // Is a given value a DOM element?
+  _.isElement = function(obj) {
+    return !!(obj && obj.nodeType === 1);
+  };
+
+  // Is a given value an array?
+  // Delegates to ECMA5's native Array.isArray
+  _.isArray = nativeIsArray || function(obj) {
+    return toString.call(obj) === '[object Array]';
+  };
+
+  // Is a given variable an object?
+  _.isObject = function(obj) {
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+  };
+
+  // Add some isType methods: isArguments, isFunction, isString, isNumber, isDate, isRegExp, isError.
+  _.each(['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'], function(name) {
+    _['is' + name] = function(obj) {
+      return toString.call(obj) === '[object ' + name + ']';
+    };
+  });
+
+  // Define a fallback version of the method in browsers (ahem, IE < 9), where
+  // there isn't any inspectable "Arguments" type.
+  if (!_.isArguments(arguments)) {
+    _.isArguments = function(obj) {
+      return _.has(obj, 'callee');
+    };
+  }
+
+  // Optimize `isFunction` if appropriate. Work around some typeof bugs in old v8,
+  // IE 11 (#1621), and in Safari 8 (#1929).
+  if (typeof /./ != 'function' && typeof Int8Array != 'object') {
+    _.isFunction = function(obj) {
+      return typeof obj == 'function' || false;
+    };
+  }
+
+  // Is a given object a finite number?
+  _.isFinite = function(obj) {
+    return isFinite(obj) && !isNaN(parseFloat(obj));
+  };
+
+  // Is the given value `NaN`? (NaN is the only number which does not equal itself).
+  _.isNaN = function(obj) {
+    return _.isNumber(obj) && obj !== +obj;
+  };
+
+  // Is a given value a boolean?
+  _.isBoolean = function(obj) {
+    return obj === true || obj === false || toString.call(obj) === '[object Boolean]';
+  };
+
+  // Is a given value equal to null?
+  _.isNull = function(obj) {
+    return obj === null;
+  };
+
+  // Is a given variable undefined?
+  _.isUndefined = function(obj) {
+    return obj === void 0;
+  };
+
+  // Shortcut function for checking if an object has a given property directly
+  // on itself (in other words, not on a prototype).
+  _.has = function(obj, key) {
+    return obj != null && hasOwnProperty.call(obj, key);
+  };
+
+  // Utility Functions
+  // -----------------
+
+  // Run Underscore.js in *noConflict* mode, returning the `_` variable to its
+  // previous owner. Returns a reference to the Underscore object.
+  _.noConflict = function() {
+    root._ = previousUnderscore;
+    return this;
+  };
+
+  // Keep the identity function around for default iteratees.
+  _.identity = function(value) {
+    return value;
+  };
+
+  // Predicate-generating functions. Often useful outside of Underscore.
+  _.constant = function(value) {
+    return function() {
+      return value;
+    };
+  };
+
+  _.noop = function(){};
+
+  _.property = property;
+
+  // Generates a function for a given object that returns a given property.
+  _.propertyOf = function(obj) {
+    return obj == null ? function(){} : function(key) {
+      return obj[key];
+    };
+  };
+
+  // Returns a predicate for checking whether an object has a given set of
+  // `key:value` pairs.
+  _.matcher = _.matches = function(attrs) {
+    attrs = _.extendOwn({}, attrs);
+    return function(obj) {
+      return _.isMatch(obj, attrs);
+    };
+  };
+
+  // Run a function **n** times.
+  _.times = function(n, iteratee, context) {
+    var accum = Array(Math.max(0, n));
+    iteratee = optimizeCb(iteratee, context, 1);
+    for (var i = 0; i < n; i++) accum[i] = iteratee(i);
+    return accum;
+  };
+
+  // Return a random integer between min and max (inclusive).
+  _.random = function(min, max) {
+    if (max == null) {
+      max = min;
+      min = 0;
+    }
+    return min + Math.floor(Math.random() * (max - min + 1));
+  };
+
+  // A (possibly faster) way to get the current timestamp as an integer.
+  _.now = Date.now || function() {
+    return new Date().getTime();
+  };
+
+   // List of HTML entities for escaping.
+  var escapeMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#x27;',
+    '`': '&#x60;'
+  };
+  var unescapeMap = _.invert(escapeMap);
+
+  // Functions for escaping and unescaping strings to/from HTML interpolation.
+  var createEscaper = function(map) {
+    var escaper = function(match) {
+      return map[match];
+    };
+    // Regexes for identifying a key that needs to be escaped
+    var source = '(?:' + _.keys(map).join('|') + ')';
+    var testRegexp = RegExp(source);
+    var replaceRegexp = RegExp(source, 'g');
+    return function(string) {
+      string = string == null ? '' : '' + string;
+      return testRegexp.test(string) ? string.replace(replaceRegexp, escaper) : string;
+    };
+  };
+  _.escape = createEscaper(escapeMap);
+  _.unescape = createEscaper(unescapeMap);
+
+  // If the value of the named `property` is a function then invoke it with the
+  // `object` as context; otherwise, return it.
+  _.result = function(object, property, fallback) {
+    var value = object == null ? void 0 : object[property];
+    if (value === void 0) {
+      value = fallback;
+    }
+    return _.isFunction(value) ? value.call(object) : value;
+  };
+
+  // Generate a unique integer id (unique within the entire client session).
+  // Useful for temporary DOM ids.
+  var idCounter = 0;
+  _.uniqueId = function(prefix) {
+    var id = ++idCounter + '';
+    return prefix ? prefix + id : id;
+  };
+
+  // By default, Underscore uses ERB-style template delimiters, change the
+  // following template settings to use alternative delimiters.
+  _.templateSettings = {
+    evaluate    : /<%([\s\S]+?)%>/g,
+    interpolate : /<%=([\s\S]+?)%>/g,
+    escape      : /<%-([\s\S]+?)%>/g
+  };
+
+  // When customizing `templateSettings`, if you don't want to define an
+  // interpolation, evaluation or escaping regex, we need one that is
+  // guaranteed not to match.
+  var noMatch = /(.)^/;
+
+  // Certain characters need to be escaped so that they can be put into a
+  // string literal.
+  var escapes = {
+    "'":      "'",
+    '\\':     '\\',
+    '\r':     'r',
+    '\n':     'n',
+    '\u2028': 'u2028',
+    '\u2029': 'u2029'
+  };
+
+  var escaper = /\\|'|\r|\n|\u2028|\u2029/g;
+
+  var escapeChar = function(match) {
+    return '\\' + escapes[match];
+  };
+
+  // JavaScript micro-templating, similar to John Resig's implementation.
+  // Underscore templating handles arbitrary delimiters, preserves whitespace,
+  // and correctly escapes quotes within interpolated code.
+  // NB: `oldSettings` only exists for backwards compatibility.
+  _.template = function(text, settings, oldSettings) {
+    if (!settings && oldSettings) settings = oldSettings;
+    settings = _.defaults({}, settings, _.templateSettings);
+
+    // Combine delimiters into one regular expression via alternation.
+    var matcher = RegExp([
+      (settings.escape || noMatch).source,
+      (settings.interpolate || noMatch).source,
+      (settings.evaluate || noMatch).source
+    ].join('|') + '|$', 'g');
+
+    // Compile the template source, escaping string literals appropriately.
+    var index = 0;
+    var source = "__p+='";
+    text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
+      source += text.slice(index, offset).replace(escaper, escapeChar);
+      index = offset + match.length;
+
+      if (escape) {
+        source += "'+\n((__t=(" + escape + "))==null?'':_.escape(__t))+\n'";
+      } else if (interpolate) {
+        source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
+      } else if (evaluate) {
+        source += "';\n" + evaluate + "\n__p+='";
+      }
+
+      // Adobe VMs need the match returned to produce the correct offest.
+      return match;
+    });
+    source += "';\n";
+
+    // If a variable is not specified, place data values in local scope.
+    if (!settings.variable) source = 'with(obj||{}){\n' + source + '}\n';
+
+    source = "var __t,__p='',__j=Array.prototype.join," +
+      "print=function(){__p+=__j.call(arguments,'');};\n" +
+      source + 'return __p;\n';
+
+    try {
+      var render = new Function(settings.variable || 'obj', '_', source);
+    } catch (e) {
+      e.source = source;
+      throw e;
+    }
+
+    var template = function(data) {
+      return render.call(this, data, _);
+    };
+
+    // Provide the compiled source as a convenience for precompilation.
+    var argument = settings.variable || 'obj';
+    template.source = 'function(' + argument + '){\n' + source + '}';
+
+    return template;
+  };
+
+  // Add a "chain" function. Start chaining a wrapped Underscore object.
+  _.chain = function(obj) {
+    var instance = _(obj);
+    instance._chain = true;
+    return instance;
+  };
+
+  // OOP
+  // ---------------
+  // If Underscore is called as a function, it returns a wrapped object that
+  // can be used OO-style. This wrapper holds altered versions of all the
+  // underscore functions. Wrapped objects may be chained.
+
+  // Helper function to continue chaining intermediate results.
+  var result = function(instance, obj) {
+    return instance._chain ? _(obj).chain() : obj;
+  };
+
+  // Add your own custom functions to the Underscore object.
+  _.mixin = function(obj) {
+    _.each(_.functions(obj), function(name) {
+      var func = _[name] = obj[name];
+      _.prototype[name] = function() {
+        var args = [this._wrapped];
+        push.apply(args, arguments);
+        return result(this, func.apply(_, args));
+      };
+    });
+  };
+
+  // Add all of the Underscore functions to the wrapper object.
+  _.mixin(_);
+
+  // Add all mutator Array functions to the wrapper.
+  _.each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift'], function(name) {
+    var method = ArrayProto[name];
+    _.prototype[name] = function() {
+      var obj = this._wrapped;
+      method.apply(obj, arguments);
+      if ((name === 'shift' || name === 'splice') && obj.length === 0) delete obj[0];
+      return result(this, obj);
+    };
+  });
+
+  // Add all accessor Array functions to the wrapper.
+  _.each(['concat', 'join', 'slice'], function(name) {
+    var method = ArrayProto[name];
+    _.prototype[name] = function() {
+      return result(this, method.apply(this._wrapped, arguments));
+    };
+  });
+
+  // Extracts the result from a wrapped and chained object.
+  _.prototype.value = function() {
+    return this._wrapped;
+  };
+
+  // Provide unwrapping proxy for some methods used in engine operations
+  // such as arithmetic and JSON stringification.
+  _.prototype.valueOf = _.prototype.toJSON = _.prototype.value;
+
+  _.prototype.toString = function() {
+    return '' + this._wrapped;
+  };
+
+  // AMD registration happens at the end for compatibility with AMD loaders
+  // that may not enforce next-turn semantics on modules. Even though general
+  // practice for AMD registration is to be anonymous, underscore registers
+  // as a named module because, like jQuery, it is a base library that is
+  // popular enough to be bundled in a third party lib, but not be part of
+  // an AMD load request. Those cases could generate an error when an
+  // anonymous define() is called outside of a loader request.
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
+      return _;
+    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  }
+}.call(this));
+
+
+/***/ }),
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
  * dependencies
  */
 
-var vkeys = __webpack_require__(11);
+var vkeys = __webpack_require__(23);
 
 /**
  * Export `shortcut`
@@ -83819,7 +90093,7 @@ shortcut.press = function press(k, el) {
 
 
 /***/ }),
-/* 11 */
+/* 23 */
 /***/ (function(module, exports) {
 
 var vkeys = exports = module.exports = {
@@ -84028,17 +90302,17 @@ exports.getKey = function getKey(code) {
 
 
 /***/ }),
-/* 12 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const $ = __webpack_require__(0);
 const _ = __webpack_require__(1);
-const Two = __webpack_require__(4); const two = new Two();
+const Two = __webpack_require__(6); const two = new Two();
 const THREE = __webpack_require__(2);
-const THREEx = {}; __webpack_require__(5)(THREE, THREEx);
+const THREEx = {}; __webpack_require__(7)(THREE, THREEx);
 
 const DEFAULT_TIMEOUT = 5000;
-const OFF_COLOR = "rgb(144, 217, 242)";
+const OFF_COLOR = "rgb(175, 175, 175)";
 const SVG_SAMPLE_LENGTH = 30;
 
 ReadFile = (url, timeout=DEFAULT_TIMEOUT) => {
@@ -84071,16 +90345,16 @@ ExtractShape = function (twojs_shape) {
        );
      }
    }
+   shape.closePath();
    return shape;
 }
 
 module.exports = async (url='default.svg', scene, camera,
-  renderer, handlers) => {
+  renderer, controller) => {
 
   // Read svg file
   const file = await ReadFile(url);
   const domEvents = new THREEx.DomEvents(camera, renderer.domElement);
-  window.file = file;
 
   // Compute shape objects from SVG
   const paths = $(file).find('path');
@@ -84096,13 +90370,16 @@ module.exports = async (url='default.svg', scene, camera,
 
     // Generate outline
     var points = shape3D.createPointsGeometry();
-    var options = {color: "black", linewidth: 2}
+    points.autoClose = true;
+    var options = {color: "black", linewidth: 1}
     var material = new THREE.LineBasicMaterial(options);
     var outline = new THREE.Line(points, material);
     outline.name = shape2D.id;
+    outline.position.z += 0.1;
+    outline.autoClose = true;
 
     // Generate fill (slightly extruded to allow for collisions)
-    var options = {color: OFF_COLOR, wireframe: false, side: THREE.DoubleSide};
+    var options = {color: OFF_COLOR, transparent: true, wireframe: false, side: THREE.DoubleSide};
     var meshMaterial = new THREE.MeshBasicMaterial(options);
     var options = { bevelEnabled: false, amount: 0.0001};
     var geometry = new THREE.ExtrudeGeometry(shape3D, options);
@@ -84121,11 +90398,17 @@ module.exports = async (url='default.svg', scene, camera,
     group.fill = fill;
     group.outline = outline;
 
+    const addListener = (name) => {
+      domEvents.addEventListener(fill, name, (e) => {
+        controller.trigger(name, e)
+      }, false);
+    };
+
     // Add listeners
-    domEvents.addEventListener(fill, 'click', (e)=>handlers.click(e), false);
-    domEvents.addEventListener(fill, 'mousedown',(e)=>handlers.down(e), false);
-    domEvents.addEventListener(fill, 'mouseup',(e)=>handlers.up(e), false);
-    domEvents.addEventListener(fill, 'mouseover',(e)=>handlers.over(e), false);
+    addListener('click');
+    addListener('mousedown');
+    addListener('mouseup');
+    addListener('mouseover');
 
     // Add to SVG group
     svgGroup.add(group);
@@ -84158,30 +90441,150 @@ module.exports = async (url='default.svg', scene, camera,
 
 
 /***/ }),
-/* 13 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const $ = __webpack_require__(0);
 const _ = __webpack_require__(1);
+const Backbone = __webpack_require__(5);
 const THREE = __webpack_require__(2);
+
+function GenerateLineFromElectrodeIds(id1, id2, objects) {
+  const material = new THREE.LineBasicMaterial({ color: "rgb(190, 97, 91)" });
+  const geometry = new THREE.Geometry();
+  for (const [i, id] of [id1, id2].entries()) {
+    const obj = objects[id];
+    const point = new THREE.Vector3();
+    point.setFromMatrixPosition(obj.matrixWorld);
+    point.z = 1;
+    geometry.vertices.push(point);
+  }
+  return new THREE.Line( geometry, material );
+}
+
+function GenerateRoute(localRoute, electrodeControls) {
+  /* Create line from list of electrodeIds */
+  const material = new THREE.LineBasicMaterial({ color: "rgb(194, 12, 0)" });
+  const geometry = new THREE.Geometry();
+  const objects = electrodeControls.electrodeObjects;
+
+  const addPoint = (id) => {
+    const obj = objects[id];
+    const point = new THREE.Vector3();
+    point.setFromMatrixPosition(obj.matrixWorld);
+    point.z = 1;
+    geometry.vertices.push(point);
+  }
+
+  let prev = localRoute.start;
+
+  addPoint(localRoute.start);
+  for (const [i, dir] of localRoute.path.entries()){
+    const neighbours = this.electrodeControls.getNeighbours(prev);
+    const id = _.invert(neighbours)[dir];
+    addPoint(id);
+    prev = id;
+  }
+  return new THREE.Line( geometry, material );
+}
 
 class RouteControls {
   constructor(scene, camera, electrodeControls) {
-    electrodeControls.handlers.down = this.mousedown.bind(this);
-    electrodeControls.handlers.up = this.mouseup.bind(this);
-    electrodeControls.handlers.over = this.mouseover.bind(this);
+    _.extend(this, Backbone.Events);
+    electrodeControls.on("mousedown", this.drawRoute.bind(this));
+    electrodeControls.on("mouseup", (e) => this.trigger("mouseup", e));
+    electrodeControls.on("mouseover", (e) => this.trigger("mouseover", e));
+    this.electrodeControls = electrodeControls;
+    this._lines = null;
+    this._scene = scene;
+    this.model = new Backbone.Model({routes: []});
+    this.model.on("change:routes", this.renderRoutes.bind(this));
   }
-
-  mousedown(e) {
-    console.log("mousdown", e);
+  renderRoutes() {
+    const routes = this.model.get("routes");
+    // Remove previous lines
+    if (this._lines) {
+      this._scene.remove(this._lines);
+      this._lines = null;
+    }
+    // Create ThreeJS object containing all the routes
+    this._lines = new THREE.Group();
+    for (const [i, route] of routes.entries()){
+      const line = GenerateRoute(route, this.electrodeControls);
+      this._lines.add(line);
+    }
+    // Add to scene
+    this._scene.add(this._lines);
   }
-
-  mouseup(e) {
-    console.log("mouseup", e);
+  createLocalRoute(path) {
+    const localRoute = new Object();
+    localRoute.start = path[0];
+    localRoute.path = [];
+    for (var i=0;i<path.length;i++){
+      if (i == 0) continue;
+      const prev = path[i-1];
+      const next = path[i];
+      const neighbours = this.electrodeControls.getNeighbours(prev);
+      if (neighbours[next]) {
+        localRoute.path.push(neighbours[next]);
+      } else {
+        // Path is invalid
+        return undefined;
+      }
+    }
+    return localRoute;
   }
+  async drawRoute(e) {
+    /* Draw a route starting with electrode that triggered this event*/
+    const lines = [];
+    const path = [];
+    const routes = _.clone(this.model.get("routes"));
+    const objects = this.electrodeControls.electrodeObjects;
 
-  mouseover(e) {
-    console.log("mouseover", e);
+    const add = (name) => {
+      const prev = _.last(path);
+      if (name == prev) return;
+      const neighbours = this.electrodeControls.getNeighbours(prev);
+      if (!neighbours[name] && prev != undefined) return;
+
+      if (path.length > 0) {
+        const line = GenerateLineFromElectrodeIds(prev, name, objects);
+        lines.push(line);
+        this._scene.add(line);
+      }
+      path.push(name);
+    };
+
+    // Add start electrode
+    add(e.target.name);
+
+    // Add all electrodes that are hovered over
+    const mouseover = this.on("mouseover", (e) => {
+      add(e.target.name);
+    });
+
+    // Add last electrode
+    const mouseup = () => {
+      return new Promise((resolve, reject) => {
+        this.on("mouseup", (e) => {resolve(e);});
+      });
+    };
+    e = await mouseup();
+    add(e.target.name);
+
+    // Remove events
+    this.off("mouseup");
+    this.off("mouseover");
+
+    // Remove lines from scene
+    for (const [i, line] of lines.entries()){
+      this._scene.remove(line);
+    }
+
+    const localRoute = this.createLocalRoute(path);
+
+    if (path.length > 1) {routes.push(localRoute);}
+    this.model.set("routes", routes);
   }
 }
 
