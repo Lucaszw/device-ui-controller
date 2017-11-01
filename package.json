@@ -11,11 +11,11 @@
   "dependencies": {
     "express": "^4.16.2",
     "jquery": "^3.2.1",
+    "keyboard-shortcut": "^1.2.0",
     "lodash": "^4.17.4",
-    "matter-js": "^0.13.0",
-    "pathseg": "^1.1.0",
-    "poly-decomp": "^0.2.1",
-    "svg-transform-parser": "0.0.1",
-    "two.js": "^0.6.0"
+    "three": "^0.87.1",
+    "three-orbit-controls": "^82.1.0",
+    "threex-domevents": "^1.0.0",
+    "two.js": "github:jonobr1/two.js#dev"
   }
 }
