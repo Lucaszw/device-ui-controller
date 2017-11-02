@@ -102,6 +102,7 @@ module.exports = async (url='default.svg', scene, camera,
     addListener('mousedown');
     addListener('mouseup');
     addListener('mouseover');
+    addListener('mouseout');
 
     // Add to SVG group
     svgGroup.add(group);

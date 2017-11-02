@@ -3,11 +3,13 @@ require('jquery-contextmenu');
 require('style-loader!css-loader!jquery-contextmenu/dist/jquery.contextMenu.css');
 
 const _ = require('lodash'); window._ = _;
+const dat = require('dat.gui/build/dat.gui'); window.dat = dat;
 const THREE = require('three'); window.THREE = THREE;
 const OrbitControls = require('three-orbit-controls')(THREE)
 
 const ElectrodeControls = require('./electrode-controls');
-const RouteControls = require('./route-controls');
+const {RouteControls, GenerateRoute} = require('./route-controls');
+
 
 window.electrodeControls = null;
 window.electrodeObjects = null;
@@ -16,10 +18,10 @@ window.controls = null;
 window.renderer = null;
 window.routeControls = null;
 window.scene = null;
-
-var options = { enableControls: false };
+window.GenerateRoute = GenerateRoute;
 
 const init = async() => {
+
   // Create ThreeJS scene
   const bbox = document.body.getBoundingClientRect();
   const aspect = bbox.width / bbox.height;
@@ -28,7 +30,7 @@ const init = async() => {
   controls = new OrbitControls(camera);
   controls.enableKeys = false;
   controls.enableRotate = false;
-  controls.enablePan = true;
+  controls.enablePan = false;
 
   renderer = new THREE.WebGLRenderer( { antialias: true } );
   electrodeObjects = null;
@@ -65,6 +67,10 @@ const init = async() => {
           executeRoutes: {name: "Execute Routes"}
       }
   });
+
+  // Dat.Gui
+  const gui = new dat.GUI();
+  gui.add(controls, 'enableRotate');
 
   animate();
 }

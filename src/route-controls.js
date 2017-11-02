@@ -1,3 +1,5 @@
+module.exports = exports = {};
+
 const $ = require('jquery');
 const _ = require('lodash');
 const Backbone = require('backbone');
@@ -42,6 +44,18 @@ function GenerateRoute(localRoute, electrodeControls) {
   return new THREE.Line( geometry, material );
 }
 
+function RouteIsValid(localRoute, electrodeControls) {
+  const objects = electrodeControls.electrodeObjects;
+  let prev = localRoute.start;
+  for (const [i, dir] of localRoute.path.entries()){
+    const neighbours = this.electrodeControls.getNeighbours(prev);
+    const id = _.invert(neighbours)[dir];
+    if (!id) return false;
+    prev = id;
+  }
+  return true;
+}
+
 class RouteControls {
   constructor(scene, camera, electrodeControls) {
     _.extend(this, Backbone.Events);
@@ -53,6 +67,9 @@ class RouteControls {
     this._scene = scene;
     this.model = new Backbone.Model({routes: []});
     this.model.on("change:routes", this.renderRoutes.bind(this));
+  }
+  get routes() {
+    return _.cloneDeep(this.model.get("routes"));
   }
   renderRoutes() {
     const routes = this.model.get("routes");
@@ -69,6 +86,15 @@ class RouteControls {
     }
     // Add to scene
     this._scene.add(this._lines);
+  }
+  addRoute(localRoute) {
+    const route = _.cloneDeep(localRoute);
+    if (RouteIsValid(localRoute, this.electrodeControls)) {
+      const routes = _.clone(this.model.get("routes"));
+      routes.push(localRoute);
+      console.log("routes", routes);
+      this.model.set("routes", routes);
+    }
   }
   createLocalRoute(path) {
     const localRoute = new Object();
@@ -142,4 +168,9 @@ class RouteControls {
   }
 }
 
-module.exports = RouteControls;
+module.exports = {
+  RouteControls: RouteControls,
+  GenerateLineFromElectrodeIds: GenerateLineFromElectrodeIds,
+  GenerateRoute: GenerateRoute,
+  RouteIsValid: RouteIsValid
+};

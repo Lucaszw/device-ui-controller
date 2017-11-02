@@ -17,7 +17,7 @@ const OFF_COLOR = "rgb(175, 175, 175)";
 const ON_COLOR = "rgb(245, 235, 164)";
 const SELECTED_COLOR = "rgb(120, 255, 168)";
 
-FindNearestIntersectFromEdge = function(objName, point, direction,
+function FindNearestIntersectFromEdge(objName, point, direction,
   collisionObjects) {
   /* Find neighbour of an object along an edge normal to the rays direction */
   /*  objName: name of currentObject
@@ -48,7 +48,7 @@ FindNearestIntersectFromEdge = function(objName, point, direction,
   return intersect;
 }
 
-FindIntersectsInDirection = function(obj, dir, collisionObjects ) {
+function FindIntersectsInDirection(obj, dir, collisionObjects ) {
   /* Get all neighbouring objects around an objects axis*/
   let direction;
   if (dir == DIRECTIONS.RIGHT) direction = new THREE.Vector3(1,0,0);
@@ -210,15 +210,16 @@ class ElectrodeControls {
   async mousedown(event) {
     if (event.origDomEvent.button != 0) return;
     /* Called when electrode object is clicked */
+
     // Await for mouse up event
     const mouseUp = () => {
       return new Promise((resolve, reject) => {
-        this.on("mouseup", (e) => {resolve(e);});
+        this.on("mouseup",  (e) => {resolve(e);});
+        this.on("mouseover", (e) => {resolve(e);})
       });
     };
     const event2 = await mouseUp();
-
-    console.log("event", event, "event2", event2);
+    // console.log("event", event, "event2", event2);
 
     // If event targets don't match, don't turn on electrode
     if (event.target.uuid != event2.target.uuid) return;
