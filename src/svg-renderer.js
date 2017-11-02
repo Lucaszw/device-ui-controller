@@ -3,6 +3,7 @@ const _ = require('lodash');
 const Two = require('two.js'); const two = new Two();
 const THREE = require('three');
 const THREEx = {}; require('threex-domevents')(THREE, THREEx);
+const {MeshLine, MeshLineMaterial} = require( 'three.meshline' );
 
 const DEFAULT_TIMEOUT = 5000;
 const OFF_COLOR = "rgb(175, 175, 175)";
@@ -44,7 +45,6 @@ ExtractShape = function (twojs_shape) {
 
 module.exports = async (url='default.svg', scene, camera,
   renderer, controller) => {
-
   // Read svg file
   const file = await ReadFile(url);
   const domEvents = new THREEx.DomEvents(camera, renderer.domElement);
@@ -57,6 +57,8 @@ module.exports = async (url='default.svg', scene, camera,
   // Generate ThreeJS Mesh Objects from Shapes
   const svgGroup = new THREE.Group();
 
+  const documentSize = document.body.getBoundingClientRect();
+  const resolution = new THREE.Vector2(documentSize.width, documentSize.height);
   for (var i=0; i<shapes3D.length; i++) {
     const shape3D = shapes3D[i];
     const shape2D = shapes2D[i];
@@ -64,15 +66,18 @@ module.exports = async (url='default.svg', scene, camera,
     // Generate outline
     var points = shape3D.createPointsGeometry();
     points.autoClose = true;
-    var options = {color: "black", linewidth: 1}
-    var material = new THREE.LineBasicMaterial(options);
-    var outline = new THREE.Line(points, material);
+    var options = {color: new THREE.Color("black"), lineWidth: 0.2, resolution: resolution}
+    var material = new MeshLineMaterial(options);
+    var meshLine = new MeshLine();
+    meshLine.setGeometry(points);
+    var outline = new THREE.Mesh(meshLine.geometry, material);
     outline.name = shape2D.id;
     outline.position.z += 0.1;
     outline.autoClose = true;
 
     // Generate fill (slightly extruded to allow for collisions)
-    var options = {color: OFF_COLOR, transparent: true, wireframe: false, side: THREE.DoubleSide};
+    var options = {color: OFF_COLOR, transparent: true, opacity: 0.4,
+      wireframe: false, side: THREE.DoubleSide};
     var meshMaterial = new THREE.MeshBasicMaterial(options);
     var options = { bevelEnabled: false, amount: 0.0001};
     var geometry = new THREE.ExtrudeGeometry(shape3D, options);

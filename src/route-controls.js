@@ -4,10 +4,17 @@ const $ = require('jquery');
 const _ = require('lodash');
 const Backbone = require('backbone');
 const THREE = require('three');
+const {MeshLine, MeshLineMaterial} = require( 'three.meshline' );
 
 function GenerateLineFromElectrodeIds(id1, id2, objects) {
-  const material = new THREE.LineBasicMaterial({ color: "rgb(190, 97, 91)" });
-  const geometry = new THREE.Geometry();
+  const color = new THREE.Color("rgb(190, 97, 91)");
+  const lineWidth = 0.2;
+  const bbox = document.body.getBoundingClientRect();
+  const resolution = new THREE.Vector2( bbox.width, bbox.height );
+
+  const material = new MeshLineMaterial({color, lineWidth, resolution});
+
+  var geometry = new THREE.Geometry();
   for (const [i, id] of [id1, id2].entries()) {
     const obj = objects[id];
     const point = new THREE.Vector3();
@@ -15,12 +22,18 @@ function GenerateLineFromElectrodeIds(id1, id2, objects) {
     point.z = 1;
     geometry.vertices.push(point);
   }
-  return new THREE.Line( geometry, material );
+
+  const line = new MeshLine();
+  line.setGeometry(geometry)
+  return new THREE.Mesh(line.geometry, material);
 }
 
 function GenerateRoute(localRoute, electrodeControls) {
   /* Create line from list of electrodeIds */
-  const material = new THREE.LineBasicMaterial({ color: "rgb(194, 12, 0)" });
+  const color = new THREE.Color("rgb(194, 12, 0)");
+  const lineWidth = 0.2;
+
+  const material = new MeshLineMaterial({color, lineWidth});
   const geometry = new THREE.Geometry();
   const objects = electrodeControls.electrodeObjects;
 
@@ -41,7 +54,10 @@ function GenerateRoute(localRoute, electrodeControls) {
     addPoint(id);
     prev = id;
   }
-  return new THREE.Line( geometry, material );
+
+  const line = new MeshLine();
+  line.setGeometry(geometry)
+  return new THREE.Mesh(line.geometry, material);
 }
 
 function RouteIsValid(localRoute, electrodeControls) {
@@ -73,7 +89,7 @@ class RouteControls {
   }
   renderRoutes() {
     const routes = this.model.get("routes");
-    // Remove previous lines
+    // Remove previous lines (TODO: Maybe only render new lines?)
     if (this._lines) {
       this._scene.remove(this._lines);
       this._lines = null;
@@ -92,7 +108,6 @@ class RouteControls {
     if (RouteIsValid(localRoute, this.electrodeControls)) {
       const routes = _.clone(this.model.get("routes"));
       routes.push(localRoute);
-      console.log("routes", routes);
       this.model.set("routes", routes);
     }
   }

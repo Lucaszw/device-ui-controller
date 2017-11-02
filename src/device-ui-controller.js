@@ -1,26 +1,20 @@
-const $ = require('jquery'); window.$ = $;
-require('jquery-contextmenu');
 require('style-loader!css-loader!jquery-contextmenu/dist/jquery.contextMenu.css');
 
-const _ = require('lodash'); window._ = _;
-const dat = require('dat.gui/build/dat.gui'); window.dat = dat;
-const THREE = require('three'); window.THREE = THREE;
-const OrbitControls = require('three-orbit-controls')(THREE)
+const $ = require('jquery'); require('jquery-contextmenu');
+const _ = require('lodash');
+const Dat = require('dat.gui/build/dat.gui');
+const THREE = require('three');
+const OrbitControls = require('three-orbit-controls')(THREE);
 
 const ElectrodeControls = require('./electrode-controls');
 const {RouteControls, GenerateRoute} = require('./route-controls');
+const VideoControls = require('./video-controls');
 
+var electrodeControls, electrodeObjects, camera, controls, renderer,
+  routeControls, scene, videoControls;
 
-window.electrodeControls = null;
-window.electrodeObjects = null;
-window.camera = null;
-window.controls = null;
-window.renderer = null;
-window.routeControls = null;
-window.scene = null;
-window.GenerateRoute = GenerateRoute;
-
-const init = async() => {
+function createScene() {
+  const updateFcts = [];
 
   // Create ThreeJS scene
   const bbox = document.body.getBoundingClientRect();
@@ -41,16 +35,30 @@ const init = async() => {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setClearColor( "rgb(55, 55, 55)", 1 );
 
-  function animate() {
+  var lastTimeMsec = null;
+  function animate(nowMsec) {
     requestAnimationFrame( animate.bind(this) );
+    lastTimeMsec	= lastTimeMsec || nowMsec - 1000/60;
+    var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec);
+    lastTimeMsec	= nowMsec;
+
+    updateFcts.forEach(function(updateFn){
+      updateFn(deltaMsec/1000, nowMsec/1000);
+    });
+
     renderer.render( scene, camera );
   }
+
+
   electrodeControls = new ElectrodeControls(scene, camera,
     renderer, 'default.svg');
-
   routeControls = new RouteControls(scene, camera, electrodeControls);
+  videoControls = new VideoControls(scene, camera, renderer, updateFcts);
 
-  // Generate Context Menu
+  animate();
+}
+
+function createContextMenu() {
   $.contextMenu({
       selector: 'body',
       callback: function(key, options) {
@@ -67,12 +75,32 @@ const init = async() => {
           executeRoutes: {name: "Execute Routes"}
       }
   });
-
-  // Dat.Gui
-  const gui = new dat.GUI();
-  gui.add(controls, 'enableRotate');
-
-  animate();
 }
 
-module.exports = init;
+function createDatGUI() {
+  const gui = new Dat.GUI();
+  gui.add(controls, 'enableRotate');
+}
+
+function init() {
+
+  createScene();
+  createContextMenu();
+  createDatGUI();
+
+  window.$ = $;
+  window._ = _;
+  window.THREE = THREE;
+
+  window.electrodeControls = electrodeControls;
+  window.electrodeObjects = electrodeObjects;
+  window.camera = camera;
+  window.controls = controls;
+  window.renderer = renderer;
+  window.routeControls = routeControls;
+  window.scene = scene;
+  window.GenerateRoute = GenerateRoute;
+  window.videoControls = videoControls;
+}
+
+module.exports = {init, createScene};

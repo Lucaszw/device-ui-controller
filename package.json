@@ -20,7 +20,9 @@
     "style-loader": "^0.19.0",
     "three": "^0.87.1",
     "three-orbit-controls": "^82.1.0",
+    "three.meshline": "^1.0.3",
     "threex-domevents": "^1.0.0",
+    "threex.videotexture": "^1.0.0",
     "two.js": "github:jonobr1/two.js#dev",
     "url-loader": "^0.6.2"
   }

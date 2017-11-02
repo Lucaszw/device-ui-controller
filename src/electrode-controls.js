@@ -5,7 +5,9 @@ const Backbone = require('backbone');
 const Key = require('keyboard-shortcut');
 const Two = require('two.js'); const two = new Two();
 const THREE = require('three');
-const THREEx = {}; require('threex-domevents')(THREE, THREEx);
+const THREEx = {};
+require('threex-domevents')(THREE, THREEx);
+const {MeshLine, MeshLineMaterial} = require( 'three.meshline' );
 
 const RenderSVG = require('./svg-renderer');
 
@@ -173,11 +175,18 @@ class ElectrodeControls {
   }
 
   _clearNeighbourColors() {
-    /* Update opacity of neighbours back to 1.0 */
-    const n = _.filter(this.electrodeObjects, {fill:{material:{opacity: 0.7}}});
+    /* Update opacity of neighbours back to 0.4 */
+    const n = _.filter(this.electrodeObjects, {fill:{material:{opacity: 0.2}}});
     for (const [i, obj] of n.entries()) {
-      obj.fill.material.opacity = 1.0;
+      obj.fill.material.opacity = 0.4;
     }
+  }
+
+  unselectElectrode() {
+    this.selectedElectrode.outline.material = new MeshLineMaterial({
+      color: new THREE.Color("black"), lineWidth: 0.2 });
+    this.selectedElectrode = null;
+    this._clearNeighbourColors();
   }
 
   selectElectrode(electrodeId) {
@@ -188,13 +197,14 @@ class ElectrodeControls {
 
     // Reset the outline of the previously selected electrode
     if (this.selectedElectrode) {
-      this.selectedElectrode.outline.material.color = new THREE.Color("black");
+      this.unselectElectrode();
     }
 
     // Turn on and color the selected electrode
     this.turnOnElectrode(electrodeId);
     const electrodeObject = this.electrodeObjects[electrodeId];
-    electrodeObject.outline.material.color = new THREE.Color("red");
+    electrodeObject.outline.material = new MeshLineMaterial({
+      color: new THREE.Color("red"), lineWidth: 0.2 });
 
     this.selectedElectrode = electrodeObject;
 
@@ -203,7 +213,7 @@ class ElectrodeControls {
       const neighbour = this.findNeighbour(dir);
       if (!neighbour) continue;
       const material = neighbour.electrodeObject.fill.material;
-      material.opacity = 0.7;
+      material.opacity = 0.2;
     }
   }
 
@@ -228,9 +238,7 @@ class ElectrodeControls {
 
     // If shiftKey is down, unset selected electrode
     if (event.origDomEvent.shiftKey == true && this.selectedElectrode) {
-      this.selectedElectrode.outline.material.color = new THREE.Color("black");
-      this.selectedElectrode = null;
-      this._clearNeighbourColors();
+      this.unselectElectrode();
     }
 
     // Toggle the state of the target electrode
@@ -238,11 +246,10 @@ class ElectrodeControls {
       electrodeObject.on = false;
       electrodeObject.fill.material.color = new THREE.Color(OFF_COLOR);
 
-      // If turning off selected electroed, then also unset & clear neighbours
+      // If turning off selected electrode, then also unset & clear neighbours
       if (this.selectedElectrode){
         if (electrodeObject.name == this.selectedElectrode.name) {
-          this.selectedElectrode = null;
-          this._clearNeighbourColors();
+          this.unselectElectrode();
         }
       }
     } else {
