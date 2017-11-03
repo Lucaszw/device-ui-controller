@@ -135,5 +135,5 @@ module.exports = async (url='default.svg', scene, camera,
 
   // Update electrode objects property
   var keys = _.map(svgGroup.children, "name");
-  return  _.zipObject(keys, svgGroup.children);
+  return  {objects: _.zipObject(keys, svgGroup.children), container: svgGroup};
 }

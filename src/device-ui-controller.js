@@ -13,7 +13,7 @@ const VideoControls = require('./video-controls');
 var electrodeControls, electrodeObjects, camera, controls, renderer,
   routeControls, scene, videoControls;
 
-function createScene() {
+const createScene = async () => {
   const updateFcts = [];
 
   // Create ThreeJS scene
@@ -26,7 +26,7 @@ function createScene() {
   controls.enableRotate = false;
   controls.enablePan = false;
 
-  renderer = new THREE.WebGLRenderer( { antialias: true } );
+  renderer = new THREE.WebGLRenderer( { antialias: true} );
   electrodeObjects = null;
   document.body.appendChild( renderer.domElement );
 
@@ -49,11 +49,11 @@ function createScene() {
     renderer.render( scene, camera );
   }
 
+  electrodeControls = new ElectrodeControls(scene, camera, renderer);
+  await electrodeControls.loadSvg('default.svg');
 
-  electrodeControls = new ElectrodeControls(scene, camera,
-    renderer, 'default.svg');
   routeControls = new RouteControls(scene, camera, electrodeControls);
-  videoControls = new VideoControls(scene, camera, renderer, updateFcts);
+  videoControls = new VideoControls(scene, camera, renderer, updateFcts, electrodeControls.svgGroup);
 
   animate();
 }

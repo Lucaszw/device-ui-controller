@@ -101,21 +101,27 @@ function FindIntersectsInDirection(obj, dir, collisionObjects ) {
 }
 
 class ElectrodeControls {
-  constructor(scene, camera, renderer, filename='default.svg') {
+  constructor(scene, camera, renderer) {
     _.extend(this, Backbone.Events);
 
     this.selectedElectrode = null;
+    this.svgGroup = null;
+    this.scene = scene;
+    this.camera = camera;
+    this.renderer = renderer;
 
     Key("left", () => this.move(DIRECTIONS.LEFT));
     Key("right", () => this.move(DIRECTIONS.RIGHT));
     Key("up", () => this.move(DIRECTIONS.UP));
     Key("down", () => this.move(DIRECTIONS.DOWN));
 
-    RenderSVG(filename, scene, camera, renderer, this)
-      .then((d) =>{this.electrodeObjects = d;});
-
     this.on("mousedown", this.mousedown.bind(this));
+  }
 
+  async loadSvg(f='default.svg') {
+    var d = await RenderSVG(f, this.scene, this.camera, this.renderer, this);
+    this.electrodeObjects = d.objects;
+    this.svgGroup = d.container;
   }
 
   turnOnElectrode(id) {
@@ -176,7 +182,7 @@ class ElectrodeControls {
 
   _clearNeighbourColors() {
     /* Update opacity of neighbours back to 0.4 */
-    const n = _.filter(this.electrodeObjects, {fill:{material:{opacity: 0.2}}});
+    const n = _.filter(this.electrodeObjects, {fill:{material:{opacity: 0.3}}});
     for (const [i, obj] of n.entries()) {
       obj.fill.material.opacity = 0.4;
     }
@@ -213,7 +219,7 @@ class ElectrodeControls {
       const neighbour = this.findNeighbour(dir);
       if (!neighbour) continue;
       const material = neighbour.electrodeObject.fill.material;
-      material.opacity = 0.2;
+      material.opacity = 0.3;
     }
   }
 
