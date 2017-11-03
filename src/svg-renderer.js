@@ -65,6 +65,7 @@ module.exports = async (url='default.svg', scene, camera,
 
     // Generate outline
     var points = shape3D.createPointsGeometry();
+    // var points = new THREE.Geometry().setFromPoints(shape3D.extractPoints().shape);
     points.autoClose = true;
     var options = {color: new THREE.Color("black"), lineWidth: 0.2, resolution: resolution}
     var material = new MeshLineMaterial(options);

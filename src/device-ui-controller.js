@@ -24,7 +24,7 @@ const createScene = async () => {
   controls = new OrbitControls(camera);
   controls.enableKeys = false;
   controls.enableRotate = false;
-  controls.enablePan = false;
+  controls.enablePan = true;
 
   renderer = new THREE.WebGLRenderer( { antialias: true} );
   electrodeObjects = null;
@@ -80,12 +80,13 @@ function createContextMenu() {
 function createDatGUI() {
   const gui = new Dat.GUI();
   gui.add(controls, 'enableRotate');
+  gui.add(videoControls, "display_anchors");
 }
 
-function init() {
+init = async () => {
 
-  createScene();
-  createContextMenu();
+  await createScene();
+  // createContextMenu();
   createDatGUI();
 
   window.$ = $;
