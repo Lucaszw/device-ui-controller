@@ -54,7 +54,7 @@ const createScene = async () => {
 
   routeControls = new RouteControls(scene, camera, electrodeControls);
   videoControls = new VideoControls(scene, camera, renderer, updateFcts, electrodeControls.svgGroup);
-
+  window.onresize = (e) => {console.log("resizing..", e)}
   animate();
 }
 

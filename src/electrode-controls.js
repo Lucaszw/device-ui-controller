@@ -5,8 +5,6 @@ const Backbone = require('backbone');
 const Key = require('keyboard-shortcut');
 const Two = require('two.js'); const two = new Two();
 const THREE = require('three');
-const THREEx = {};
-require('threex-domevents')(THREE, THREEx);
 const {MeshLine, MeshLineMaterial} = require( 'three.meshline' );
 
 const RenderSVG = require('./svg-renderer');
